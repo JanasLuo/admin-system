@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
  * @LastEditors: luolei
- * @LastEditTime: 2021-01-13 10:48:26
+ * @LastEditTime: 2021-01-13 13:03:48
 -->
 
 # 项目启动
@@ -22,7 +22,13 @@
 ```
   yarn build
 ```
-
+# 技术栈
+	mvvm框架：react  
+	状态管理：mobx  
+	类型约束：typescript  
+	css预处理：stylus  
+	打包构建：webpack  
+	基础UI组件：antd
 # 目录结构
 
 - build 打包文件
@@ -158,7 +164,7 @@
 		}
 	```
 + 能不用any尽量不用any，特别是自己定义的用于前端展示和表单提交的数据；
-+ 
+  
 #### 关于mobx
 + 除了全局状态数据用mobx管理，复杂页面及表单的状态数据也建议用mobx管理（功能迭代复杂以后便于维护）；
 + 通过getter方法、函数存取状态数据；
@@ -182,6 +188,7 @@
 + commit message格式要求：type（类型）:subject（描述）``git commit -am 'fix:登录按钮点击无效'``；type使用下面7种标识:
   + feat：新功能（feature）
   + fix：修补bug
+  + improve：功能改进
   + docs：文档（documentation）
   + style： 格式（不影响代码运行的变动）
   + refactor：重构（即不是新增功能，也不是修改bug的代码变动）
