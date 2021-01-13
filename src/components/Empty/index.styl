@@ -1,0 +1,19 @@
+@import '~src/styles/_mixins.styl'
+
+.empty
+  width 100%
+  height 100%
+  padding 10%
+
+  .empty_bg
+    width 100%
+    height calc(100% - 30px)
+    margin-bottom 10px
+    min-height 50px
+    bg-contain('src/assets/empty.png')
+
+  .empty_label
+    text-align center
+    font-size var(--font-size-medium)
+    color var(--white-700)
+    font-weight bold
