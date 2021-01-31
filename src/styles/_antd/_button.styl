@@ -1,0 +1,91 @@
+:global
+  .hz-antd
+    /* button */
+    .ant-btn, .upload
+      color var(--type-800)
+      font-size var(--font-size-big)
+      font-weight 600
+      padding 4px 16px
+      z-index 0
+      position relative
+      height 32px
+      border-radius 8px
+      border 1px solid var(--mono-a500)
+
+      &[disabled]
+        opacity 0.5
+        // color var(--light-general-100)
+        background none
+
+      &:hover, &:active, &.active
+        border-color var(--primary-900)
+
+      .anticon-down
+        svg
+          icon('~src/assets/icons/arrows_icon.svg')
+
+          path
+            display none
+
+    .ant-btn-sm
+      border-radius 6px
+      height 28px
+      font-size var(--font-size-normal)
+      padding 4px 12px
+
+    .ant-btn[disabled], .ant-btn[disabled]:hover, .ant-btn[disabled]:focus, .ant-btn[disabled]:active
+      color var(--type-800)
+      border-color var(--mono-a500)
+
+    .ant-btn-primary[disabled], .ant-btn-primary[disabled]:hover, .ant-btn-primary[disabled]:focus, .ant-btn-primary[disabled]:active
+      color var(--general-100)
+      background var(--primary-900)
+
+    .ant-btn-lg
+      height 36px
+      padding 5px 18px
+
+    .ant-dropdown-trigger
+      padding 4px 10px
+
+    .ant-btn-text
+      background 0 0
+      border-color transparent
+      -webkit-box-shadow none
+      box-shadow none
+
+      &:hover, &:active, &.active
+        background var(--mono-a200)
+        border-color transparent
+
+      &[disabled]
+        opacity 0.5
+        // color var(--light-general-100)
+        background none
+        border-color transparent
+
+        &:hover, &:active, &.active
+          border-color transparent
+
+      &.primary
+        color var(--primary-900)
+
+        &:hover, &:active, &.active
+          background var(--primary-a100)
+
+    .ant-btn-primary
+      color var(--general-100)
+      background var(--primary-900)
+      border-color var(--primary-900)
+
+      .anticon-down
+        svg
+          icon('~src/assets/icons/arrows_icon1.svg')
+
+      &[disabled]
+        opacity 0.5
+        // color var(--light-general-100)
+        background var(--primary-900)
+
+      &:hover, &:active, &.active
+        background var(--primary-800)

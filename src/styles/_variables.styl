@@ -1,0 +1,177 @@
+/*
+ * @Descripttion:  全局样式变量
+ * @version:
+ * @Author: luolei
+ * @Date: 2020-09-11 09:53:07
+ * @LastEditors: liuhaoran
+ * @LastEditTime: 2021-01-21 10:48:05
+ */
+:root
+  /* ---------------------------浅色主题变量------------------------------------- */
+  --light-icon-color rgba(86, 98, 118, 0.64)
+  --light-primary-900 #1F71FF
+  --light-primary-800 #3D85FF
+  --light-primary-700 #337EFF
+  --light-primary-a100 rgba(43, 121, 255, 0.1)
+  --light-primary-a200 rgba(43, 121, 255, 0.16)
+  --light-primary-a300 rgba(43, 121, 255, 0.24)
+  // mono
+  --light-mono-100 #FFFFFF
+  --light-mono-200 #F7F8FA
+  --light-mono-300 #EEF0F4
+  --light-mono-400 #E2E4E9
+  --light-mono-500 #D7D9DE
+  --light-mono-600 #CCCED4
+  --light-mono-a100 rgba(15, 34, 67, 0.05)
+  --light-mono-a200 rgba(15, 34, 67, 0.07)
+  --light-mono-a300 rgba(15, 34, 67, 0.11)
+  --light-mono-a400 rgba(15, 34, 67, 0.14)
+  --light-mono-a500 rgba(15, 34, 67, 0.2)
+  --light-mono-a900 rgba(15, 34, 67, 0.9)
+  --light-mono-m100 rgba(226, 228, 233, 0.88)
+  /* Background 背景色 */
+  --light-bg-100 #ffffff
+  --light-bg-200 var(--light-bg-100)
+  --light-bg-300 var(--light-bg-100)
+  --light-bg-400 var(--light-bg-100)
+  --light-bg-500 var(--light-bg-100)
+  --light-bg-600 var(--light-bg-100)
+  /* type 文字颜色 */
+  --light-type-900 rgba(21, 22, 24, 0.92)
+  --light-type-800 rgba(21, 22, 24, 0.72)
+  --light-type-700 rgba(21, 22, 24, 0.48)
+  --light-type-600 rgba(21, 22, 24, 0.36)
+  /* General */
+  --light-general-100 #ffffff
+  --light-general-900 #151618
+  // cerulean
+  --light-cerulean-900 #0099EB
+  --light-cerulean-a100 rgba(0, 153, 235, 0.12)
+  // teal
+  --light-teal-900 #00BBC2
+  --light-teal-a50 rgba(0, 187, 194, 0.06)
+  --light-teal-a100 rgba(0, 187, 194, 0.12)
+  --light-teal-a200 rgba(0, 187, 194, 0.22)
+  --light-teal-a300 rgba(0, 187, 194, 0.32)
+  --light-teal-a500 rgba(0, 187, 194, 0.5)
+  // Lime
+  --light-lime-900 #239545
+  --light-lime-a100 rgba(35, 149, 69, 0.1)
+  --light-lime-a300 rgba(35, 149, 69, 0.22)
+  // yellow
+  --light-yellow-900 #F5CD00
+  --light-yellow-a100 rgba(245, 205, 0, 0.16)
+  // orange
+  --light-orange-900 #FF9431
+  --light-orange-a100 rgba(255, 148, 49, 0.12)
+  // red
+  --light-red-100 #FFEFF1
+  --light-red-200 #FFE5E8
+  --light-red-900 #FF5266
+  --light-red-a100 rgba(255, 82, 102, 0.09)
+  --light-red-a200 rgba(255, 82, 102, 0.15)
+  --light-red-a300 rgba(255, 82, 102, 0.22)
+  // Violet
+  --ligth-violet-900 #9646FF
+  --light-violet-a100 rgba(150, 70, 255, 0.09)
+  // Container (box-shadow)
+  --light-container-c100 0px 8px 64px rgba(15, 34, 67, 0.1), 0px 0px 1px rgba(15, 34, 67, 0.16)
+  --light-container-c200 0px 4px 8px rgba(15, 34, 67, 0.03), 0px 1px 3px rgba(15, 34, 67, 0.08), 0px 0px 1px rgba(15, 34, 67, 0.16)
+  --light-container-c300 0px 8px 24px -6px rgba(15, 34, 67, 0.16), 0px 1px 3px rgba(15, 34, 67, 0.12), 0px 0px 1px rgba(15, 34, 67, 0.16)
+  --light-container-c400 0px 16px 32px -6px rgba(15, 34, 67, 0.18), 0px 3px 8px -2px rgba(15, 34, 67, 0.16), 0px 0px 1px rgba(15, 34, 67, 0.16)
+  --light-container-c500 0px 48px 128px -16px rgba(15, 34, 67, 0.24), 0px 16px 64px -16px rgba(15, 34, 67, 0.32), 0px 0px 1px rgba(15, 34, 67, 0.16)
+  // Icon
+  --light-icon rgba(86, 98, 118, 0.64)
+  /* -------------------------系统当前主题变量（默认为light主题）------------------------- */
+  // 临时特殊颜色---数据源
+  --pgsql-bg rgba(31, 134, 175, 0.09)
+  --pgsql-color #1F86AF
+  --mysql-bg rgba(247, 153, 3, 0.09)
+  --mysql-color #F79903
+  --oracle-bg rgba(235, 79, 79, 0.09)
+  --oracle-color #EB4F4F
+
+  --icon-color var(--light-icon-color)
+
+  --primary-900 var(--light-primary-900)
+  --primary-800 var(--light-primary-800)
+  --primary-700 var(--light-primary-700)
+  --primary-a100 var(--light-primary-a100)
+  --primary-a200 var(--light-primary-a200)
+  --primary-a300 var(--light-primary-a300)
+  // mono
+  --mono-100 var(--light-mono-100)
+  --mono-200 var(--light-mono-200)
+  --mono-300 var(--light-mono-300)
+  --mono-400 var(--light-mono-400)
+  --mono-500 var(--light-mono-500)
+  --mono-600 var(--light-mono-600)
+  --mono-a100 var(--light-mono-a100)
+  --mono-a200 var(--light-mono-a200)
+  --mono-a300 var(--light-mono-a300)
+  --mono-a400 var(--light-mono-a400)
+  --mono-a500 var(--light-mono-a500)
+  --mono-a900 var(--light-mono-a900)
+  --mono-m100 var(--light-mono-m100)
+  /* Background 背景色 */
+  --bg-100 var(--light-bg-100)
+  --bg-200 var(--light-bg-200)
+  --bg-300 var(--light-bg-300)
+  --bg-400 var(--light-bg-400)
+  --bg-500 var(--light-bg-500)
+  --bg-600 var(--light-bg-600)
+  /* type 文字颜色 */
+  --type-900 var(--light-type-900)
+  --type-800 var(--light-type-800)
+  --type-700 var(--light-type-700)
+  --type-600 var(--light-type-600)
+  /* General */
+  --general-100 var(--light-general-100)
+  --general-900 var(--light-general-100)
+  // cerulean
+  --cerulean-900 var(--light-cerulean-900)
+  --cerulean-a100 var(--light-cerulean-a100)
+  // teal
+  --teal-900 var(--light-teal-900)
+  --teal-a50 var(--light-teal-a50)
+  --teal-a100 var(--light-teal-a100)
+  --teal-a200 var(--light-teal-a200)
+  --teal-a300 var(--light-teal-a300)
+  --teal-a500 var(--light-teal-a500)
+  // Lime
+  --lime-900 var(--light-lime-900)
+  --lime-a100 var(--light-lime-a100)
+  --lime-a300 var(--light-lime-a300)
+  // yellow
+  --yellow-900 var(--light-yellow-900)
+  --yellow-a100 var(--light-yellow-a100)
+  // orange
+  --orange-900 var(--light-orange-900)
+  --orange-a100 var(--light-orange-a100)
+  // red
+  --red-100 var(--light-red-100)
+  --red-200 var(--light-red-200)
+  --red-900 var(--light-red-900)
+  --red-a100 var(--light-red-a100)
+  --red-a200 var(--light-red-a200)
+  --red-a300 var(--light-red-a300)
+  // Violet
+  --violet-900 var(--light-violet-900)
+  --violet-a100 var(--light-violet-a100)
+  // Container (box-shadow)
+  --container-c100 var(--light-container-c100)
+  --container-c200 var(--light-container-c200)
+  --container-c300 var(--light-container-c300)
+  --container-c400 var(--light-container-c400)
+  --container-c500 var(--light-container-c500)
+  // Icon
+  --icon var(--light-icon)
+  /* -------------------------通用变量----------------------------------------- */
+  /* type 字体大小 */
+  --font-size-small 10px
+  --font-size-normal 12px
+  --font-size-medium 13px
+  --font-size-big 14px
+  --font-size-large 20px
+  --font-size-xlarge 34px
+  --radius-normal 8px

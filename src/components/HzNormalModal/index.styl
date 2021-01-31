@@ -1,0 +1,21 @@
+
+.footer
+  display flex
+  justify-content space-between
+  align-items center
+  .help
+    font-size var(--font-size-normal)
+    color var(--light-type-700)
+    cursor pointer
+    position relative
+    margin-left 20px
+
+    &:hover
+      text-decoration underline
+    &::after
+      content ''
+      position absolute
+      width 16px
+      height 16px
+      icon('src/assets/modal/help.svg')
+      left -20px

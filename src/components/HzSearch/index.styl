@@ -1,0 +1,53 @@
+@import '~src/styles/_mixins.styl'
+
+:global .hz-search
+  padding 2px
+  background var(--primary-a300)
+  border-radius 8px
+  position relative
+
+  &:hover, &:active, &.focus
+    background var(--primary-800)
+
+  &:active, &.focus
+    .search-wrapper
+      background-color var(--bg-400)
+
+  .search-wrapper
+    display flex
+    align-items center
+    background-color var(--bg-300)
+    position relative
+    padding 0 16px
+    border-radius 8px
+    height 56px
+
+    .dropdown
+      color var(--type-900)
+      font-size var(--font-size-medium)
+      margin-left 10px
+
+      & > i
+        display inline-block
+        width 12px
+        height 6px
+        margin 0 5px
+        bg-contain('~src/assets/icons/drop-arrow-primary.svg')
+
+    .line
+      width 2px
+      height 8px
+      background-color var(--type-600)
+      margin 0 10px
+
+    .ant-input-search
+      flex 1
+
+      .ant-input
+        background transparent
+        box-shadow none
+        font-size var(--font-size-medium)
+
+      &.ant-input-affix-wrapper
+        .ant-input-suffix
+          font-size var(--font-size-large)

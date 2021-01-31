@@ -1,0 +1,31 @@
+@import '~src/styles/_mixins.styl'
+
+.title
+  position relative
+  padding-left 40px
+  &::before
+    position absolute
+    content ''
+    height 28px
+    width 28px
+    icon('src/assets/notifications/icon.svg')
+    top 0
+    left 0
+.description
+  position relative
+  padding-left 40px
+  padding-top 3px
+
+  &.no_message
+    &::before
+      position absolute
+      content ''
+      height 28px
+      width 28px
+      icon('src/assets/notifications/icon.svg')
+      top 0
+      left 0
+
+  .btn_wrapper
+    display flex
+    justify-content flex-end

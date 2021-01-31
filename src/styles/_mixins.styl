@@ -1,0 +1,17 @@
+
+base_bg($url)
+  background-position center
+  background-repeat no-repeat
+  background-image url($url)
+
+icon(url)
+  background-size 100% 100%
+  base_bg(url)
+
+bg(url)
+  background-size cover
+  base_bg(url)
+
+bg-contain(url)
+  background-size contain
+  base_bg(url)
