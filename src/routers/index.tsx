@@ -3,8 +3,8 @@
  * @version:
  * @Author: luolei
  * @Date: 2021-01-23 21:35:24
- * @LastEditors: mark
- * @LastEditTime: 2021-01-26 17:11:15
+ * @LastEditors: luolei
+ * @LastEditTime: 2021-04-08 18:12:07
  */
 import { createBrowserHistory } from 'history'
 import { RouterStore, syncHistoryWithStore } from 'mobx-react-router'
@@ -18,7 +18,6 @@ const routerStore = new RouterStore()
 const history = syncHistoryWithStore(browserHistory, routerStore)
 const Main = lazy(() => import('src/pages/main/Main'))
 const Login = lazy(() => import('src/pages/login/Login'))
-const Document = lazy(() => import('src/pages/document/Document'))
 const BaseComp = lazy(() => import('src/pages/base_comp/BaseComp'))
 export default class AppRouter extends React.Component<{}, {}> {
   public render() {
@@ -28,7 +27,6 @@ export default class AppRouter extends React.Component<{}, {}> {
           <Switch>
             <Route path="/main" component={Main} />
             <Route path="/login" component={Login} />
-            <Route path="/document" component={Document} />
             <Route path="/base_comp" component={BaseComp} />
             <Redirect to="/main" />
             <Redirect to="/login" />
