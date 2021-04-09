@@ -51,10 +51,7 @@
       120
     ],
     "max-classes-per-file": true,
-    "member-ordering": [
-      true,
-      "variables-before-functions"
-    ],
+    "member-ordering": false,
     "no-any": false,
     "no-arg": true,
     "no-bitwise": true,
