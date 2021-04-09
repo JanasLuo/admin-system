@@ -4,10 +4,10 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: luolei
- * @LastEditTime: 2021-01-31 21:47:33
+ * @LastEditTime: 2021-04-08 23:14:46
  */
 
-import React from 'react'
+import React, { useState } from 'react'
 import { observer } from 'mobx-react-lite' // 6.x or mobx-react-lite@1.4.0
 import styles from './index.styl'
 import UserStore from 'src/stores/modules/user'
@@ -21,9 +21,12 @@ const Header = (props: HeaderProps) => {
   // const sigout = async () => {
   //   await UserStore.sigout()
   // }
-
+  const [a, setA] = useState(1)
   const gohome = () => {
-    history.replace('/main/home')
+    debugger
+    // history.replace('/main/home')
+    setA(2)
+    console.log(a)
   }
   const {
     header,
@@ -37,11 +40,11 @@ const Header = (props: HeaderProps) => {
     logout
   } = styles
   return (
-    <div className={`header-main ${header}`}>
+    <div className={`header-main ${header} `}>
       <div className={left_box} onClick={gohome}></div>
 
       <div className={right_box}>
-        <span className={user_header}></span>
+        <span className={user_header}>{a}</span>
         <span className={user_name}>
           {UserStore.getAccount().name || '警官'}
         </span>

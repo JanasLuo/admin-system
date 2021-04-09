@@ -78,12 +78,15 @@ const Home = () => {
   })
   const [editorContainerVisible, setEditorContainerVisible] = useState(true)
   const onTabChange = (keys: any) => {
+    debugger
     console.log('home onChange', keys)
     setActiveType(keys)
+    console.log('activeType', activeType)
   }
   const onTypeChange = (type: any) => {
+    debugger
     setCurSearcgType(type)
-    console.log('type', type)
+    console.log('curSearcgType', curSearcgType)
   }
   const onSearch = (val: any) => {
     console.log('val', val)
