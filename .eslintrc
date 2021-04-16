@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "array-callback-return": "off",
+    "jsx-a11y/iframe-has-title": "off",
+    "no-undef":"off",
+    "import/first":"off",
+    "no-restricted-globals":"off"
+  }
+}

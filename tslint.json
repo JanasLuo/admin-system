@@ -9,9 +9,6 @@
       "config/**/*.js",
       "node_modules/**/*.ts",
       "coverage/lcov-report/*.js",
-      "src/components/map/*.jsx",
-      "src/utils/map_layer/*.*",
-      "src/pages/main/case_inquiry/*.*",
       "*.json",
       "**/*.json"
     ]
