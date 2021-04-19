@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: luolei
- * @LastEditTime: 2021-04-16 15:19:51
+ * @LastEditTime: 2021-04-17 17:04:21
  */
 const proxyObject = require('./config/proxy.conf')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')

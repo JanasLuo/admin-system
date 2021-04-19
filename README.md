@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
  * @LastEditors: luolei
- * @LastEditTime: 2021-04-16 15:15:58
+ * @LastEditTime: 2021-04-19 21:55:27
 -->
 
 # 项目启动
@@ -132,7 +132,8 @@
 	```
 	```js
 	  /* 获取css变量值 */
-	  document.documentElement.style.getPropertyValue("--bg-100")
+    const ele: any = document.getElementById('canvas-root')
+    window.getComputedStyle(ele).getPropertyValue('--bg-100')
 	  /* 动态修改css变量值 */
 	  document.documentElement.style.setProperty("--bg-100","#042C4D");
 	```
