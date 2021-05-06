@@ -39,7 +39,8 @@
     "build-ts": "set GENERATE_SOURCEMAP=true && react-app-rewired build --scripts-version react-scripts",
     "build": "npm-run-all build-ts",
     "lint": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@types/js-cookie": "^2.2.2",
@@ -49,7 +50,9 @@
     "@types/react-router-dom": "^4.3.4",
     "@types/react-transition-group": "^2.9.2",
     "@types/webpack-env": "^1.13.9",
+    "commitizen": "^4.2.3",
     "customize-cra": "^1.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.8",
     "npm-run-all": "^4.1.5",
     "react-app-rewired": "^2.1.8",
@@ -86,5 +89,10 @@
       "pre-commit": "yarn lint && yarn lint-styl"
     }
   },
-  "config-overrides-path": "./webpack.config.js"
+  "config-overrides-path": "./webpack.config.js",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
