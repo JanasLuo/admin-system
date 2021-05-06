@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
  * @LastEditors: luolei
- * @LastEditTime: 2021-05-06 18:58:53
+ * @LastEditTime: 2021-05-06 18:59:30
 -->
 
 # 项目启动
@@ -218,7 +218,6 @@
 + 组件通过css-modules引入的样式文件中使用到全局的_mixins的函数时，需要再顶部import引入；（webpack会进行tree shaking处理，不会重复编译）
 	```js
 		@import '~src/styles/_mixins.styl'
-		
 	```
 
 
