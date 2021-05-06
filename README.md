@@ -218,7 +218,6 @@
 + 组件通过css-modules引入的样式文件中使用到全局的_mixins的函数时，需要再顶部import引入；（webpack会进行tree shaking处理，不会重复编译）
 	```js
 		@import '~src/styles/_mixins.styl'
-		
 	```
 
 
