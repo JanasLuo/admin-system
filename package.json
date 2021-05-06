@@ -43,6 +43,8 @@
     "commit": "git-cz"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@types/js-cookie": "^2.2.2",
     "@types/lodash": "^4.14.135",
     "@types/react-loadable": "^5.5.1",
@@ -86,7 +88,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn lint-styl"
+      "pre-commit": "yarn lint && yarn lint-styl",
+      "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
   "config-overrides-path": "./webpack.config.js",
