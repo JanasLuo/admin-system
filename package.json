@@ -92,10 +92,5 @@
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
-  "config-overrides-path": "./webpack.config.js",
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  }
+  "config-overrides-path": "./webpack.config.js"
 }
