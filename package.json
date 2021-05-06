@@ -88,14 +88,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn lint-styl",
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "pre-commit": "yarn lint && yarn lint-styl"
     }
   },
-  "config-overrides-path": "./webpack.config.js",
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  }
+  "config-overrides-path": "./webpack.config.js"
 }
