@@ -1,4 +1,12 @@
-{
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: luolei
+ * @Date: 2021-05-06 19:33:02
+ * @LastEditors: luolei
+ * @LastEditTime: 2021-05-08 14:09:09
+ */
+module.exports = {
   // 让prettier使用eslint的代码格式进行校验
   "eslintIntegration": true,
   // 让prettier使用stylelint的代码格式进行校验

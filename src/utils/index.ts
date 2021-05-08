@@ -2,6 +2,14 @@
  * @Descripttion:
  * @version:
  * @Author: luolei
+ * @Date: 2021-05-06 17:08:42
+ * @LastEditors: luolei
+ * @LastEditTime: 2021-05-08 15:04:15
+ */
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: luolei
  * @Date: 2020-09-11 09:53:07
  * @LastEditors: luolei
  * @LastEditTime: 2021-01-27 16:28:17
@@ -204,9 +212,7 @@ export default class Util {
     )
   }
   /* 全屏状态切换 */
-  public static requestFullScreen(
-    element: any = window.document.documentElement
-  ) {
+  public static requestFullScreen(element: any = window.document.documentElement) {
     const document: any = window.document
     if (this.isFullScreen()) {
       // 判断各种浏览器，找到正确的方法
@@ -279,6 +285,7 @@ export default class Util {
    * @returns
    * @memberof Util
    */
+
   public static arrayTransTree(targetList: any, key: string) {
     return targetList
       .filter((it: any) => it[key] === it.id || !it[key])
@@ -294,8 +301,6 @@ export default class Util {
   }
   /* 生成唯一id */
   public static genNonDuplicateID(randomLength: number = 10) {
-    return Number(
-      Math.random().toString().substr(3, randomLength) + Date.now()
-    ).toString(36)
+    return Number(Math.random().toString().substr(3, randomLength) + Date.now()).toString(36)
   }
 }
