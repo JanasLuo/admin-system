@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
  * @LastEditors: luolei
- * @LastEditTime: 2021-05-06 19:14:43
+ * @LastEditTime: 2021-05-14 12:47:19
 -->
 
 # 项目启动
@@ -184,6 +184,8 @@
 ```
 + 常量统一使用大写+下划线方式命名定义进行语义化；全局常量统一放入beans下；
 
+##### 完整规范参考：[开发规范](https://www.yuque.com/zneky6/sonvup/ath2f9)
+
 ## git操作规范
 + 每个人在各自分支开发，以主分支_作者方式命名自己分支 ``dev_luolei``
 + 个人代码合到主分支：每个人在各自分支开发好了,先将最新的主分支代码合并到自己分支，有冲突解决冲突，解决冲突以后然后再在gitlab上提交pull requst，由组长进行codereview以后进行合并;
@@ -199,9 +201,12 @@
   + chore：构建过程或辅助工具的变动
   + perf：优化相关，比如提示性能、体验
   + revert：回滚到上一个版本
+  + bulid：影响生产系统或外部依赖性的更改
+  + ci：持续集成修改	
 # vscode编辑器设置
 + js格式化使用prettier插件
 + stylus格式化使用Manta's Stylus Supremacy 插件
+##### 详情参考：[代码风格规范](https://www.yuque.com/zneky6/sonvup/wxraik)
 # tips
 #### 关于service和store
 * Class组件内使用：已在全局实例中挂载，只用通过@inject注解声明依赖，即可在props中获取；

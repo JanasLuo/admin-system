@@ -17,7 +17,7 @@ export interface HeaderProps {
   location: any
 }
 
-const Header = (props: HeaderProps) => {
+const Header = (props: HeaderProps): JSX.Element => {
   // const sigout = async () => {
   //   await UserStore.sigout()
   // }
@@ -45,9 +45,7 @@ const Header = (props: HeaderProps) => {
 
       <div className={right_box}>
         <span className={user_header}>{a}</span>
-        <span className={user_name}>
-          {UserStore.getAccount().name || '警官'}
-        </span>
+        <span className={user_name}>{UserStore.getAccount().name || '警官'}</span>
         <span className={notification}></span>
         <span className={setting}></span>
         <span className={help}></span>
