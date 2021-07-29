@@ -1,13 +1,14 @@
 /*
  * @Author: janasluo
  * @Date: 2021-07-29 10:49:37
- * @LastEditTime: 2021-07-29 10:52:45
+ * @LastEditTime: 2021-07-29 14:48:54
  * @LastEditors: janasluo
  * @Description: 
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/webpack.config.js
  */
 const proxyObject = require('./config/proxy.conf')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const BuildInfo = require('./version.js')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   webpack: (config, env) => {
