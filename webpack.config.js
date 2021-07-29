@@ -1,5 +1,14 @@
+/*
+ * @Author: janasluo
+ * @Date: 2021-07-29 10:49:37
+ * @LastEditTime: 2021-07-29 10:52:45
+ * @LastEditors: janasluo
+ * @Description: 
+ * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/webpack.config.js
+ */
 const proxyObject = require('./config/proxy.conf')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   webpack: (config, env) => {
     config.module.rules = config.module.rules.map(rule => {
@@ -21,6 +30,19 @@ module.exports = {
     if (env === 'production') {
       delete config.devtool
       // config.plugins.push(new BundleAnalyzerPlugin()) // 打包分析
+    }
+    if (env === 'production') {
+      config.plugins.push(new HtmlWebpackPlugin({
+        filename: './version.html',  //打包后生成的文件路径
+        template: './src/version/index.html',  //需要处理的对象
+        inject: false,//不插入生成的js 仅用于版本声明
+        minify: {
+          removeComments: false,
+          collapseWhitespace: true,
+          removeAttributeQuotes: true
+        },
+        buildInfo: BuildInfo
+      }))
     }
     config.externals = ['canvas']
     return config;
