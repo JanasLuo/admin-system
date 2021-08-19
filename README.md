@@ -3,13 +3,13 @@
  * @version:
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
- * @LastEditors: luolei
- * @LastEditTime: 2021-05-14 12:47:19
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-08-19 17:16:42
 -->
 
 # 项目启动
 **依赖安装**
-
+使用optimize分支
 通过nrm管理使用不同镜像源，默认使用淘宝镜像源安装依赖
 ```
   yarn
