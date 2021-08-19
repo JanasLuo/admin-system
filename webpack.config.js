@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-08-19 15:02:16
+ * @LastEditTime: 2021-08-19 17:13:59
  */
 const proxyObject = require('./config/proxy.conf')
 const BuildInfo = require('./version.js')
@@ -73,9 +73,9 @@ module.exports = {
         //   }
         // })
       ]
-      // config.plugins = [...config.plugins, ...plugins]
+      config.plugins = [...config.plugins, ...plugins]
     }
-    config.externals = ['canvas']
+    // config.externals = ['canvas']
     return config
   },
   devServer: function (configFunction, env) {

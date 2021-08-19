@@ -40,7 +40,9 @@
     "build": "npm-run-all build-ts",
     "lint": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
     "eject": "react-scripts eject",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "start-debugger": "node --inspect-brk ./node_modules/react-app-rewired/scripts/start.js",
+    "build-debugger": "node --inspect-brk ./node_modules/react-app-rewired/scripts/build.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
