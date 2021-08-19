@@ -18,13 +18,19 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "isolatedModules": true,
+    "noEmit": true,
+    "strictPropertyInitialization": false
   },
   "exclude": [
-    // "node_modules",
+    "node_modules",
     "build",
     "scripts",
     "acceptance-tests",
@@ -33,5 +39,8 @@
     "src/setupTests.ts",
     "config"
   ],
-  "types": ["typePatches", "webpack-env"]
+  "types": ["typePatches", "webpack-env"],
+  "include": [
+    "src"
+  ]
 }

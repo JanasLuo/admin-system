@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
  * @Date: 2021-07-29 10:49:37
- * @LastEditTime: 2021-07-29 14:48:54
+ * @LastEditTime: 2021-08-01 14:29:51
  * @LastEditors: janasluo
  * @Description: 
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/webpack.config.js
@@ -35,7 +35,7 @@ module.exports = {
     if (env === 'production') {
       config.plugins.push(new HtmlWebpackPlugin({
         filename: './version.html',  //打包后生成的文件路径
-        template: './src/version/index.html',  //需要处理的对象
+        template: './version/index.html',  //需要处理的对象
         inject: false,//不插入生成的js 仅用于版本声明
         minify: {
           removeComments: false,

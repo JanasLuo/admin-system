@@ -3,8 +3,8 @@
  * @version:
  * @Author: luolei
  * @Date: 2020-11-20 16:12:48
- * @LastEditors: luolei
- * @LastEditTime: 2020-11-24 11:33:28
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-08-19 11:48:51
  */
 
 import React, { FC, useState } from 'react'
@@ -95,4 +95,4 @@ HzSearch.defaultProps = {
   withSearchType: true
 }
 export default HzSearch
-export { SearchType }
+export type { SearchType }
