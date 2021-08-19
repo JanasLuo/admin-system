@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
  * @Date: 2021-07-29 10:49:37
- * @LastEditTime: 2021-08-01 14:29:51
+ * @LastEditTime: 2021-08-19 11:54:14
  * @LastEditors: janasluo
  * @Description: 
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/webpack.config.js
@@ -31,8 +31,6 @@ module.exports = {
     if (env === 'production') {
       delete config.devtool
       // config.plugins.push(new BundleAnalyzerPlugin()) // 打包分析
-    }
-    if (env === 'production') {
       config.plugins.push(new HtmlWebpackPlugin({
         filename: './version.html',  //打包后生成的文件路径
         template: './version/index.html',  //需要处理的对象
