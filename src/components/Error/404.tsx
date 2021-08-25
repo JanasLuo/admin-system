@@ -1,9 +1,11 @@
+
 import * as React from 'react'
 import { Result, Button } from 'antd'
 import { RouteComponentProps } from 'react-router'
 export default class NotFound extends React.Component<RouteComponentProps, {}> {
   constructor(props: any) {
     super(props)
+    this.state = {}
   }
 
   public goBack = () => {

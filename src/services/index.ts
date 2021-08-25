@@ -9,7 +9,7 @@ const source = CancelToken.source()
 interface HttpBase {
   http: any
   get(str: string, data: object, resolve: any): Promise<any>
-  delete(str: string, data: object, resolve: any): Promise<any>
+  delete(str: string, data?: object, resolve?: any): Promise<any>
   put(str: string, data: object, resolve: any): Promise<any>
   post(str: string, data: object, resolve: any): Promise<any>
 }
@@ -33,6 +33,7 @@ class AxiosUtil {
           }
 
           config.headers.Authorization = `Bearer ${user.getAccessToken()}`
+          config.headers.pageroute = window.location.href
           this.reqCount++
           return config
         },
@@ -47,22 +48,37 @@ class AxiosUtil {
 
       this.http.interceptors.response.use(
         (response: any) => {
-          this.isValidLogin = true
-          this.reqCount--
-          if (this.reqCount === 0) {
-            this.loader.loaderEnd()
+          console.log(1)
+
+          if (response.data.status === 302) {
+
+            if (this.isValidLogin) {
+              message.error('登录已经失效，请重新登录')
+            }
+            user.sigout()
+            this.isValidLogin = false
+            source.cancel('')
+            window.location.href = response.data.redirectUrl
+          } else {
+            this.isValidLogin = true
+            this.reqCount--
+            if (this.reqCount === 0) {
+              this.loader.loaderEnd()
+            }
+            return response
           }
-          return response
         },
         (error: any) => {
           this.reqCount--
           if (this.reqCount === 0) {
             this.loader.loaderEnd()
           }
+          console.log(error.response)
           if (error.response) {
             switch (error.response.status) {
               case 401:
               case 403:
+              case 302:
                 if (this.isValidLogin) {
                   message.error('登录已经失效，请重新登录')
                 }
@@ -91,6 +107,24 @@ export class Service implements HttpBase {
     this.ROOT_URL = path
   }
 
+  private reponseParamsCheck(resolve: any, reject: any, res: any) {
+    if (!res) {
+      reject('请求失败')
+    }
+    if (res.data.status === 200 && res.data.status === 200) {
+      resolve(res.data)
+    } else {
+      const msg  = res.data && (res.data.message || '请求失败')
+      message.error(msg)
+      resolve(
+        res.data || {
+          msg,
+          status: 1
+        }
+      )
+    }
+  }
+
   public async get(
     str: string,
     data: Map<string, any>,
@@ -105,44 +139,21 @@ export class Service implements HttpBase {
             hideLoader
           }
         })
-        .then((res: any): any => {
-          if (res.status === 200 && res.data.status === 0) {
-            resolve(res.data)
-          } else {
-            message.error(res.data.msg || '请求失败')
-            resolve(
-              res.data || {
-                msg: '请求失败',
-                status: 1
-              }
-            )
-          }
-        })
+        .then(this.reponseParamsCheck.bind(this, resolve, reject))
         .catch((err: any) => {
           reject(err)
         })
     })
   }
 
-  public async delete(str: string, data: Map<string, any>): Promise<any> {
+  public async delete(str: string, params?: Map<string, any>, data?: any): Promise<any> {
     return new Promise((resolve: any, reject: any) => {
       this.http
         .delete(`${this.ROOT_URL}${str}`, {
-          params: data || {}
+          params: params || {},
+          data: data || {}
         })
-        .then((res: any): any => {
-          if (res.status === 200 && res.data.status === 0) {
-            resolve(res.data)
-          } else {
-            message.error(res.data.msg || '请求失败')
-            resolve(
-              res.data || {
-                msg: '请求失败',
-                status: 1
-              }
-            )
-          }
-        })
+        .then(this.reponseParamsCheck.bind(this, resolve, reject))
         .catch((err: any) => {
           reject(err)
         })
@@ -164,19 +175,7 @@ export class Service implements HttpBase {
       }
       this.http
         .put(url, data)
-        .then((res: any): any => {
-          if (res.status === 200 && res.data.status === 0) {
-            resolve(res.data)
-          } else {
-            message.error(res.data.msg || '请求失败')
-            resolve(
-              res.data || {
-                msg: '请求失败',
-                status: 1
-              }
-            )
-          }
-        })
+        .then(this.reponseParamsCheck.bind(this, resolve, reject))
         .catch((err: any) => {
           reject(err)
         })
@@ -187,19 +186,7 @@ export class Service implements HttpBase {
     return new Promise((resolve: any, reject: any) => {
       this.http
         .post(`${this.ROOT_URL}${str}`, data)
-        .then((res: any): any => {
-          if (res.status === 200 && res.data.status === 0) {
-            resolve(res.data)
-          } else {
-            message.error(res.data.msg || '请求失败')
-            resolve(
-              res.data || {
-                msg: '请求失败',
-                status: 1
-              }
-            )
-          }
-        })
+        .then(this.reponseParamsCheck.bind(this, resolve, reject))
         .catch((err: any) => {
           reject(err)
         })

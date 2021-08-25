@@ -3,15 +3,15 @@
  * @version:
  * @Author: luolei
  * @Date: 2020-11-20 16:12:48
- * @LastEditors: janasluo
- * @LastEditTime: 2021-08-19 11:48:51
+ * @LastEditors: luolei
+ * @LastEditTime: 2021-01-31 20:01:48
  */
 
 import React, { FC, useState } from 'react'
 import './index.styl'
 import { Dropdown, Menu, Input } from 'antd'
 const InputGroup = Input.Group
-interface SearchType {
+export interface SearchType {
   name: string
   value: string
 }
@@ -95,4 +95,3 @@ HzSearch.defaultProps = {
   withSearchType: true
 }
 export default HzSearch
-export type { SearchType }

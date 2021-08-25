@@ -5,10 +5,13 @@
     "outDir": "build/dist",
     "module": "esnext",
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "sourceMap": true,
     "allowJs": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "moduleResolution": "node",
     "rootDir": ".",
     "forceConsistentCasingInFileNames": true,
@@ -20,17 +23,16 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "strict": true,
     "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "strictPropertyInitialization": false
   },
   "exclude": [
-    "node_modules",
     "build",
     "scripts",
     "acceptance-tests",
@@ -39,7 +41,14 @@
     "src/setupTests.ts",
     "config"
   ],
-  "types": ["typePatches", "webpack-env"],
+  "types": [
+    "typePatches",
+    "webpack-env"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": true,
+    "transpileonly": true
+  },
   "include": [
     "src"
   ]

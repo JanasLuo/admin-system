@@ -8,6 +8,49 @@ import HzSearch from 'src/components/HzSearch'
 import { Button, Input, Switch } from 'antd'
 
 const Home = () => {
+  const treeData = [
+    {
+      title: 'title0-0',
+      key: '0-0',
+      children: [
+        {
+          title: 'title0-0-0',
+          key: '0-0-0',
+          children: [
+            { title: 'title0-0-0-0', key: '0-0-0-0' },
+            { title: '0-0-0-1', key: '0-0-0-1' },
+            { title: '0-0-0-2', key: '0-0-0-2' }
+          ]
+        },
+        {
+          title: 'title0-0-1',
+          key: '0-0-1',
+          children: [
+            { title: 'title0-0-1-0', key: '0-0-1-0' },
+            { title: '0-0-1-1', key: '0-0-1-1' },
+            { title: '0-0-1-2', key: '0-0-1-2' }
+          ]
+        },
+        {
+          title: 'title0-0-2',
+          key: '0-0-2'
+        }
+      ]
+    },
+    {
+      title: '0-1',
+      key: '0-1',
+      children: [
+        { title: '0-1-0-0', key: '0-1-0-0' },
+        { title: '0-1-0-1', key: '0-1-0-1' },
+        { title: '0-1-0-2', key: '0-1-0-2' }
+      ]
+    },
+    {
+      title: '0-2',
+      key: '0-2'
+    }
+  ]
   const tabs = [
     {
       name: '单个新增',
@@ -33,29 +76,31 @@ const Home = () => {
     name: '姓名',
     value: 'name'
   })
-
+  const [editorContainerVisible, setEditorContainerVisible] = useState(true)
   const onTabChange = (keys: any) => {
+    debugger
     console.log('home onChange', keys)
     setActiveType(keys)
+    console.log('activeType', activeType)
   }
   const onTypeChange = (type: any) => {
+    debugger
     setCurSearcgType(type)
-    console.log('type', type)
+    console.log('curSearcgType', curSearcgType)
   }
   const onSearch = (val: any) => {
     console.log('val', val)
   }
+  const onChange = (keys: any[]) => {
+    console.log('home onChange', keys)
+  }
   return (
     <div className={style.home}>
       <div>
-        <div className="btn-wrapper">
-          <div className="btn">BUTTON</div>
-        </div>
-        <div className="btn-wrapper active">
-          <button className="btn">BUTTON</button>
-        </div>
         <HzButton onClick={() => alert(1)}>Button</HzButton>
-        <Button size="large">large</Button>
+        <Button onClick={() => setEditorContainerVisible(true)} size="large">
+          large
+        </Button>
         <Button type="primary">primary</Button>
         <Button type="link">link</Button>
         <Button className="text">text</Button>
@@ -84,7 +129,8 @@ const Home = () => {
           onSearch={onSearch}
           withSearchType={true}
         ></HzSearch>
-        <Switch>是否</Switch>
+        <Switch checkedChildren="是" unCheckedChildren="否"></Switch>
+        <div style={{ width: 600 }}></div>
       </div>
     </div>
   )

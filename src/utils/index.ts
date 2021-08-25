@@ -1,3 +1,19 @@
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: luolei
+ * @Date: 2021-05-06 17:08:42
+ * @LastEditors: luolei
+ * @LastEditTime: 2021-05-08 15:04:15
+ */
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: luolei
+ * @Date: 2020-09-11 09:53:07
+ * @LastEditors: luolei
+ * @LastEditTime: 2021-01-27 16:28:17
+ */
 import moment from 'moment'
 import stores from 'src/stores'
 
@@ -83,7 +99,13 @@ export default class Util {
     })
     return result
   }
-  /* 树形结构数据通过id查找 */
+  /**
+   * @name: 树形结构数据通过id查找
+   * @msg: 返回新的对象，不是原有数据的引用值
+   * @param {string} id
+   * @param {any} treeData
+   * @return {*}
+   */
   public static findObjFromTreeDataById(id: string, treeData: any): any {
     const treeList: [] = treeData.slice()
     const len: number = treeList.length
@@ -91,6 +113,28 @@ export default class Util {
       const item: any = treeList[i]
       if (item.id === id) {
         return { ...item }
+      }
+      if (item.children) {
+        const targetObj = this.findObjFromTreeDataById(id, item.children)
+        if (targetObj) {
+          return targetObj
+        }
+      }
+    }
+  }
+  /**
+   * @name: 树形结构数据通过id查找
+   * @msg: 返回原有树形数据的引用值
+   * @param {string} id
+   * @param {any} treeData
+   * @return {*}
+   */
+  public static getObjFromTreeById(id: string, treeData: any): any {
+    const len: number = treeData.length
+    for (let i = 0; i < len; i++) {
+      const item: any = treeData[i]
+      if (item.id === id) {
+        return item
       }
       if (item.children) {
         const targetObj = this.findObjFromTreeDataById(id, item.children)
@@ -168,9 +212,7 @@ export default class Util {
     )
   }
   /* 全屏状态切换 */
-  public static requestFullScreen(
-    element: any = window.document.documentElement
-  ) {
+  public static requestFullScreen(element: any = window.document.documentElement) {
     const document: any = window.document
     if (this.isFullScreen()) {
       // 判断各种浏览器，找到正确的方法
@@ -243,6 +285,7 @@ export default class Util {
    * @returns
    * @memberof Util
    */
+
   public static arrayTransTree(targetList: any, key: string) {
     return targetList
       .filter((it: any) => it[key] === it.id || !it[key])
@@ -255,5 +298,9 @@ export default class Util {
         }
         return it
       })
+  }
+  /* 生成唯一id */
+  public static genNonDuplicateID(randomLength: number = 10) {
+    return Number(Math.random().toString().substr(3, randomLength) + Date.now()).toString(36)
   }
 }

@@ -1,0 +1,57 @@
+@import '~src/styles/_mixins.styl'
+
+.success,.info,.warning,.error,.progress,.loading,.success_detail,.info_detail,.warning_detail,.error_detail,.progress_detail,.loading_detail
+  width 28px
+  height 28px
+.view_detail
+  color #fff
+
+.success
+  icon('src/assets/message/success.svg')
+  &_detail
+    icon('src/assets/message/success_detail.svg')
+.info
+  icon('src/assets/message/info.svg')
+  &_detail
+    icon('src/assets/message/info_detail.svg')
+.warning
+  icon('src/assets/message/warning.svg')
+  &_detail
+    icon('src/assets/message/warning_detail.svg')
+.error
+  icon('src/assets/message/error.svg')
+  &_detail
+    icon('src/assets/message/error_detail.svg')
+.progress
+  icon('src/assets/message/progress.svg')
+  &_detail
+    icon('src/assets/message/progress_detail.svg')
+.loading
+  icon('src/assets/message/loading.svg')
+  &_detail
+    icon('src/assets/message/loading_detail.svg')
+.message_content
+  display flex
+  align-items center
+  padding-left 8px
+  .view_btn
+    color var(--light-primary-900)
+    margin 0 29px
+    cursor pointer
+  .close_btn
+    width 16px
+    height 16px
+    icon('src/assets/message/close-dense.svg')
+    cursor pointer
+.message_system
+  .success
+    icon('src/assets/message/system_success.svg')
+  .info
+    icon('src/assets/message/system_info.svg')
+  .warning
+    icon('src/assets/message/system_warning.svg')
+  .error
+    icon('src/assets/message/system_error.svg')
+  .message_content
+    .close_btn
+      margin-left 68px

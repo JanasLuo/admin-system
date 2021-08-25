@@ -1,3 +1,11 @@
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: luolei
+ * @Date: 2021-01-29 20:03:08
+ * @LastEditors: luolei
+ * @LastEditTime: 2021-05-06 17:51:11
+ */
 import { observer, inject } from 'mobx-react'
 import * as React from 'react'
 import { message } from 'antd'
@@ -34,7 +42,7 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
     if (res.status === 0) {
       this.userStore.sigout()
     } else {
-      message.error(res.msg || '操作失败')
+      message.error(res.msg || '操作失败0')
     }
   }
 

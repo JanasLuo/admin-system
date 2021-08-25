@@ -1,3 +1,12 @@
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: liuhaoran
+ * @Date: 2021-01-18 16:01:24
+ * @LastEditors: liuhaoran
+ * @LastEditTime: 2021-01-18 17:56:15
+ */
+
 import { action, observable } from 'mobx'
 import Cookies from 'js-cookie'
 import { history } from 'src/routers'
@@ -27,6 +36,7 @@ export class UserStore {
       } catch (e) {
         console.log(e)
       }
+      console.log(accountInfo)
       return accountInfo
     } else {
       return false
@@ -48,7 +58,7 @@ export class UserStore {
   @action public login(accountInfo: any) {
     window.localStorage.clear()
     window.localStorage.setItem('account_info', JSON.stringify(accountInfo))
-    Cookies.set('access_token', accountInfo.access_token)
+    // Cookies.set('access_token', accountInfo.access_token)
     this.account = accountInfo
     this.isLogin = true
   }

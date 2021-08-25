@@ -1,0 +1,40 @@
+:global
+  .ant-tabs
+    color var(--type-700)
+
+    &.no-border .ant-tabs-bar
+      border 0
+
+    .ant-tabs-nav
+      .ant-tabs-tab
+        font-size var(--font-size-big)
+        font-weight 600
+        padding 14px 24px
+      .ant-tabs-tab-active, .ant-tabs-tab:hover
+        color var(--primary-900)
+      .ant-tabs-ink-bar
+        background-color var(--primary-900)
+        border-radius 2px 2px 0px 0px
+
+    &.ant-tabs-small
+      .ant-tabs-nav .ant-tabs-tab
+        font-size var(--font-size-normal)
+        padding 6px 16px
+
+    &.ant-tabs-large
+      .ant-tabs-nav .ant-tabs-tab
+        padding 22px 16px
+      .ant-tabs-ink-bar
+        left 23px !important
+        width 16px !important
+
+    &.tabs-dot
+      .ant-tabs-nav .ant-tabs-tab
+        padding 6px 8px
+      .ant-tabs-ink-bar
+        left 19px !important
+        border-radius 6px 6px 0px 0px
+        height 3px
+        width 6px !important
+
+

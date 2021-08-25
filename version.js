@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
  * @Date: 2021-07-29 10:10:54
- * @LastEditTime: 2021-07-29 10:10:55
+ * @LastEditTime: 2021-07-29 14:59:18
  * @LastEditors: janasluo
  * @Description:
  * @FilePath: /digital_police/digital_police_admin/version.js
@@ -17,9 +17,9 @@ const commitUserName = child_process.execSync('git show -s --format=%cn').toStri
 const commitUserMail = child_process.execSync('git show -s --format=%ce').toString().trim()
 const commitDateObj = new Date(child_process.execSync(`git show -s --format=%cd`).toString())
 const commitDate = `${commitDateObj.getFullYear() + '-' + (commitDateObj.getMonth() + 1) + '-' + commitDateObj.getDate() + ' ' + commitDateObj.getHours() + ':' + commitDateObj.getMinutes()}`
-const buildUserName = child_process.execSync('git config user.name').toString().trim()
-const buildUserMail = child_process.execSync('git config user.email').toString().trim()
+// const buildUserName = child_process.execSync('git config user.name').toString().trim()
+// const buildUserMail = child_process.execSync('git config user.email').toString().trim()
 const nowDate = new Date()
 const buildDate = `${nowDate.getFullYear() + '-' + (nowDate.getMonth() + 1) + '-' + nowDate.getDate() + ' ' + nowDate.getHours() + ':' + nowDate.getMinutes()}`
 
-module.exports = { branch, commitHash, shortCommitHash, message, commitUserName, commitUserMail, commitDate, buildUserName, buildUserMail, buildDate }
+module.exports = { branch, commitHash, shortCommitHash, message, commitUserName, commitUserMail, commitDate, buildDate }

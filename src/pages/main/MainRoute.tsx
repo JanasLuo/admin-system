@@ -1,20 +1,31 @@
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: luolei
+ * @Date: 2021-01-23 21:35:24
+ * @LastEditors: mark
+ * @LastEditTime: 2021-01-28 10:08:15
+ */
 /* 主页面路由组件 */
 import React, { Suspense, lazy } from 'react'
 import { Route, Switch, Redirect } from 'react-router'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import { SuspenseLoading } from 'src/components/Loading'
+import styles from './mainRoute.styl'
 
 const notFound = lazy(() => import('src/components/Error/404'))
 const Home = lazy(() => import('./home/Home'))
+
 class MainRoute extends React.Component<any, {}> {
   constructor(props: any) {
     super(props)
+    this.state = {}
   }
   public render() {
     const location = this.props.location
     const { pathname } = location
     return (
-      <TransitionGroup className="main-route">
+      <TransitionGroup className={styles.main_route}>
         <CSSTransition
           key={pathname.split('/')[2]}
           timeout={{ enter: 1000, exit: 0 }}
@@ -24,7 +35,7 @@ class MainRoute extends React.Component<any, {}> {
             <Switch location={location}>
               <Route path="/main/home" component={Home} />
               <Route path="/main/404" component={notFound} />
-              <Redirect to="/main/404" />
+              <Redirect to="/main/backStage" />
             </Switch>
           </Suspense>
         </CSSTransition>

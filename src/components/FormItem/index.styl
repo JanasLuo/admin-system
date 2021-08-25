@@ -8,11 +8,21 @@
   .form-label
     display inline-block
     font-weight bold
-    color var(--white-700)
+    color var(--type-700)
     margin-right 12px
     // text-align right
     line-height 36px
     min-width 60px
+    position relative
+    padding-left 10px
+    font-size var(--font-size-normal)
+
+    &.require
+      &:before
+        position absolute
+        content '*'
+        left 0px
+
 
     & > span
       color var(--red-900)
@@ -21,4 +31,4 @@
   .form-content
     display inline-block
     flex 1
-    color var(--white-900)
+    color var(--type-900)

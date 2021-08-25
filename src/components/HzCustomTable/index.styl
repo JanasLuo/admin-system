@@ -1,0 +1,50 @@
+.custom_table
+  width 100%
+  .thead, .tbody
+    .table_row
+      display flex
+      border-radius 4px
+      background var(--light-bg-100)
+      position relative
+      padding-left 40px
+  .thead
+    height 48px
+    line-height 20px
+    color var(--light-type-600)
+    background var(--light-bg-100)
+    box-shadow 0px 2px 8px rgba(15, 34, 67, 0.05), 0px 0px 1px rgba(15, 34, 67, 0.16)
+    margin-bottom 8px
+    .table_row
+      padding-top 18px
+      padding-bottom 10px
+  .tbody
+    color var(--light-type-800)
+    .table_row
+      height 96px
+      margin-bottom 8px
+      align-items center
+
+      &:hover
+        background #F3F4F5
+        box-shadow: 0px 8px 64px rgba(15, 34, 67, 0.1), 0px 0px 1px rgba(15, 34, 67, 0.16);
+        border 1px solid rgba(25, 53, 134, 0.16)
+        .operate_btns
+          display flex
+      .operate_btns
+        padding-right 20px
+        cursor pointer
+        display none
+        position absolute
+        right 0
+        top 0
+        height 100%
+        background linear-gradient(270deg, #F3F4F6 84.09%, rgba(243, 244, 246, 0) 100%)
+        border-radius 0px 4px 4px 0px
+        width 436px
+        align-items center
+        justify-content flex-end
+
+
+
+
+
