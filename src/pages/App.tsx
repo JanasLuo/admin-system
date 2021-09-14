@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
  * @Date: 2021-09-13 11:08:20
- * @LastEditTime: 2021-09-14 21:50:17
+ * @LastEditTime: 2021-09-14 21:52:23
  * @LastEditors: janasluo
  * @Description: 
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/pages/App.tsx
@@ -29,7 +29,7 @@ class App extends React.Component<{}, {}> {
     // }
   }
 
-  public render() {
+  public render(){
     return (
       <ConfigProvider locale={zh_CN}>
         <div className="app">
