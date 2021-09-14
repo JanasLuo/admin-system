@@ -21,7 +21,7 @@ class App extends React.Component<{}, {}> {
 
   constructor(props: any) {
     super(props)
-    this.loaderStore = props.loaderStore;
+    this.loaderStore=props.loaderStore;
     // if (!props.userStore.getAccount()) {
     //   if (location.pathname !== '/login') {
     //     location.replace('/login')
@@ -29,7 +29,7 @@ class App extends React.Component<{}, {}> {
     // }
   }
 
-  public render() {
+  public render(){
     return (
       <ConfigProvider locale={zh_CN}>
         <div className="app">
