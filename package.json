@@ -40,7 +40,7 @@
     "build": "npm-run-all build-ts",
     "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}'",
     "lint_quiet": "eslint --quiet 'src/**/*.{ts,tsx,js,jsx}'",
-    "lint_fix": "eslint  --fix 'src/**/*.{ts,tsx,js,jsx}'",
+    "lint_fix": "eslint --cache --fix 'src/**/*.{ts,tsx,js,jsx}'",
     "prettier": "prettier --write src/",
     "eject": "react-scripts eject",
     "commit": "git-cz",
@@ -102,7 +102,7 @@
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
       "yarn prettier",
-      "eslint --cache --fix 'src/**/*.{ts,tsx,js,jsx}'",
+      "yarn lint_fix",
       "git add"
     ]
   },
