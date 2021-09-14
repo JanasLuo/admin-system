@@ -3,8 +3,8 @@
  * @version:
  * @Author: luolei
  * @Date: 2021-01-29 20:03:08
- * @LastEditors: luolei
- * @LastEditTime: 2021-05-06 17:51:11
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-09-14 21:27:43
  */
 import { observer, inject } from 'mobx-react'
 import * as React from 'react'
@@ -38,7 +38,7 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
   }
 
   public sigout = async (): Promise<any> => {
-    const res = await this.userService.sigout()
+      const res = await this.userService.sigout()
     if (res.status === 0) {
       this.userStore.sigout()
     } else {
