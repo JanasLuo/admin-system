@@ -34,7 +34,7 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
 
   public initConfig(props: any): void {
     this.userService = props.userService
-    this.userStore = props.userStore
+    this.userStore=props.userStore;
   }
 
   public sigout = async (): Promise<any> => {
