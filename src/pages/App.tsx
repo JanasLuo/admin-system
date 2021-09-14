@@ -1,9 +1,9 @@
 /*
  * @Author: janasluo
  * @Date: 2021-09-13 11:08:20
- * @LastEditTime: 2021-09-14 21:52:23
+ * @LastEditTime: 2021-09-14 21:56:36
  * @LastEditors: janasluo
- * @Description: 
+ * @Description:
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/pages/App.tsx
  */
 import * as React from 'react'
@@ -29,7 +29,7 @@ class App extends React.Component<{}, {}> {
     // }
   }
 
-  public render(){
+  public render() {
     return (
       <ConfigProvider locale={zh_CN}>
         <div className="app">

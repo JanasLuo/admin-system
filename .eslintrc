@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint/eslint-plugin"],
-  "extends": ["alloy", "alloy/react", "alloy/typescript"],
+  "plugins": ["@typescript-eslint/eslint-plugin", "prettier"],
+  "extends": ["alloy", "alloy/react", "alloy/typescript", "prettier"],
   "settings": {
     "react": {
       "version": "detect"
