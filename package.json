@@ -104,8 +104,7 @@
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
-      "prettier --write src/",
-      "git add"
+      "prettier --write src/"
     ]
   },
   "config-overrides-path": "./webpack.config.js",
