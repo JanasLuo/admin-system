@@ -95,13 +95,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn lint-styl",
+      "pre-commit": "lint-staged --allow-empty && yarn lint-styl",
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
-      "prettier --write src/",
+      "yarn prettier",
       "eslint --cache --fix 'src/**/*.{ts,tsx,js,jsx}'",
       "git add"
     ]
