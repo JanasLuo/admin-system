@@ -48,10 +48,7 @@ class AxiosUtil {
 
       this.http.interceptors.response.use(
         (response: any) => {
-          console.log(1)
-
           if (response.data.status === 302) {
-
             if (this.isValidLogin) {
               message.error('登录已经失效，请重新登录')
             }
@@ -73,7 +70,6 @@ class AxiosUtil {
           if (this.reqCount === 0) {
             this.loader.loaderEnd()
           }
-          console.log(error.response)
           if (error.response) {
             switch (error.response.status) {
               case 401:
@@ -107,24 +103,6 @@ export class Service implements HttpBase {
     this.ROOT_URL = path
   }
 
-  private reponseParamsCheck(resolve: any, reject: any, res: any) {
-    if (!res) {
-      reject('请求失败')
-    }
-    if (res.data.status === 200 && res.data.status === 200) {
-      resolve(res.data)
-    } else {
-      const msg  = res.data && (res.data.message || '请求失败')
-      message.error(msg)
-      resolve(
-        res.data || {
-          msg,
-          status: 1
-        }
-      )
-    }
-  }
-
   public async get(
     str: string,
     data: Map<string, any>,
@@ -146,7 +124,11 @@ export class Service implements HttpBase {
     })
   }
 
-  public async delete(str: string, params?: Map<string, any>, data?: any): Promise<any> {
+  public async delete(
+    str: string,
+    params?: Map<string, any>,
+    data?: any
+  ): Promise<any> {
     return new Promise((resolve: any, reject: any) => {
       this.http
         .delete(`${this.ROOT_URL}${str}`, {
@@ -191,6 +173,23 @@ export class Service implements HttpBase {
           reject(err)
         })
     })
+  }
+  private reponseParamsCheck(resolve: any, reject: any, res: any) {
+    if (!res) {
+      reject('请求失败')
+    }
+    if (res.data.status === 200 && res.data.status === 200) {
+      resolve(res.data)
+    } else {
+      const msg = res.data && (res.data.message || '请求失败')
+      message.error(msg)
+      resolve(
+        res.data || {
+          msg,
+          status: 1
+        }
+      )
+    }
   }
 }
 

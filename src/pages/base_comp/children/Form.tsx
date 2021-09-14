@@ -58,9 +58,7 @@ const FromPage = () => {
           <Form.Item name="remember" valuePropName="checked" noStyle>
             <Checkbox>Remind me</Checkbox>
           </Form.Item>
-          <span className="login-form-forgot">
-            Forgot password
-          </span>
+          <span className="login-form-forgot">Forgot password</span>
         </Form.Item>
 
         <Form.Item>
@@ -132,7 +130,7 @@ const FromPage = () => {
                   return Promise.resolve()
                 }
                 return Promise.reject(
-                  'The two passwords that you entered do not match!'
+                  new Error('The two passwords that you entered do not match!')
                 )
               }
             })
@@ -169,7 +167,7 @@ const FromPage = () => {
               validator: (_, value) =>
                 value
                   ? Promise.resolve()
-                  : Promise.reject('Should accept agreement')
+                  : Promise.reject(new Error('Should accept agreement'))
             }
           ]}
         >

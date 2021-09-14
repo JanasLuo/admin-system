@@ -62,7 +62,6 @@ class Login extends React.Component<LoginProps, {}> {
   }
 
   public render() {
-    console.log(styl)
     return (
       <div className={styl.login}>
         {/* <div className={styl.title}>{this.title}</div> */}

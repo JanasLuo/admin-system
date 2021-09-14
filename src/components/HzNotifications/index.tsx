@@ -3,8 +3,8 @@
  * @version:
  * @Author: liuhaoran
  * @Date: 2021-01-19 12:43:54
- * @LastEditors: liuhaoran
- * @LastEditTime: 2021-01-28 20:10:15
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-09-14 15:51:42
  */
 import React, { FC, ReactNode } from 'react'
 import { notification } from 'antd'
@@ -31,14 +31,21 @@ const Description: FC<TypeDescription> = props => {
   const { description, btn_wrapper, no_message } = styles
   const { btnText, showOkBtn, description: desc, message } = props
 
-  return <div className={`${description} ${!message ? no_message : ''}`}>
-    <div>{desc}</div>
-    {
-      showOkBtn && <div className={btn_wrapper}>
-        <HzPopButton text={btnText || '我知道了'} onClick={() => { console.log('我知道了') }} />
-      </div>
-    }
-  </div>
+  return (
+    <div className={`${description} ${!message ? no_message : ''}`}>
+      <div>{desc}</div>
+      {showOkBtn && (
+        <div className={btn_wrapper}>
+          <HzPopButton
+            text={btnText || '我知道了'}
+            onClick={() => {
+              // console.log('我知道了')
+            }}
+          />
+        </div>
+      )}
+    </div>
+  )
 }
 
 const Message: FC<TypeMessage> = props => {
@@ -69,7 +76,7 @@ export default {
         />
       ),
       onClick() {
-        console.log('Notification Clicked!')
+        // console.log('Notification Clicked!')
       }
     })
   }

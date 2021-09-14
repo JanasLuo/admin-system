@@ -19,7 +19,6 @@ class App extends React.Component<{}, {}> {
     //     location.replace('/login')
     //   }
     // }
-    console.log('App.tsx')
   }
 
   public render() {
@@ -30,7 +29,7 @@ class App extends React.Component<{}, {}> {
           <div
             className={`loading-box ${
               this.loaderStore.getLoading ? 'show' : ''
-              }`}
+            }`}
           >
             <Loading />
           </div>

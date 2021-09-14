@@ -34,9 +34,8 @@ export class UserStore {
           )
         )
       } catch (e) {
-        console.log(e)
+        // console.log(e)
       }
-      console.log(accountInfo)
       return accountInfo
     } else {
       return false

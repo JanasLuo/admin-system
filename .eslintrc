@@ -1,14 +1,24 @@
 {
-  "extends": [
-    "react-app",
-    "react-app/jest"
-  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "extends": ["alloy", "alloy/react", "alloy/typescript"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
-    "react-hooks/exhaustive-deps": "off",
-    "array-callback-return": "off",
-    "jsx-a11y/iframe-has-title": "off",
-    "no-undef":"off",
-    "import/first":"off",
-    "no-restricted-globals":"off"
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/prefer-optional-chain": "off",
+    "@typescript-eslint/no-duplicate-imports": "off",
+    "no-param-reassign": 1,
+    "react/no-unstable-nested-components": "off",
+    "@typescript-eslint/no-require-imports": "off",
+    "react/self-closing-comp": 0,
+    "@typescript-eslint/method-signature-style": 0,
+    "@typescript-eslint/no-inferrable-types": 0,
+    "no-extra-boolean-cast": 0,
+    "no-debugger": 1,
+    "no-console": 1
   }
 }

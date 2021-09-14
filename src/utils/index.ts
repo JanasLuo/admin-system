@@ -3,8 +3,8 @@
  * @version:
  * @Author: luolei
  * @Date: 2021-05-06 17:08:42
- * @LastEditors: luolei
- * @LastEditTime: 2021-05-08 15:04:15
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-09-14 19:19:13
  */
 /*
  * @Descripttion:
@@ -46,7 +46,7 @@ export default class Util {
     return `?${query}`
   }
   /* 日期时间格式化 */
-  public static momentDate(num: any, type: string = 'date_time'): string {
+  public static momentDate(num: any, type = 'date_time'): string {
     if (num) {
       if (Object.prototype.toString.call(num) === '[object Date]') {
         num = num.getTime()
@@ -164,7 +164,8 @@ export default class Util {
   }
   /* 保存文件 */
   public static saveAs(blob: any, filename: any) {
-    if (!!window.navigator.msSaveOrOpenBlob) {
+    const navigator: any = window.navigator
+    if (navigator.msSaveOrOpenBlob) {
       navigator.msSaveBlob(blob, filename)
     } else {
       const link = document.createElement('a')
@@ -177,7 +178,7 @@ export default class Util {
     }
   }
   /* 文件下载，重命名 */
-  public static download = (url: any, filename: any): void | undefined => {
+  public static download = (url: any, filename: any) => {
     Util.getBlob(url).then(blob => {
       Util.saveAs(blob, filename)
     })
@@ -212,7 +213,9 @@ export default class Util {
     )
   }
   /* 全屏状态切换 */
-  public static requestFullScreen(element: any = window.document.documentElement) {
+  public static requestFullScreen(
+    element: any = window.document.documentElement
+  ) {
     const document: any = window.document
     if (this.isFullScreen()) {
       // 判断各种浏览器，找到正确的方法
@@ -222,7 +225,6 @@ export default class Util {
         document.webkitExitFullscreen || // FireFox
         document.webkitExitFullscreen // IE11
       if (exitMethod) {
-        console.log('exitMethod', exitMethod)
         exitMethod.call(document)
       }
     } else {
@@ -300,7 +302,9 @@ export default class Util {
       })
   }
   /* 生成唯一id */
-  public static genNonDuplicateID(randomLength: number = 10) {
-    return Number(Math.random().toString().substr(3, randomLength) + Date.now()).toString(36)
+  public static genNonDuplicateID(randomLength = 10) {
+    return Number(
+      Math.random().toString().substr(3, randomLength) + Date.now()
+    ).toString(36)
   }
 }

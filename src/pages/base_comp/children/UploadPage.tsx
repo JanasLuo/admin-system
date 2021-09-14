@@ -39,7 +39,7 @@ const UploadPage = () => {
     },
     onChange(info: any) {
       if (info.file.status !== 'uploading') {
-        console.log(info.file, info.fileList)
+        // console.log(info.file, info.fileList)
       }
       if (info.file.status === 'done') {
         message.success(`${info.file.name} file uploaded successfully`)
@@ -52,7 +52,7 @@ const UploadPage = () => {
     action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
     onChange({ file, fileList }: any) {
       if (file.status !== 'uploading') {
-        console.log(file, fileList)
+        // console.log(file, fileList)
       }
     },
     defaultFileList: [
@@ -121,7 +121,7 @@ const UploadPage = () => {
     onChange(info: any) {
       const { status } = info.file
       if (status !== 'uploading') {
-        console.log(info.file, info.fileList)
+        // console.log(info.file, info.fileList)
       }
       if (status === 'done') {
         message.success(`${info.file.name} file uploaded successfully.`)

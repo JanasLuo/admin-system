@@ -19,15 +19,12 @@ const TransferPage = () => {
     })
   }
   const initialTargetKeys = mockData
-    .filter((item: any) => +item.key > 10)
+    .filter((item: any) => Number(item.key) > 10)
     .map((item: any) => item.key)
 
   const [targetKeys, setTargetKeys] = useState(initialTargetKeys)
   const [selectedKeys, setSelectedKeys] = useState<any>([])
   const onChange = (nextTargetKeys: any, direction: any, moveKeys: any) => {
-    console.log('targetKeys:', nextTargetKeys)
-    console.log('direction:', direction)
-    console.log('moveKeys:', moveKeys)
     setTargetKeys(nextTargetKeys)
   }
 
@@ -35,8 +32,6 @@ const TransferPage = () => {
     sourceSelectedKeys: string[],
     targetSelectedKeys: string[]
   ) => {
-    console.log('sourceSelectedKeys:', sourceSelectedKeys)
-    console.log('targetSelectedKeys:', targetSelectedKeys)
     setSelectedKeys([...sourceSelectedKeys, ...targetSelectedKeys])
   }
   return (

@@ -25,8 +25,6 @@ class ErrorBoundary extends React.Component<any, any> {
    * 子元素发生错误时触发
    */
   public componentDidCatch(error: any, errorInfo: any) {
-    console.log('error', error)
-    console.log('errorInfo', errorInfo)
     this.setState({
       hasError: true,
       error,

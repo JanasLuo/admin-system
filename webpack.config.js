@@ -12,6 +12,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const path = require('path')
 module.exports = {
   webpack: (config, env) => {
     config.module.rules = config.module.rules.map(rule => {
@@ -19,6 +20,15 @@ module.exports = {
         return {
           ...rule,
           oneOf: [
+            {
+              test: /\.(jsx|js|ts|tsx)$/,
+              include: [
+                path.resolve(__dirname, '../src'),
+              ],
+              exclude: [/node_modules/],
+              use: ['eslint-loader'],
+              enforce: 'pre'
+            },
             {
               test: /\.styl$/,
               use: [
@@ -48,9 +58,9 @@ module.exports = {
       // config.plugins.push(new BundleAnalyzerPlugin()) // 打包分析
       const plugins = [
         new HtmlWebpackPlugin({
-          filename: './version.html', //打包后生成的文件路径
-          template: './version/index.html', //需要处理的对象
-          inject: false, //不插入生成的js 仅用于版本声明
+          filename: './version.html', // 打包后生成的文件路径
+          template: './version/index.html', // 需要处理的对象
+          inject: false, // 不插入生成的js 仅用于版本声明
           minify: {
             removeComments: false,
             collapseWhitespace: true,

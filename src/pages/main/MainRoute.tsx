@@ -29,7 +29,7 @@ class MainRoute extends React.Component<any, {}> {
         <CSSTransition
           key={pathname.split('/')[2]}
           timeout={{ enter: 1000, exit: 0 }}
-          classNames={'fade'}
+          classNames="fade"
         >
           <Suspense fallback={<SuspenseLoading />}>
             <Switch location={location}>

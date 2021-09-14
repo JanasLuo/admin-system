@@ -47,11 +47,11 @@ const TreePage = () => {
   ]
 
   const onSelect = (selectedKeys: React.Key[], info: any) => {
-    console.log('selected', selectedKeys, info)
+    // console.log('selected', selectedKeys, info)
   }
 
   const onCheck = (checkedKeys: any, info: any) => {
-    console.log('onCheck', checkedKeys, info)
+    // console.log('onCheck', checkedKeys, info)
   }
   return (
     <div>
