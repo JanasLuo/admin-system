@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
  * @Date: 2021-09-13 11:08:20
- * @LastEditTime: 2021-09-14 21:56:36
+ * @LastEditTime: 2021-09-14 21:58:35
  * @LastEditors: janasluo
  * @Description:
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/pages/App.tsx
@@ -21,7 +21,7 @@ class App extends React.Component<{}, {}> {
 
   constructor(props: any) {
     super(props)
-    this.loaderStore=props.loaderStore;
+    this.loaderStore = props.loaderStore;
     // if (!props.userStore.getAccount()) {
     //   if (location.pathname !== '/login') {
     //     location.replace('/login')
