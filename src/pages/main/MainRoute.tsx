@@ -3,8 +3,8 @@
  * @version:
  * @Author: luolei
  * @Date: 2021-01-23 21:35:24
- * @LastEditors: mark
- * @LastEditTime: 2021-01-28 10:08:15
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-09-14 21:48:43
  */
 /* 主页面路由组件 */
 import React, { Suspense, lazy } from 'react'
@@ -21,8 +21,8 @@ class MainRoute extends React.Component<any, {}> {
     super(props)
     this.state = {}
   }
-  public render() {
-    const location = this.props.location
+  public render(){
+    const location=this.props.location;
     const { pathname } = location
     return (
       <TransitionGroup className={styles.main_route}>
