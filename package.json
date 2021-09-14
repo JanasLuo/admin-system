@@ -98,13 +98,18 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn lint && yarn lint-styl",
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
+    "*.{js,css}": [
       "prettier --write src/",
+      "eslint --cache --fix 'src/**/*.{ts,tsx,js,jsx}'",
+      "git add"
+    ],
+    "*.styl": [
+      "stylint src/styles",
       "git add"
     ]
   },

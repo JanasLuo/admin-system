@@ -22,8 +22,8 @@ class MainRoute extends React.Component<any, {}> {
     this.state = {}
   }
   public render() {
-    const location = this.props.location
-    const { pathname } = location
+    const location = this.props.location;
+    const { pathname } = location;
     return (
       <TransitionGroup className={styles.main_route}>
         <CSSTransition
