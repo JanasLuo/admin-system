@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2021-01-29 20:03:08
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-14 22:02:11
+ * @LastEditTime: 2021-09-14 22:13:53
  */
 import { observer, inject } from 'mobx-react'
 import * as React from 'react'
@@ -29,12 +29,12 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
 
   constructor(props: any) {
     super(props)
-    this.initConfig(props);
+    this.initConfig(props)
   }
 
   public initConfig(props: any): void {
     this.userService = props.userService
-    this.userStore=props.userStore;
+    this.userStore = props.userStore
   }
 
   public sigout = async (): Promise<any> => {
