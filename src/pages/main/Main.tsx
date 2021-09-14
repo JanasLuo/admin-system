@@ -38,10 +38,10 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
   }
 
   public sigout = async (): Promise<any> => {
-       const res = await this.userService.sigout()
+         const res = await this.userService.sigout()
     if(res.status === 0){
       this.userStore.sigout()
-    } else {
+    }else {
       message.error(res.msg || '操作失败0')
     }
   }
