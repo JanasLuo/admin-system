@@ -10,14 +10,18 @@ import React, { FC } from 'react'
 import styles from './index.styl'
 
 interface TypeHzPopButton {
-  text: string;
-  onClick(): void;
+  text: string
+  onClick(): void
 }
 
-const HzPopButton: FC<TypeHzPopButton> = (props) => {
+const HzPopButton: FC<TypeHzPopButton> = props => {
   const { onClick, text } = props
   const { btn } = styles
-  return <span className={btn} onClick={onClick}>{text}</span>
+  return (
+    <span className={btn} onClick={onClick}>
+      {text}
+    </span>
+  )
 }
 
 export default HzPopButton

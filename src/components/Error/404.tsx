@@ -1,4 +1,3 @@
-
 import * as React from 'react'
 import { Result, Button } from 'antd'
 import { RouteComponentProps } from 'react-router'

@@ -10,19 +10,17 @@ import React, { ReactNode, FC } from 'react'
 import styles from './index.styl'
 
 interface InfoPaneProps {
-  children: ReactNode;
-  title: string;
+  children: ReactNode
+  title: string
 }
 
-const InfoPane: FC<InfoPaneProps> = (props) => {
+const InfoPane: FC<InfoPaneProps> = props => {
   const { children, title } = props
   const { wrapper, title: paneTitle, content } = styles
   return (
     <div className={wrapper}>
       <div className={paneTitle}>{title}</div>
-      <div className={content}>
-        {children}
-      </div>
+      <div className={content}>{children}</div>
     </div>
   )
 }

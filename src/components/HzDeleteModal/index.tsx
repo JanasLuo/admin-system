@@ -14,24 +14,33 @@ import styles from './index.styl'
 import HzPopButton from 'src/components/HzPopButton'
 
 interface TypeHzDeleteModal {
-  title: string;
-  centered?: boolean | undefined;
-  content: ReactNode;
-  width?: number;
-  okText?: string;
-  cancelText?: string;
-  visible: boolean;
-  onOk?(): void;
-  onCancel?(): void;
-  afterClose?(): void;
+  title: string
+  centered?: boolean | undefined
+  content: ReactNode
+  width?: number
+  okText?: string
+  cancelText?: string
+  visible: boolean
+  onOk?(): void
+  onCancel?(): void
+  afterClose?(): void
 }
 
 const CloseIcon = () => {
   return <span className={styles.close_icon}></span>
 }
 
-const HzDeleteModal: FC<TypeHzDeleteModal> = (props) => {
-  const { title, centered, afterClose, content, width, okText = '确定', cancelText = '取消', visible } = props
+const HzDeleteModal: FC<TypeHzDeleteModal> = props => {
+  const {
+    title,
+    centered,
+    afterClose,
+    content,
+    width,
+    okText = '确定',
+    cancelText = '取消',
+    visible
+  } = props
 
   const onOk = () => {
     if (props.onOk) {
@@ -56,22 +65,28 @@ const HzDeleteModal: FC<TypeHzDeleteModal> = (props) => {
     )
   }
 
-  return <Modal
-    title={title}
-    visible={visible}
-    centered={centered}
-    onOk={onOk}
-    onCancel={onCancel}
-    afterClose={afterClose}
-    width={width || 360}
-    footer={renderFooter()}
-    closeIcon={<CloseIcon />}
-  >
-    <div className={styles.delete_content}>
-      <img src={DeleteConfirmImg} className={styles.delete_confirm_img} alt="" />
-      {content}
-    </div>
-  </Modal>
+  return (
+    <Modal
+      title={title}
+      visible={visible}
+      centered={centered}
+      onOk={onOk}
+      onCancel={onCancel}
+      afterClose={afterClose}
+      width={width || 360}
+      footer={renderFooter()}
+      closeIcon={<CloseIcon />}
+    >
+      <div className={styles.delete_content}>
+        <img
+          src={DeleteConfirmImg}
+          className={styles.delete_confirm_img}
+          alt=""
+        />
+        {content}
+      </div>
+    </Modal>
+  )
 }
 
 export default HzDeleteModal

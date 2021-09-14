@@ -3,19 +3,19 @@ import { action, observable } from 'mobx'
 export class LoaderStore {
   @observable private loading: boolean
 
-  constructor () {
+  constructor() {
     this.loading = false
   }
 
-  @action  public loaderStart () {
+  @action public loaderStart() {
     this.loading = true
   }
 
-  @action public loaderEnd () {
+  @action public loaderEnd() {
     this.loading = false
   }
 
-  public get getLoading (): boolean {
+  public get getLoading(): boolean {
     return this.loading
   }
 }

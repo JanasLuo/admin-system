@@ -63,18 +63,21 @@ const InputPage = () => {
       <Row>
         <Col span={4}></Col>
         <Col span={4}>Normal</Col>
-        <Col span={4} offset={1}>Error</Col>
-        <Col span={4} offset={1}>Disabled</Col>
-        <Col span={4} offset={1}>Clear</Col>
+        <Col span={4} offset={1}>
+          Error
+        </Col>
+        <Col span={4} offset={1}>
+          Disabled
+        </Col>
+        <Col span={4} offset={1}>
+          Clear
+        </Col>
       </Row>
       <Divider />
       <Row>
         <Col span={4}>Dense</Col>
         <Col span={4}>
-          <Input
-            size="small"
-            placeholder="Placeholder"
-          ></Input>
+          <Input size="small" placeholder="Placeholder"></Input>
         </Col>
         <Col span={4} offset={1}>
           <Input
@@ -84,18 +87,10 @@ const InputPage = () => {
           ></Input>
         </Col>
         <Col span={4} offset={1}>
-          <Input
-            size="small"
-            disabled
-            placeholder="Placeholder"
-          ></Input>
+          <Input size="small" disabled placeholder="Placeholder"></Input>
         </Col>
         <Col span={4} offset={1}>
-          <Input
-            size="small"
-            allowClear
-            placeholder="Placeholder"
-          ></Input>
+          <Input size="small" allowClear placeholder="Placeholder"></Input>
         </Col>
       </Row>
       <Divider />
@@ -105,32 +100,20 @@ const InputPage = () => {
           <Input placeholder="Placeholder"></Input>
         </Col>
         <Col span={4} offset={1}>
-          <Input
-            className="has-error"
-            placeholder="Placeholder"
-          ></Input>
+          <Input className="has-error" placeholder="Placeholder"></Input>
         </Col>
         <Col span={4} offset={1}>
-          <Input
-            disabled
-            placeholder="Placeholder"
-          ></Input>
+          <Input disabled placeholder="Placeholder"></Input>
         </Col>
         <Col span={4} offset={1}>
-          <Input
-            allowClear
-            placeholder="Placeholder"
-          ></Input>
+          <Input allowClear placeholder="Placeholder"></Input>
         </Col>
       </Row>
       <Divider />
       <Row>
         <Col span={4}>Prefix Icon</Col>
         <Col span={4}>
-          <Input
-            prefix={<UserOutlined />}
-            placeholder="Placeholder"
-          ></Input>
+          <Input prefix={<UserOutlined />} placeholder="Placeholder"></Input>
         </Col>
         <Col span={4} offset={1}>
           <Input
@@ -147,21 +130,14 @@ const InputPage = () => {
           ></Input>
         </Col>
         <Col span={4} offset={1}>
-          <Input
-            allowClear
-            placeholder="Placeholder"
-            
-          ></Input>
+          <Input allowClear placeholder="Placeholder"></Input>
         </Col>
       </Row>
       <Divider />
       <Row>
         <Col span={4}>Suffix Icon</Col>
         <Col span={4}>
-          <Input
-            suffix={<UserOutlined />}
-            placeholder="Placeholder"
-          ></Input>
+          <Input suffix={<UserOutlined />} placeholder="Placeholder"></Input>
         </Col>
         <Col span={4} offset={1}>
           <Input
@@ -185,7 +161,6 @@ const InputPage = () => {
           <Input.TextArea
             autoSize={{ minRows: 3, maxRows: 6 }}
             placeholder="Placeholder"
-            
           ></Input.TextArea>
         </Col>
         <Col span={4} offset={1}>
@@ -193,7 +168,6 @@ const InputPage = () => {
             autoSize={{ minRows: 3, maxRows: 6 }}
             className="has-error"
             placeholder="Placeholder"
-            
           ></Input.TextArea>
         </Col>
         <Col span={4} offset={1}>
@@ -201,7 +175,6 @@ const InputPage = () => {
             autoSize={{ minRows: 3, maxRows: 6 }}
             disabled
             placeholder="Placeholder"
-            
           ></Input.TextArea>
         </Col>
       </Row>
@@ -210,9 +183,15 @@ const InputPage = () => {
       <Row>
         <Col span={4}></Col>
         <Col span={4}>Normal</Col>
-        <Col span={4} offset={1}>Error</Col>
-        <Col span={4} offset={1}>Disabled</Col>
-        <Col span={4} offset={1}>ReadOnly</Col>
+        <Col span={4} offset={1}>
+          Error
+        </Col>
+        <Col span={4} offset={1}>
+          Disabled
+        </Col>
+        <Col span={4} offset={1}>
+          ReadOnly
+        </Col>
       </Row>
       <Divider />
       <Row>
@@ -224,18 +203,13 @@ const InputPage = () => {
           <InputNumber size="small" className="has-error"></InputNumber>
         </Col>
         <Col span={4} offset={1}>
-          <InputNumber
-            size="small"
-            disabled
-            
-          ></InputNumber>
+          <InputNumber size="small" disabled></InputNumber>
         </Col>
         <Col span={4} offset={1}>
           <InputNumber
             size="small"
             readOnly={true}
             defaultValue={3}
-            
           ></InputNumber>
         </Col>
       </Row>
@@ -249,14 +223,10 @@ const InputPage = () => {
           <InputNumber className="has-error"></InputNumber>
         </Col>
         <Col span={4} offset={1}>
-          <InputNumber disabled ></InputNumber>
+          <InputNumber disabled></InputNumber>
         </Col>
         <Col span={4} offset={1}>
-          <InputNumber
-            readOnly={true}
-            
-            defaultValue={3}
-          ></InputNumber>
+          <InputNumber readOnly={true} defaultValue={3}></InputNumber>
         </Col>
       </Row>
       <Divider />
@@ -264,26 +234,27 @@ const InputPage = () => {
       <Row>
         <Col span={4}></Col>
         <Col span={4}>Normal</Col>
-        <Col span={4} offset={1}>Error</Col>
-        <Col span={4} offset={1}>Disabled</Col>
-        <Col span={4} offset={1}>Clear</Col>
+        <Col span={4} offset={1}>
+          Error
+        </Col>
+        <Col span={4} offset={1}>
+          Disabled
+        </Col>
+        <Col span={4} offset={1}>
+          Clear
+        </Col>
       </Row>
       <Divider />
       <Row>
         <Col span={4}>Dense</Col>
         <Col span={4}>
-          <Input.Search
-            size="small"
-            placeholder="Placeholder"
-            
-          ></Input.Search>
+          <Input.Search size="small" placeholder="Placeholder"></Input.Search>
         </Col>
         <Col span={4} offset={1}>
           <Input.Search
             size="small"
             className="has-error"
             placeholder="Placeholder"
-            
           ></Input.Search>
         </Col>
         <Col span={4} offset={1}>
@@ -291,7 +262,6 @@ const InputPage = () => {
             size="small"
             disabled
             placeholder="Placeholder"
-            
           ></Input.Search>
         </Col>
         <Col span={4} offset={1}>
@@ -299,7 +269,6 @@ const InputPage = () => {
             size="small"
             allowClear
             placeholder="Placeholder"
-            
           ></Input.Search>
         </Col>
       </Row>
@@ -307,31 +276,19 @@ const InputPage = () => {
       <Row>
         <Col span={4}>Default</Col>
         <Col span={4}>
-          <Input.Search
-            placeholder="Placeholder"
-            
-          ></Input.Search>
+          <Input.Search placeholder="Placeholder"></Input.Search>
         </Col>
         <Col span={4} offset={1}>
           <Input.Search
             className="has-error"
             placeholder="Placeholder"
-            
           ></Input.Search>
         </Col>
         <Col span={4} offset={1}>
-          <Input.Search
-            disabled
-            placeholder="Placeholder"
-            
-          ></Input.Search>
+          <Input.Search disabled placeholder="Placeholder"></Input.Search>
         </Col>
         <Col span={4} offset={1}>
-          <Input.Search
-            allowClear
-            placeholder="Placeholder"
-            
-          ></Input.Search>
+          <Input.Search allowClear placeholder="Placeholder"></Input.Search>
         </Col>
       </Row>
       <Divider />
@@ -348,40 +305,25 @@ const InputPage = () => {
       <Row>
         <Col span={4}>Dense</Col>
         <Col span={4}>
-          <Select size="small" placeholder="placeholder" >
+          <Select size="small" placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>
         </Col>
         <Col span={4}>
-          <Select
-            size="small"
-            className="has-error"
-            placeholder="placeholder"
-            
-          >
+          <Select size="small" className="has-error" placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>
         </Col>
         <Col span={4}>
-          <Select
-            size="small"
-            disabled
-            placeholder="placeholder"
-            
-          >
+          <Select size="small" disabled placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>
         </Col>
         <Col span={4}>
-          <Select
-            size="small"
-            allowClear
-            placeholder="placeholder"
-            
-          >
+          <Select size="small" allowClear placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>
@@ -391,7 +333,7 @@ const InputPage = () => {
             mode="multiple"
             allowClear
             placeholder="placeholder"
-            style={{ width: '80%'}}
+            style={{ width: '80%' }}
           >
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
@@ -403,29 +345,25 @@ const InputPage = () => {
       <Row>
         <Col span={4}>Default</Col>
         <Col span={4}>
-          <Select placeholder="placeholder" >
+          <Select placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>
         </Col>
         <Col span={4}>
-          <Select
-            className="has-error"
-            placeholder="placeholder"
-            
-          >
+          <Select className="has-error" placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>
         </Col>
         <Col span={4}>
-          <Select disabled placeholder="placeholder" >
+          <Select disabled placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>
         </Col>
         <Col span={4}>
-          <Select allowClear placeholder="placeholder" >
+          <Select allowClear placeholder="placeholder">
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
           </Select>

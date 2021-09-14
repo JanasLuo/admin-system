@@ -46,7 +46,12 @@ const PaginationPage = () => {
       <Row>
         <Col span={4}>Jump to</Col>
         <Col span={20}>
-          <Pagination pageSize={10} total={100} showQuickJumper={true} showSizeChanger={true} />
+          <Pagination
+            pageSize={10}
+            total={100}
+            showQuickJumper={true}
+            showSizeChanger={true}
+          />
         </Col>
       </Row>
       <Divider />

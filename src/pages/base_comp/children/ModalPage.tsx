@@ -14,23 +14,31 @@ import HzDeleteModal from 'src/components/HzDeleteModal'
 import HzNormalModal from 'src/components/HzNormalModal'
 
 const ModalPage = () => {
-  const [deleteModalVisible, setDeleteModalVisible] = useState(false);
-  const [normalModalVisible, setNormalModalVisible] = useState(false);
+  const [deleteModalVisible, setDeleteModalVisible] = useState(false)
+  const [normalModalVisible, setNormalModalVisible] = useState(false)
   return (
     <div>
       <h1>Text Field</h1>
       <Row>
-        <Col span={4} >Normal</Col>
+        <Col span={4}>Normal</Col>
         <Col span={4}>
-          <HzDeleteModal title="Simple dialog" content="Are you sure you want to delete it?" visible={deleteModalVisible} />
+          <HzDeleteModal
+            title="Simple dialog"
+            content="Are you sure you want to delete it?"
+            visible={deleteModalVisible}
+          />
           <Button onClick={() => setDeleteModalVisible(true)}>Normal</Button>
         </Col>
       </Row>
       <Divider />
       <Row>
-        <Col span={4} >Normal</Col>
+        <Col span={4}>Normal</Col>
         <Col span={4}>
-          <HzNormalModal title="Simple dialog" content="Are you sure you want to delete it?" visible={normalModalVisible} ></HzNormalModal>
+          <HzNormalModal
+            title="Simple dialog"
+            content="Are you sure you want to delete it?"
+            visible={normalModalVisible}
+          ></HzNormalModal>
           <Button onClick={() => setNormalModalVisible(true)}>Normal</Button>
         </Col>
       </Row>

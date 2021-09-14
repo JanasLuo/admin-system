@@ -1,10 +1,10 @@
 /** @format */
 
-import React from 'react';
-import { Tabs } from 'antd';
-import { AppleOutlined, AndroidOutlined } from '@ant-design/icons';
+import React from 'react'
+import { Tabs } from 'antd'
+import { AppleOutlined, AndroidOutlined } from '@ant-design/icons'
 
-const { TabPane } = Tabs;
+const { TabPane } = Tabs
 
 const TabaPage = () => {
   return (
@@ -72,28 +72,37 @@ const TabaPage = () => {
       </Tabs>
       <h3>With Icon</h3>
       <Tabs defaultActiveKey="1">
-        <TabPane tab={
+        <TabPane
+          tab={
             <span>
               <AppleOutlined />
               Tab 1
             </span>
-          } key="1">
+          }
+          key="1"
+        >
           Content of Tab Pane 1
         </TabPane>
-        <TabPane tab={
+        <TabPane
+          tab={
             <span>
               <AppleOutlined />
               Tab 2
             </span>
-          } key="2">
+          }
+          key="2"
+        >
           Content of Tab Pane 2
         </TabPane>
-        <TabPane tab={
+        <TabPane
+          tab={
             <span>
               <AndroidOutlined />
               Tab 3
             </span>
-          } key="3">
+          }
+          key="3"
+        >
           Content of Tab Pane 3
         </TabPane>
       </Tabs>

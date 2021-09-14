@@ -18,7 +18,8 @@ interface EmptyProps {
   labelWidth?: number
 }
 const FormItem: FC<EmptyProps> = props => {
-  const { label, children, labelWidth, align, flexVerticalAlign, isRequire } = props
+  const { label, children, labelWidth, align, flexVerticalAlign, isRequire } =
+    props
   const labelStyle: any = {}
   const itemStyle: any = {}
   if (labelWidth) {
@@ -33,7 +34,10 @@ const FormItem: FC<EmptyProps> = props => {
   return (
     <div className="form-item" style={itemStyle}>
       {label && (
-        <div className={`form-label ${isRequire ? 'require' : ''}`} style={labelStyle}>
+        <div
+          className={`form-label ${isRequire ? 'require' : ''}`}
+          style={labelStyle}
+        >
           {label}
         </div>
       )}

@@ -3,15 +3,15 @@ import { action, observable } from 'mobx'
 export class HeaderStore {
   @observable private toggleMenu: boolean
 
-  constructor () {
+  constructor() {
     this.toggleMenu = false
   }
 
-  public get getToggleMenu () {
+  public get getToggleMenu() {
     return this.toggleMenu
   }
 
-  @action public async toggle (id: string) {
+  @action public async toggle(id: string) {
     this.toggleMenu = !this.toggleMenu
   }
 }

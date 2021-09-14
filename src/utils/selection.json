@@ -14,9 +14,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-admin"
-        ],
+        "tags": ["account-admin"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -52,9 +50,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-group-cfg"
-        ],
+        "tags": ["account-group-cfg"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -92,9 +88,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-group-photo"
-        ],
+        "tags": ["account-group-photo"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -130,9 +124,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-group"
-        ],
+        "tags": ["account-group"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -168,9 +160,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-lock"
-        ],
+        "tags": ["account-lock"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -208,9 +198,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-message-resend"
-        ],
+        "tags": ["account-message-resend"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -246,9 +234,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-person"
-        ],
+        "tags": ["account-person"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -286,9 +272,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-photo"
-        ],
+        "tags": ["account-photo"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -324,9 +308,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-remove"
-        ],
+        "tags": ["account-remove"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -364,9 +346,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-rule-management"
-        ],
+        "tags": ["account-rule-management"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -402,9 +382,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-superadmin"
-        ],
+        "tags": ["account-superadmin"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -440,9 +418,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-time"
-        ],
+        "tags": ["account-time"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -480,9 +456,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "account-unlock"
-        ],
+        "tags": ["account-unlock"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -520,9 +494,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-add-application"
-        ],
+        "tags": ["actions-add-application"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -558,9 +530,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-add-chart"
-        ],
+        "tags": ["actions-add-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -596,9 +566,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-add-data"
-        ],
+        "tags": ["actions-add-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -634,9 +602,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-add-database"
-        ],
+        "tags": ["actions-add-database"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -672,9 +638,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-add-table"
-        ],
+        "tags": ["actions-add-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -710,9 +674,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-addsite"
-        ],
+        "tags": ["actions-addsite"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -748,9 +710,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-append-data"
-        ],
+        "tags": ["actions-append-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -786,9 +746,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-authorize-dense-icon"
-        ],
+        "tags": ["actions-authorize-dense-icon"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -824,9 +782,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-auto-layout"
-        ],
+        "tags": ["actions-auto-layout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -862,9 +818,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-cancel-push"
-        ],
+        "tags": ["actions-cancel-push"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -900,9 +854,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-cfg-info"
-        ],
+        "tags": ["actions-cfg-info"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -938,9 +890,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-cfg-log"
-        ],
+        "tags": ["actions-cfg-log"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -976,9 +926,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-change-pwd-batch"
-        ],
+        "tags": ["actions-change-pwd-batch"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1014,9 +962,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-circular-layout"
-        ],
+        "tags": ["actions-circular-layout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1052,9 +998,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-close-task"
-        ],
+        "tags": ["actions-close-task"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1090,9 +1034,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-company"
-        ],
+        "tags": ["actions-company"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1128,9 +1070,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-cooperatiion-admin"
-        ],
+        "tags": ["actions-cooperatiion-admin"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1166,9 +1106,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-create-table"
-        ],
+        "tags": ["actions-create-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1204,9 +1142,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-dash-publish"
-        ],
+        "tags": ["actions-dash-publish"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1242,9 +1178,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-dashboard-export"
-        ],
+        "tags": ["actions-dashboard-export"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1280,9 +1214,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-data-process"
-        ],
+        "tags": ["actions-data-process"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1318,9 +1250,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-data-setting"
-        ],
+        "tags": ["actions-data-setting"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1356,9 +1286,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-db-alarm-on"
-        ],
+        "tags": ["actions-db-alarm-on"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1394,9 +1322,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-designate"
-        ],
+        "tags": ["actions-designate"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1432,9 +1358,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-dictionary"
-        ],
+        "tags": ["actions-dictionary"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1470,9 +1394,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-download-log"
-        ],
+        "tags": ["actions-download-log"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1508,9 +1430,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-edit-layout"
-        ],
+        "tags": ["actions-edit-layout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1546,9 +1466,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-edit-map"
-        ],
+        "tags": ["actions-edit-map"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1584,9 +1502,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-exit-fullscreen"
-        ],
+        "tags": ["actions-exit-fullscreen"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1622,9 +1538,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-export"
-        ],
+        "tags": ["actions-export"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1660,9 +1574,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-field-setting"
-        ],
+        "tags": ["actions-field-setting"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1698,9 +1610,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-flow-layout"
-        ],
+        "tags": ["actions-flow-layout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1736,9 +1646,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-fullscreen-2"
-        ],
+        "tags": ["actions-fullscreen-2"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1774,9 +1682,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-gis-map"
-        ],
+        "tags": ["actions-gis-map"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1812,9 +1718,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-graphic-analysis-file"
-        ],
+        "tags": ["actions-graphic-analysis-file"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1850,9 +1754,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-graphic-analysis"
-        ],
+        "tags": ["actions-graphic-analysis"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1888,9 +1790,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-grid-layout"
-        ],
+        "tags": ["actions-grid-layout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1926,9 +1826,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-hierarchical-layout"
-        ],
+        "tags": ["actions-hierarchical-layout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -1964,9 +1862,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-import"
-        ],
+        "tags": ["actions-import"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2002,9 +1898,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-model-edit"
-        ],
+        "tags": ["actions-model-edit"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2040,9 +1934,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-model-run"
-        ],
+        "tags": ["actions-model-run"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2078,9 +1970,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-move-to"
-        ],
+        "tags": ["actions-move-to"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2116,9 +2006,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-new"
-        ],
+        "tags": ["actions-new"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2154,9 +2042,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-no-running"
-        ],
+        "tags": ["actions-no-running"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2192,9 +2078,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-pause"
-        ],
+        "tags": ["actions-pause"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2230,9 +2114,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-play-dense"
-        ],
+        "tags": ["actions-play-dense"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2268,9 +2150,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-presentation-mode"
-        ],
+        "tags": ["actions-presentation-mode"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2306,9 +2186,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-process-view"
-        ],
+        "tags": ["actions-process-view"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2344,9 +2222,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-push"
-        ],
+        "tags": ["actions-push"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2382,9 +2258,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-redo"
-        ],
+        "tags": ["actions-redo"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2420,9 +2294,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-refresh"
-        ],
+        "tags": ["actions-refresh"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2458,9 +2330,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-related-authorization"
-        ],
+        "tags": ["actions-related-authorization"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2496,9 +2366,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-related-overview"
-        ],
+        "tags": ["actions-related-overview"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2534,9 +2402,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-rule-add"
-        ],
+        "tags": ["actions-rule-add"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2572,9 +2438,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-rule-batch"
-        ],
+        "tags": ["actions-rule-batch"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2610,9 +2474,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-rule-data"
-        ],
+        "tags": ["actions-rule-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2648,9 +2510,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-rule-operator"
-        ],
+        "tags": ["actions-rule-operator"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2686,9 +2546,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-save"
-        ],
+        "tags": ["actions-save"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2724,9 +2582,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-share2"
-        ],
+        "tags": ["actions-share2"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2762,9 +2618,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-sheet-data"
-        ],
+        "tags": ["actions-sheet-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2800,9 +2654,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-sql"
-        ],
+        "tags": ["actions-sql"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2838,9 +2690,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-stacode"
-        ],
+        "tags": ["actions-stacode"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2876,9 +2726,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-stop"
-        ],
+        "tags": ["actions-stop"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2914,9 +2762,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-structure"
-        ],
+        "tags": ["actions-structure"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -2956,9 +2802,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-sync-setting"
-        ],
+        "tags": ["actions-sync-setting"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {},
@@ -2998,9 +2842,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-tpl-1"
-        ],
+        "tags": ["actions-tpl-1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3036,9 +2878,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-tpl-replace"
-        ],
+        "tags": ["actions-tpl-replace"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3074,9 +2914,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-unconfigure"
-        ],
+        "tags": ["actions-unconfigure"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3112,9 +2950,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-undo"
-        ],
+        "tags": ["actions-undo"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3150,9 +2986,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-update-log"
-        ],
+        "tags": ["actions-update-log"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3188,9 +3022,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-view-log"
-        ],
+        "tags": ["actions-view-log"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3226,9 +3058,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "actions-view-rule"
-        ],
+        "tags": ["actions-view-rule"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3264,9 +3094,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "arrows-next-batch"
-        ],
+        "tags": ["arrows-next-batch"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3302,9 +3130,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "arrows-slicenav-arrow"
-        ],
+        "tags": ["arrows-slicenav-arrow"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3340,9 +3166,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "arrows-triangle-filled-down"
-        ],
+        "tags": ["arrows-triangle-filled-down"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3378,9 +3202,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "arrows-triangle"
-        ],
+        "tags": ["arrows-triangle"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3416,9 +3238,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-add-group"
-        ],
+        "tags": ["aside-add-group"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3454,9 +3274,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-arc"
-        ],
+        "tags": ["aside-arc"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3492,9 +3310,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-card"
-        ],
+        "tags": ["aside-card"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3530,9 +3346,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-conect-polymeric-table"
-        ],
+        "tags": ["aside-conect-polymeric-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -3570,9 +3384,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-conect-table"
-        ],
+        "tags": ["aside-conect-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -3610,9 +3422,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-curve"
-        ],
+        "tags": ["aside-curve"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3648,9 +3458,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-dashboard-pro"
-        ],
+        "tags": ["aside-dashboard-pro"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3686,9 +3494,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-dashboard"
-        ],
+        "tags": ["aside-dashboard"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3724,9 +3530,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-data-api"
-        ],
+        "tags": ["aside-data-api"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3762,9 +3566,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-data-base"
-        ],
+        "tags": ["aside-data-base"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3800,9 +3602,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-data-relationship"
-        ],
+        "tags": ["aside-data-relationship"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3838,9 +3638,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-data-source"
-        ],
+        "tags": ["aside-data-source"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3876,9 +3674,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-data-stream"
-        ],
+        "tags": ["aside-data-stream"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3914,9 +3710,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-database-view"
-        ],
+        "tags": ["aside-database-view"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3952,9 +3746,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-element"
-        ],
+        "tags": ["aside-element"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -3990,9 +3782,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-entity-view"
-        ],
+        "tags": ["aside-entity-view"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4028,9 +3818,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-aggr"
-        ],
+        "tags": ["aside-file-aggr"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4068,9 +3856,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-ds"
-        ],
+        "tags": ["aside-file-ds"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4108,9 +3894,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-excel"
-        ],
+        "tags": ["aside-file-excel"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4148,9 +3932,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-flow-model"
-        ],
+        "tags": ["aside-file-flow-model"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4188,9 +3970,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-graft"
-        ],
+        "tags": ["aside-file-graft"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4228,9 +4008,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-join"
-        ],
+        "tags": ["aside-file-join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4268,9 +4046,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-model"
-        ],
+        "tags": ["aside-file-model"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4308,9 +4084,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-o2a"
-        ],
+        "tags": ["aside-file-o2a"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4348,9 +4122,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-public"
-        ],
+        "tags": ["aside-file-public"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4388,9 +4160,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-script"
-        ],
+        "tags": ["aside-file-script"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4428,9 +4198,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-share"
-        ],
+        "tags": ["aside-file-share"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4468,9 +4236,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-streaming"
-        ],
+        "tags": ["aside-file-streaming"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4508,9 +4274,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-transpose"
-        ],
+        "tags": ["aside-file-transpose"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4548,9 +4312,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-file-union"
-        ],
+        "tags": ["aside-file-union"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -4588,9 +4350,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-operator-open"
-        ],
+        "tags": ["aside-folder-operator-open"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4626,9 +4386,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-operator"
-        ],
+        "tags": ["aside-folder-operator"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4664,9 +4422,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-record-open"
-        ],
+        "tags": ["aside-folder-record-open"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4702,9 +4458,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-record"
-        ],
+        "tags": ["aside-folder-record"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4740,9 +4494,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-rule-open"
-        ],
+        "tags": ["aside-folder-rule-open"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4778,9 +4530,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-rule"
-        ],
+        "tags": ["aside-folder-rule"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4816,9 +4566,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-shared-open"
-        ],
+        "tags": ["aside-folder-shared-open"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4854,9 +4602,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder-shared"
-        ],
+        "tags": ["aside-folder-shared"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4892,9 +4638,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder1-open"
-        ],
+        "tags": ["aside-folder1-open"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4930,9 +4674,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-folder1"
-        ],
+        "tags": ["aside-folder1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -4968,9 +4710,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-jump"
-        ],
+        "tags": ["aside-jump"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5010,9 +4750,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-label-model-table"
-        ],
+        "tags": ["aside-label-model-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -5056,9 +4794,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-label-table"
-        ],
+        "tags": ["aside-label-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -5096,9 +4832,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-label-view"
-        ],
+        "tags": ["aside-label-view"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5134,9 +4868,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-label"
-        ],
+        "tags": ["aside-label"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5172,9 +4904,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-layout"
-        ],
+        "tags": ["aside-layout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5210,9 +4940,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-line"
-        ],
+        "tags": ["aside-line"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5248,9 +4976,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-more"
-        ],
+        "tags": ["aside-more"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5286,9 +5012,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-move-tables"
-        ],
+        "tags": ["aside-move-tables"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5324,9 +5048,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-normal-successfully"
-        ],
+        "tags": ["aside-normal-successfully"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -5364,9 +5086,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-normal-table"
-        ],
+        "tags": ["aside-normal-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -5404,9 +5124,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-overview"
-        ],
+        "tags": ["aside-overview"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -5444,9 +5162,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-plus1"
-        ],
+        "tags": ["aside-plus1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5482,9 +5198,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-polyline"
-        ],
+        "tags": ["aside-polyline"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5520,9 +5234,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-polymeric-relationship"
-        ],
+        "tags": ["aside-polymeric-relationship"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5558,9 +5270,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-remark"
-        ],
+        "tags": ["aside-remark"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5596,9 +5306,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-replace"
-        ],
+        "tags": ["aside-replace"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5634,9 +5342,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-result-table"
-        ],
+        "tags": ["aside-result-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -5674,9 +5380,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-search"
-        ],
+        "tags": ["aside-search"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5712,9 +5416,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-share1"
-        ],
+        "tags": ["aside-share1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5750,9 +5452,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-single-graphic-analysis"
-        ],
+        "tags": ["aside-single-graphic-analysis"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5788,9 +5488,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-star"
-        ],
+        "tags": ["aside-star"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5815,9 +5513,7 @@
     },
     {
       "icon": {
-        "paths": [
-          "M896 512h-832v-64h832v64z"
-        ],
+        "paths": ["M896 512h-832v-64h832v64z"],
         "attrs": [
           {
             "opacity": 0.48
@@ -5826,9 +5522,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-subtract"
-        ],
+        "tags": ["aside-subtract"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5864,9 +5558,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-synthesis-excel"
-        ],
+        "tags": ["aside-synthesis-excel"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -5904,9 +5596,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-temporary-excel"
-        ],
+        "tags": ["aside-temporary-excel"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5942,9 +5632,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-text-edit"
-        ],
+        "tags": ["aside-text-edit"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -5980,9 +5668,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-them-table"
-        ],
+        "tags": ["aside-them-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -6020,9 +5706,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-analysis"
-        ],
+        "tags": ["aside-tool-analysis"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6058,9 +5742,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-axis-x"
-        ],
+        "tags": ["aside-tool-axis-x"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6096,9 +5778,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-axis-y"
-        ],
+        "tags": ["aside-tool-axis-y"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6134,9 +5814,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-axis-y2"
-        ],
+        "tags": ["aside-tool-axis-y2"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6172,9 +5850,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-charts"
-        ],
+        "tags": ["aside-tool-charts"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6210,9 +5886,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-color"
-        ],
+        "tags": ["aside-tool-color"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6248,9 +5922,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-field"
-        ],
+        "tags": ["aside-tool-field"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6286,9 +5958,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-filter-inner"
-        ],
+        "tags": ["aside-tool-filter-inner"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6324,9 +5994,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-filter"
-        ],
+        "tags": ["aside-tool-filter"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6362,9 +6030,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-function"
-        ],
+        "tags": ["aside-tool-function"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6400,9 +6066,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-info"
-        ],
+        "tags": ["aside-tool-info"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6438,9 +6102,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-parameter"
-        ],
+        "tags": ["aside-tool-parameter"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6476,9 +6138,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-sheet"
-        ],
+        "tags": ["aside-tool-sheet"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6514,9 +6174,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-size"
-        ],
+        "tags": ["aside-tool-size"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6552,9 +6210,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-tool-style"
-        ],
+        "tags": ["aside-tool-style"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6590,9 +6246,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-trash"
-        ],
+        "tags": ["aside-trash"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6632,9 +6286,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-type-blob"
-        ],
+        "tags": ["aside-type-blob"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -6678,9 +6330,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-type-date"
-        ],
+        "tags": ["aside-type-date"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -6718,9 +6368,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-type-enumerate"
-        ],
+        "tags": ["aside-type-enumerate"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -6758,9 +6406,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-type-number"
-        ],
+        "tags": ["aside-type-number"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -6798,9 +6444,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-type-string"
-        ],
+        "tags": ["aside-type-string"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -6838,9 +6482,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-user"
-        ],
+        "tags": ["aside-user"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -6878,9 +6520,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "aside-worktable-view"
-        ],
+        "tags": ["aside-worktable-view"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6916,9 +6556,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c200"
-        ],
+        "tags": ["chart-c200"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6954,9 +6592,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c210"
-        ],
+        "tags": ["chart-c210"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -6992,9 +6628,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c211"
-        ],
+        "tags": ["chart-c211"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7030,9 +6664,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c212"
-        ],
+        "tags": ["chart-c212"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7068,9 +6700,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c220"
-        ],
+        "tags": ["chart-c220"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7106,9 +6736,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c230"
-        ],
+        "tags": ["chart-c230"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7144,9 +6772,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c240"
-        ],
+        "tags": ["chart-c240"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7182,9 +6808,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c241"
-        ],
+        "tags": ["chart-c241"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7220,9 +6844,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c242"
-        ],
+        "tags": ["chart-c242"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7258,9 +6880,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c243"
-        ],
+        "tags": ["chart-c243"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7296,9 +6916,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c250"
-        ],
+        "tags": ["chart-c250"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7334,9 +6952,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c261"
-        ],
+        "tags": ["chart-c261"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7372,9 +6988,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c271"
-        ],
+        "tags": ["chart-c271"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7410,9 +7024,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c272"
-        ],
+        "tags": ["chart-c272"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7448,9 +7060,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c280"
-        ],
+        "tags": ["chart-c280"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7486,9 +7096,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c281"
-        ],
+        "tags": ["chart-c281"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7524,9 +7132,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c290"
-        ],
+        "tags": ["chart-c290"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7562,9 +7168,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c301"
-        ],
+        "tags": ["chart-c301"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7600,9 +7204,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c310"
-        ],
+        "tags": ["chart-c310"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7638,9 +7240,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c320"
-        ],
+        "tags": ["chart-c320"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7676,9 +7276,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c330"
-        ],
+        "tags": ["chart-c330"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7714,9 +7312,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c340"
-        ],
+        "tags": ["chart-c340"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7752,9 +7348,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c350"
-        ],
+        "tags": ["chart-c350"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7790,9 +7384,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c351"
-        ],
+        "tags": ["chart-c351"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7828,9 +7420,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c352"
-        ],
+        "tags": ["chart-c352"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7866,9 +7456,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c360"
-        ],
+        "tags": ["chart-c360"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7904,9 +7492,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-c370-tree"
-        ],
+        "tags": ["chart-c370-tree"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7942,9 +7528,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n001"
-        ],
+        "tags": ["chart-n001"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -7980,9 +7564,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n002"
-        ],
+        "tags": ["chart-n002"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8018,9 +7600,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n010"
-        ],
+        "tags": ["chart-n010"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8056,9 +7636,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n011"
-        ],
+        "tags": ["chart-n011"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8094,9 +7672,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n012"
-        ],
+        "tags": ["chart-n012"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8132,9 +7708,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n013"
-        ],
+        "tags": ["chart-n013"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8170,9 +7744,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n014"
-        ],
+        "tags": ["chart-n014"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8208,9 +7780,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chart-n015"
-        ],
+        "tags": ["chart-n015"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8246,9 +7816,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-alarm-active"
-        ],
+        "tags": ["chartarea-alarm-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -8286,9 +7854,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-alarm-on"
-        ],
+        "tags": ["chartarea-alarm-on"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8324,9 +7890,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-arrow-down1"
-        ],
+        "tags": ["chartarea-arrow-down1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -8353,9 +7917,7 @@
     },
     {
       "icon": {
-        "paths": [
-          "M768 512h-576v-64h576v64z"
-        ],
+        "paths": ["M768 512h-576v-64h576v64z"],
         "attrs": [
           {
             "opacity": 0.48
@@ -8364,9 +7926,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-arrow-fair1"
-        ],
+        "tags": ["chartarea-arrow-fair1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8402,9 +7962,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-arrow-up1"
-        ],
+        "tags": ["chartarea-arrow-up1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -8442,9 +8000,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-asc-sort-arrow"
-        ],
+        "tags": ["chartarea-asc-sort-arrow"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8480,9 +8036,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-chart-jump"
-        ],
+        "tags": ["chartarea-chart-jump"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -8520,9 +8074,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-comment"
-        ],
+        "tags": ["chartarea-comment"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -8560,9 +8112,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-confirm"
-        ],
+        "tags": ["chartarea-confirm"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8598,9 +8148,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-contrast"
-        ],
+        "tags": ["chartarea-contrast"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8636,9 +8184,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-desc-sort-arrow"
-        ],
+        "tags": ["chartarea-desc-sort-arrow"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8674,9 +8220,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-dimension"
-        ],
+        "tags": ["chartarea-dimension"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8712,9 +8256,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-drill"
-        ],
+        "tags": ["chartarea-drill"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -8752,9 +8294,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-edit-data"
-        ],
+        "tags": ["chartarea-edit-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8790,9 +8330,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-edit"
-        ],
+        "tags": ["chartarea-edit"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8828,9 +8366,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-exit-screening"
-        ],
+        "tags": ["chartarea-exit-screening"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8866,9 +8402,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-filter-active"
-        ],
+        "tags": ["chartarea-filter-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -8906,9 +8440,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-filter"
-        ],
+        "tags": ["chartarea-filter"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8944,9 +8476,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-flip-ccw"
-        ],
+        "tags": ["chartarea-flip-ccw"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -8982,9 +8512,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-flip-cw"
-        ],
+        "tags": ["chartarea-flip-cw"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9020,9 +8548,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-free-drill"
-        ],
+        "tags": ["chartarea-free-drill"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9058,9 +8584,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-fullscreen"
-        ],
+        "tags": ["chartarea-fullscreen"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9096,9 +8620,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-href"
-        ],
+        "tags": ["chartarea-href"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9134,9 +8656,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-ico-pack-up"
-        ],
+        "tags": ["chartarea-ico-pack-up"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9172,9 +8692,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-info-sign-bold"
-        ],
+        "tags": ["chartarea-info-sign-bold"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9210,9 +8728,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-legend-focus"
-        ],
+        "tags": ["chartarea-legend-focus"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9248,9 +8764,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-linked"
-        ],
+        "tags": ["chartarea-linked"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -9288,9 +8802,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-pin-active"
-        ],
+        "tags": ["chartarea-pin-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -9328,9 +8840,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-pin"
-        ],
+        "tags": ["chartarea-pin"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9366,9 +8876,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-recover"
-        ],
+        "tags": ["chartarea-recover"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9404,9 +8912,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-refresh"
-        ],
+        "tags": ["chartarea-refresh"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9442,9 +8948,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-remove"
-        ],
+        "tags": ["chartarea-remove"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9480,9 +8984,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-sort-asc1"
-        ],
+        "tags": ["chartarea-sort-asc1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9518,9 +9020,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-sort-ascing"
-        ],
+        "tags": ["chartarea-sort-ascing"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9556,9 +9056,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-sort-desc1"
-        ],
+        "tags": ["chartarea-sort-desc1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9594,9 +9092,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-sort-descing"
-        ],
+        "tags": ["chartarea-sort-descing"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9632,9 +9128,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-switch-chart-type"
-        ],
+        "tags": ["chartarea-switch-chart-type"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -9672,9 +9166,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-switch"
-        ],
+        "tags": ["chartarea-switch"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9710,9 +9202,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-table-adv-sort"
-        ],
+        "tags": ["chartarea-table-adv-sort"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9748,9 +9238,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-ui-resizable-handle"
-        ],
+        "tags": ["chartarea-ui-resizable-handle"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9786,9 +9274,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-view-data"
-        ],
+        "tags": ["chartarea-view-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9824,9 +9310,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "chartarea-warn-icon"
-        ],
+        "tags": ["chartarea-warn-icon"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -9853,9 +9337,7 @@
     },
     {
       "icon": {
-        "paths": [
-          "M192 0h-64v1009.037l384-230.4 384 230.4v-1009.037h-704z"
-        ],
+        "paths": ["M192 0h-64v1009.037l384-230.4 384 230.4v-1009.037h-704z"],
         "attrs": [
           {
             "fill": "rgb(31, 113, 255)"
@@ -9864,9 +9346,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-bookmark-active"
-        ],
+        "tags": ["fullscreen-bookmark-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -9904,9 +9384,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-bookmark"
-        ],
+        "tags": ["fullscreen-bookmark"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9942,9 +9420,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-calendar-f"
-        ],
+        "tags": ["fullscreen-calendar-f"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -9980,9 +9456,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-device-pc"
-        ],
+        "tags": ["fullscreen-device-pc"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10018,9 +9492,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-device-projector"
-        ],
+        "tags": ["fullscreen-device-projector"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10056,9 +9528,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-device-tv"
-        ],
+        "tags": ["fullscreen-device-tv"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10094,9 +9564,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-export-excel"
-        ],
+        "tags": ["fullscreen-export-excel"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10132,9 +9600,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-filter"
-        ],
+        "tags": ["fullscreen-filter"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10170,9 +9636,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-img"
-        ],
+        "tags": ["fullscreen-img"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10208,9 +9672,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-list-bold"
-        ],
+        "tags": ["fullscreen-list-bold"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10246,9 +9708,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-next"
-        ],
+        "tags": ["fullscreen-next"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10284,9 +9744,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-pause"
-        ],
+        "tags": ["fullscreen-pause"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10322,9 +9780,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-play"
-        ],
+        "tags": ["fullscreen-play"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10360,9 +9816,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-prev"
-        ],
+        "tags": ["fullscreen-prev"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10398,9 +9852,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-text-bubble-active"
-        ],
+        "tags": ["fullscreen-text-bubble-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -10438,9 +9890,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-text-bubble"
-        ],
+        "tags": ["fullscreen-text-bubble"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10476,9 +9926,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-zoomin-white"
-        ],
+        "tags": ["fullscreen-zoomin-white"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10514,9 +9962,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "fullscreen-zoomout-white"
-        ],
+        "tags": ["fullscreen-zoomout-white"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10552,9 +9998,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-layer-ctrl-active"
-        ],
+        "tags": ["gis-layer-ctrl-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -10592,9 +10036,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-layer-ctrl"
-        ],
+        "tags": ["gis-layer-ctrl"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10630,9 +10072,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-layer-display-active"
-        ],
+        "tags": ["gis-layer-display-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -10670,9 +10110,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-layer-display"
-        ],
+        "tags": ["gis-layer-display"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10708,9 +10146,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-select-frame-active"
-        ],
+        "tags": ["gis-select-frame-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -10748,9 +10184,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-select-frame"
-        ],
+        "tags": ["gis-select-frame"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10786,9 +10220,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-select-zoomin-active"
-        ],
+        "tags": ["gis-select-zoomin-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -10826,9 +10258,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-select-zoomin"
-        ],
+        "tags": ["gis-select-zoomin"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10864,9 +10294,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-tool-select-frame-circle-active"
-        ],
+        "tags": ["gis-tool-select-frame-circle-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -10904,9 +10332,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "gis-tool-select-frame-circle"
-        ],
+        "tags": ["gis-tool-select-frame-circle"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -10942,9 +10368,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-add-field"
-        ],
+        "tags": ["main-add-field"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -10982,9 +10406,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-approve"
-        ],
+        "tags": ["main-approve"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11020,9 +10442,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-attachment"
-        ],
+        "tags": ["main-attachment"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11058,9 +10478,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-authorize-icon"
-        ],
+        "tags": ["main-authorize-icon"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -11098,9 +10516,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-back"
-        ],
+        "tags": ["main-back"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11136,9 +10552,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-back1"
-        ],
+        "tags": ["main-back1"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -11176,9 +10590,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-calendar"
-        ],
+        "tags": ["main-calendar"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11214,9 +10626,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-close-dense"
-        ],
+        "tags": ["main-close-dense"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11252,9 +10662,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-close"
-        ],
+        "tags": ["main-close"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11290,9 +10698,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-code-format"
-        ],
+        "tags": ["main-code-format"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11328,9 +10734,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-column"
-        ],
+        "tags": ["main-column"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11366,9 +10770,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-comment-count"
-        ],
+        "tags": ["main-comment-count"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11404,9 +10806,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-comment"
-        ],
+        "tags": ["main-comment"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11442,9 +10842,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-config-order"
-        ],
+        "tags": ["main-config-order"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11480,9 +10878,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-config"
-        ],
+        "tags": ["main-config"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11518,9 +10914,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-custom-chart-active"
-        ],
+        "tags": ["main-custom-chart-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -11558,9 +10952,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-custom-chart"
-        ],
+        "tags": ["main-custom-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11596,9 +10988,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-data-hide"
-        ],
+        "tags": ["main-data-hide"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11634,9 +11024,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-data-show"
-        ],
+        "tags": ["main-data-show"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11672,9 +11060,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-delete-field"
-        ],
+        "tags": ["main-delete-field"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11710,9 +11096,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-download"
-        ],
+        "tags": ["main-download"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11748,9 +11132,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-duplicate"
-        ],
+        "tags": ["main-duplicate"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11786,9 +11168,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-export-data"
-        ],
+        "tags": ["main-export-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11824,9 +11204,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-f-close"
-        ],
+        "tags": ["main-f-close"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11862,9 +11240,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-failed"
-        ],
+        "tags": ["main-failed"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -11902,9 +11278,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-favor"
-        ],
+        "tags": ["main-favor"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -11940,9 +11314,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-file-data"
-        ],
+        "tags": ["main-file-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -11980,9 +11352,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-file-normal"
-        ],
+        "tags": ["main-file-normal"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12020,9 +11390,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-file-speed"
-        ],
+        "tags": ["main-file-speed"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12060,9 +11428,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-finished-big"
-        ],
+        "tags": ["main-finished-big"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12100,9 +11466,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-finished"
-        ],
+        "tags": ["main-finished"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12140,9 +11504,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-flow-model-active"
-        ],
+        "tags": ["main-flow-model-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12180,9 +11542,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-flow-model"
-        ],
+        "tags": ["main-flow-model"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12218,9 +11578,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-full-join"
-        ],
+        "tags": ["main-full-join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12258,9 +11616,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-fx"
-        ],
+        "tags": ["main-fx"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12298,9 +11654,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-gis-chart-active"
-        ],
+        "tags": ["main-gis-chart-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12338,9 +11692,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-gis-chart"
-        ],
+        "tags": ["main-gis-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12376,9 +11728,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-grammar-check"
-        ],
+        "tags": ["main-grammar-check"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12414,9 +11764,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-handle-compare-add"
-        ],
+        "tags": ["main-handle-compare-add"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12452,9 +11800,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-handle-compare-remove"
-        ],
+        "tags": ["main-handle-compare-remove"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12490,9 +11836,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-handle-yaxis-add"
-        ],
+        "tags": ["main-handle-yaxis-add"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12528,9 +11872,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-handle-yaxis-remove"
-        ],
+        "tags": ["main-handle-yaxis-remove"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12566,9 +11908,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-help-grammar"
-        ],
+        "tags": ["main-help-grammar"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12604,9 +11944,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-help"
-        ],
+        "tags": ["main-help"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12642,9 +11980,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-info-cancel"
-        ],
+        "tags": ["main-info-cancel"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12680,9 +12016,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-info-ok"
-        ],
+        "tags": ["main-info-ok"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12718,9 +12052,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-info-sign"
-        ],
+        "tags": ["main-info-sign"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12756,9 +12088,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-inner-join"
-        ],
+        "tags": ["main-inner-join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12796,9 +12126,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-insert-field"
-        ],
+        "tags": ["main-insert-field"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12834,9 +12162,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-label-setting-active"
-        ],
+        "tags": ["main-label-setting-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12874,9 +12200,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-label-setting"
-        ],
+        "tags": ["main-label-setting"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12912,9 +12236,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-latest"
-        ],
+        "tags": ["main-latest"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -12950,9 +12272,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-left-join"
-        ],
+        "tags": ["main-left-join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -12990,9 +12310,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-list"
-        ],
+        "tags": ["main-list"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13028,9 +12346,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-loading"
-        ],
+        "tags": ["main-loading"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13066,9 +12382,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-mem-gold"
-        ],
+        "tags": ["main-mem-gold"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13106,9 +12420,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-mem-silver"
-        ],
+        "tags": ["main-mem-silver"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13146,9 +12458,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-model-active"
-        ],
+        "tags": ["main-model-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13186,9 +12496,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-model"
-        ],
+        "tags": ["main-model"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13224,9 +12532,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-normal-chart-active"
-        ],
+        "tags": ["main-normal-chart-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13264,9 +12570,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-normal-chart"
-        ],
+        "tags": ["main-normal-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13302,9 +12606,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-notice"
-        ],
+        "tags": ["main-notice"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13340,9 +12642,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-order"
-        ],
+        "tags": ["main-order"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13378,9 +12678,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-portrait"
-        ],
+        "tags": ["main-portrait"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13416,9 +12714,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-redo"
-        ],
+        "tags": ["main-redo"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13454,9 +12750,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-remove"
-        ],
+        "tags": ["main-remove"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13494,9 +12788,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-select-excel"
-        ],
+        "tags": ["main-select-excel"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13532,9 +12824,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-tag"
-        ],
+        "tags": ["main-tag"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13570,9 +12860,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-undo"
-        ],
+        "tags": ["main-undo"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13608,9 +12896,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-unity-chart-active"
-        ],
+        "tags": ["main-unity-chart-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13648,9 +12934,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-unity-chart"
-        ],
+        "tags": ["main-unity-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13686,9 +12970,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-upload-big"
-        ],
+        "tags": ["main-upload-big"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13726,9 +13008,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-upload"
-        ],
+        "tags": ["main-upload"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13764,9 +13044,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-view-raw-data"
-        ],
+        "tags": ["main-view-raw-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13802,9 +13080,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-visible-active"
-        ],
+        "tags": ["main-visible-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -13842,9 +13118,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-visible-false"
-        ],
+        "tags": ["main-visible-false"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13880,9 +13154,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "main-visible-true"
-        ],
+        "tags": ["main-visible-true"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13918,9 +13190,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-authority"
-        ],
+        "tags": ["nav-authority"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13956,9 +13226,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-big-screen"
-        ],
+        "tags": ["nav-big-screen"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -13994,9 +13262,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-bio"
-        ],
+        "tags": ["nav-bio"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14032,9 +13298,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-consult-for-personal-index"
-        ],
+        "tags": ["nav-consult-for-personal-index"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14070,9 +13334,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-dashboard"
-        ],
+        "tags": ["nav-dashboard"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14108,9 +13370,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-data-add"
-        ],
+        "tags": ["nav-data-add"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14146,9 +13406,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-data-manage"
-        ],
+        "tags": ["nav-data-manage"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14184,9 +13442,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-distribution-rules"
-        ],
+        "tags": ["nav-distribution-rules"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14222,9 +13478,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-dynamic-management"
-        ],
+        "tags": ["nav-dynamic-management"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14260,9 +13514,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-extension"
-        ],
+        "tags": ["nav-extension"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14302,9 +13554,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-favorite-management"
-        ],
+        "tags": ["nav-favorite-management"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -14346,9 +13596,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-help-bold"
-        ],
+        "tags": ["nav-help-bold"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14384,9 +13632,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-knowledg-base"
-        ],
+        "tags": ["nav-knowledg-base"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14422,9 +13668,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-knowledge-manage"
-        ],
+        "tags": ["nav-knowledge-manage"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14460,9 +13704,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-label"
-        ],
+        "tags": ["nav-label"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14498,9 +13740,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-log-management"
-        ],
+        "tags": ["nav-log-management"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14536,9 +13776,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-logout"
-        ],
+        "tags": ["nav-logout"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14574,9 +13812,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-machine-learning"
-        ],
+        "tags": ["nav-machine-learning"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14612,9 +13848,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-menu-hide"
-        ],
+        "tags": ["nav-menu-hide"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14650,9 +13884,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-menu"
-        ],
+        "tags": ["nav-menu"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14688,9 +13920,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-message"
-        ],
+        "tags": ["nav-message"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14726,9 +13956,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-model-management"
-        ],
+        "tags": ["nav-model-management"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14764,9 +13992,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-notification"
-        ],
+        "tags": ["nav-notification"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14802,9 +14028,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-offline-task"
-        ],
+        "tags": ["nav-offline-task"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14840,9 +14064,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-organization"
-        ],
+        "tags": ["nav-organization"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14878,9 +14100,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-other-management"
-        ],
+        "tags": ["nav-other-management"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14916,9 +14136,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-permission-manage"
-        ],
+        "tags": ["nav-permission-manage"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14954,9 +14172,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-personal-data"
-        ],
+        "tags": ["nav-personal-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -14992,9 +14208,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-photo"
-        ],
+        "tags": ["nav-photo"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15030,9 +14244,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-product"
-        ],
+        "tags": ["nav-product"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15068,9 +14280,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-red-list"
-        ],
+        "tags": ["nav-red-list"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15106,9 +14316,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-roles"
-        ],
+        "tags": ["nav-roles"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15144,9 +14352,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-search"
-        ],
+        "tags": ["nav-search"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15182,9 +14388,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-security"
-        ],
+        "tags": ["nav-security"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15220,9 +14424,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-setting"
-        ],
+        "tags": ["nav-setting"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15258,9 +14460,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-task-management"
-        ],
+        "tags": ["nav-task-management"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15296,9 +14496,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-template"
-        ],
+        "tags": ["nav-template"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15334,9 +14532,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "nav-user-manage"
-        ],
+        "tags": ["nav-user-manage"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15372,9 +14568,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-add_field"
-        ],
+        "tags": ["operator-add_field"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15412,9 +14606,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-addr_trans"
-        ],
+        "tags": ["operator-addr_trans"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15452,9 +14644,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-anti_join"
-        ],
+        "tags": ["operator-anti_join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15492,9 +14682,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-behavior"
-        ],
+        "tags": ["operator-behavior"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15532,9 +14720,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-collect-active"
-        ],
+        "tags": ["operator-collect-active"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15572,9 +14758,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-collect"
-        ],
+        "tags": ["operator-collect"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -15610,9 +14794,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-data_aggr"
-        ],
+        "tags": ["operator-data_aggr"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15650,9 +14832,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-data_filter"
-        ],
+        "tags": ["operator-data_filter"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15690,9 +14870,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-deduplication-and-merge"
-        ],
+        "tags": ["operator-deduplication-and-merge"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15730,9 +14908,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-deduplication"
-        ],
+        "tags": ["operator-deduplication"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15770,9 +14946,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-default"
-        ],
+        "tags": ["operator-default"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15810,9 +14984,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-field-mapping"
-        ],
+        "tags": ["operator-field-mapping"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15850,9 +15022,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-full_join"
-        ],
+        "tags": ["operator-full_join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15890,9 +15060,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-group-field"
-        ],
+        "tags": ["operator-group-field"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15930,9 +15098,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-id-card"
-        ],
+        "tags": ["operator-id-card"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -15970,9 +15136,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-join"
-        ],
+        "tags": ["operator-join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16010,9 +15174,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-json"
-        ],
+        "tags": ["operator-json"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16050,9 +15212,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-left_join"
-        ],
+        "tags": ["operator-left_join"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16090,9 +15250,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-machine_learning"
-        ],
+        "tags": ["operator-machine_learning"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16130,9 +15288,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-more"
-        ],
+        "tags": ["operator-more"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16170,9 +15326,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-operator-sort"
-        ],
+        "tags": ["operator-operator-sort"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16210,9 +15364,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-output"
-        ],
+        "tags": ["operator-output"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16250,9 +15402,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-output2"
-        ],
+        "tags": ["operator-output2"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16290,9 +15440,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-raw-data-streaming"
-        ],
+        "tags": ["operator-raw-data-streaming"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16330,9 +15478,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-raw-data"
-        ],
+        "tags": ["operator-raw-data"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16370,9 +15516,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-relationship"
-        ],
+        "tags": ["operator-relationship"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16410,9 +15554,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-select-column"
-        ],
+        "tags": ["operator-select-column"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16450,9 +15592,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-sql"
-        ],
+        "tags": ["operator-sql"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16490,9 +15630,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-system-entity"
-        ],
+        "tags": ["operator-system-entity"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16530,9 +15668,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-table"
-        ],
+        "tags": ["operator-table"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16570,9 +15706,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-track"
-        ],
+        "tags": ["operator-track"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16610,9 +15744,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-union"
-        ],
+        "tags": ["operator-union"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16650,9 +15782,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "operator-universal"
-        ],
+        "tags": ["operator-universal"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -16690,9 +15820,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-new-dashboard-light"
-        ],
+        "tags": ["placeholder-new-dashboard-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16728,9 +15856,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-new-folder-light"
-        ],
+        "tags": ["placeholder-new-folder-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16766,9 +15892,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-no-alarm-light"
-        ],
+        "tags": ["placeholder-no-alarm-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16804,9 +15928,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-no-collect-light"
-        ],
+        "tags": ["placeholder-no-collect-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16842,9 +15964,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-no-message-light"
-        ],
+        "tags": ["placeholder-no-message-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16880,9 +16000,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-no-result-light"
-        ],
+        "tags": ["placeholder-no-result-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16918,9 +16036,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-no-rule-light"
-        ],
+        "tags": ["placeholder-no-rule-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16956,9 +16072,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-sql-light"
-        ],
+        "tags": ["placeholder-sql-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -16994,9 +16108,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-template-empty-light"
-        ],
+        "tags": ["placeholder-template-empty-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17032,9 +16144,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-template-newbigscreen-light"
-        ],
+        "tags": ["placeholder-template-newbigscreen-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17070,9 +16180,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "placeholder-worksheet-empty-light"
-        ],
+        "tags": ["placeholder-worksheet-empty-light"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17108,9 +16216,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-all-file-replace-gray"
-        ],
+        "tags": ["popup-all-file-replace-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17146,9 +16252,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-merge-table-gray"
-        ],
+        "tags": ["popup-merge-table-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17184,9 +16288,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-odps2ads-gray"
-        ],
+        "tags": ["popup-odps2ads-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17222,9 +16324,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-polymer-table-gray"
-        ],
+        "tags": ["popup-polymer-table-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17260,9 +16360,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-single-file-replace-gray"
-        ],
+        "tags": ["popup-single-file-replace-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17298,9 +16396,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-sql-script-gray"
-        ],
+        "tags": ["popup-sql-script-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17336,9 +16432,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-transpose-table-gray"
-        ],
+        "tags": ["popup-transpose-table-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17374,9 +16468,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "popup-union-table-gray"
-        ],
+        "tags": ["popup-union-table-gray"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17412,9 +16504,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-authority"
-        ],
+        "tags": ["settings-authority"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17450,9 +16540,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-developercenter"
-        ],
+        "tags": ["settings-developercenter"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17488,9 +16576,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-gift"
-        ],
+        "tags": ["settings-gift"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17526,9 +16612,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-language"
-        ],
+        "tags": ["settings-language"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17564,9 +16648,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-mem-mark"
-        ],
+        "tags": ["settings-mem-mark"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17602,9 +16684,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-message-setting"
-        ],
+        "tags": ["settings-message-setting"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17640,9 +16720,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-offline-task"
-        ],
+        "tags": ["settings-offline-task"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17678,9 +16756,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-password"
-        ],
+        "tags": ["settings-password"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17716,9 +16792,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-theme"
-        ],
+        "tags": ["settings-theme"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17754,9 +16828,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-update"
-        ],
+        "tags": ["settings-update"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17792,9 +16864,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "settings-user-info"
-        ],
+        "tags": ["settings-user-info"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17830,9 +16900,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-add-attr"
-        ],
+        "tags": ["text-add-attr"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17868,9 +16936,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-add-border"
-        ],
+        "tags": ["text-add-border"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17906,9 +16972,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-add-filter"
-        ],
+        "tags": ["text-add-filter"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17944,9 +17008,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-add-img"
-        ],
+        "tags": ["text-add-img"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -17982,9 +17044,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-add-screen-chart"
-        ],
+        "tags": ["text-add-screen-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18020,9 +17080,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-add-text"
-        ],
+        "tags": ["text-add-text"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18058,9 +17116,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-add-video"
-        ],
+        "tags": ["text-add-video"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18096,9 +17152,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-component-chart"
-        ],
+        "tags": ["text-component-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18134,9 +17188,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-component-text"
-        ],
+        "tags": ["text-component-text"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18172,9 +17224,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-fill-color"
-        ],
+        "tags": ["text-fill-color"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18210,9 +17260,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-font-family"
-        ],
+        "tags": ["text-font-family"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18248,9 +17296,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-grid-hor"
-        ],
+        "tags": ["text-grid-hor"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18286,9 +17332,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-grid-ver"
-        ],
+        "tags": ["text-grid-ver"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18324,9 +17368,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-import-chart"
-        ],
+        "tags": ["text-import-chart"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18362,9 +17404,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-layer-fall"
-        ],
+        "tags": ["text-layer-fall"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18400,9 +17440,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-layer-rise"
-        ],
+        "tags": ["text-layer-rise"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18438,9 +17476,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-legend-bottom"
-        ],
+        "tags": ["text-legend-bottom"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18476,9 +17512,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-legend-none"
-        ],
+        "tags": ["text-legend-none"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18518,9 +17552,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-legend-right"
-        ],
+        "tags": ["text-legend-right"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {},
@@ -18560,9 +17592,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-legend-top"
-        ],
+        "tags": ["text-legend-top"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18598,9 +17628,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-line-style"
-        ],
+        "tags": ["text-line-style"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18636,9 +17664,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-line-width"
-        ],
+        "tags": ["text-line-width"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18674,9 +17700,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-mobile"
-        ],
+        "tags": ["text-mobile"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18712,9 +17736,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-bold"
-        ],
+        "tags": ["text-text-bold"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18750,9 +17772,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-center"
-        ],
+        "tags": ["text-text-center"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18788,9 +17808,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-color"
-        ],
+        "tags": ["text-text-color"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18826,9 +17844,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-italic"
-        ],
+        "tags": ["text-text-italic"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18864,9 +17880,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-justify"
-        ],
+        "tags": ["text-text-justify"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18902,9 +17916,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-left"
-        ],
+        "tags": ["text-text-left"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18940,9 +17952,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-right"
-        ],
+        "tags": ["text-text-right"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -18978,9 +17988,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-size"
-        ],
+        "tags": ["text-text-size"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -19016,9 +18024,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-strikethrough"
-        ],
+        "tags": ["text-text-strikethrough"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -19054,9 +18060,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "text-text-underline"
-        ],
+        "tags": ["text-text-underline"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -19092,9 +18096,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "trendlines-exp-line"
-        ],
+        "tags": ["trendlines-exp-line"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19132,9 +18134,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "trendlines-linear-line"
-        ],
+        "tags": ["trendlines-linear-line"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19172,9 +18172,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "trendlines-log-line"
-        ],
+        "tags": ["trendlines-log-line"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19212,9 +18210,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "trendlines-polynomial-line"
-        ],
+        "tags": ["trendlines-polynomial-line"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19252,9 +18248,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-attention"
-        ],
+        "tags": ["warning-attention"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -19290,9 +18284,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-error"
-        ],
+        "tags": ["warning-error"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19330,9 +18322,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-info-outline"
-        ],
+        "tags": ["warning-info-outline"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -19368,9 +18358,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-info"
-        ],
+        "tags": ["warning-info"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19408,9 +18396,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-loading"
-        ],
+        "tags": ["warning-loading"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19458,9 +18444,7 @@
         "isMulticolor": false,
         "isMulticolor2": true,
         "grid": 0,
-        "tags": [
-          "warning-progress"
-        ],
+        "tags": ["warning-progress"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19510,9 +18494,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-success-task"
-        ],
+        "tags": ["warning-success-task"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {}
@@ -19548,9 +18530,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-success"
-        ],
+        "tags": ["warning-success"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {
@@ -19588,9 +18568,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": [
-          "warning-warning"
-        ],
+        "tags": ["warning-warning"],
         "colorPermutations": {
           "150702551153235118719412452050125514849125582102131113255135149691411212551611332551": [
             {

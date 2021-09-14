@@ -194,7 +194,7 @@ const NotificationsPage = () => {
             onClick={() =>
               HzMessage.systemInfo({
                 duration: 1000000,
-                content: 'Single line message',
+                content: 'Single line message'
               })
             }
           >
@@ -210,7 +210,7 @@ const NotificationsPage = () => {
             onClick={() =>
               HzMessage.systemSuccess({
                 duration: 1000000,
-                content: 'Single line message',
+                content: 'Single line message'
               })
             }
           >
@@ -226,7 +226,7 @@ const NotificationsPage = () => {
             onClick={() =>
               HzMessage.systemWarning({
                 duration: 1000000,
-                content: 'Single line message',
+                content: 'Single line message'
               })
             }
           >
@@ -242,7 +242,7 @@ const NotificationsPage = () => {
             onClick={() =>
               HzMessage.systemSuccess({
                 duration: 1000000,
-                content: 'Single line message',
+                content: 'Single line message'
               })
             }
           >

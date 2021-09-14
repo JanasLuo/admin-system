@@ -8,7 +8,17 @@
  */
 
 import React, { useState } from 'react'
-import { Row, Col, Divider, Table, Badge, Space, Dropdown, Menu, Button } from 'antd'
+import {
+  Row,
+  Col,
+  Divider,
+  Table,
+  Badge,
+  Space,
+  Dropdown,
+  Menu,
+  Button
+} from 'antd'
 
 import { DownOutlined } from '@ant-design/icons'
 
@@ -54,9 +64,11 @@ const TablePage = () => {
       title: 'Action',
       dataIndex: '',
       key: 'x',
-      render: () => <Button className="primary" type="text">
-        Button
-    </Button>
+      render: () => (
+        <Button className="primary" type="text">
+          Button
+        </Button>
+      )
     }
   ]
 
@@ -161,9 +173,13 @@ const TablePage = () => {
     { title: 'Creator', dataIndex: 'creator', key: 'creator' },
     { title: 'Date', dataIndex: 'createdAt', key: 'createdAt' },
     {
-      title: 'Action', key: 'operation', render: () => <Button className="primary" type="text">
-        Button
-  </Button>
+      title: 'Action',
+      key: 'operation',
+      render: () => (
+        <Button className="primary" type="text">
+          Button
+        </Button>
+      )
     }
   ]
 
