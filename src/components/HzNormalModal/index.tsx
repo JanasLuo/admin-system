@@ -3,8 +3,8 @@
  * @version:
  * @Author: liuhaoran
  * @Date: 2021-01-19 16:57:47
- * @LastEditors: mark
- * @LastEditTime: 2021-01-29 19:32:51
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-09-16 17:51:06
  */
 
 import React, { FC, ReactNode } from 'react'
@@ -12,7 +12,7 @@ import { Modal } from 'antd'
 import styles from './index.styl'
 import HzPopButton from 'src/components/HzPopButton'
 import HzIcon from 'src/components/HzIcon'
-interface HzNormalMldal {
+interface HzNormalMldalPrps {
   title: string
   centered?: boolean | undefined
   content?: ReactNode
@@ -27,7 +27,7 @@ interface HzNormalMldal {
   afterClose?(): void
 }
 
-const HzNormalMldal: FC<HzNormalMldal> = props => {
+const HzNormalMldal: FC<HzNormalMldalPrps> = props => {
   const {
     title,
     afterClose,
