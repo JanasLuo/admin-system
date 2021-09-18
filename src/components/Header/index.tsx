@@ -16,7 +16,6 @@ import { withRouter } from 'react-router-dom'
 import { RouteComponentProps } from 'react-router'
 export interface HeaderProps extends RouteComponentProps {
   sigout: () => Promise<any>
-  location: any
 }
 
 const Header = (props: HeaderProps) => {

@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2021-01-29 20:03:08
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-14 22:19:16
+ * @LastEditTime: 2021-09-18 16:39:22
  */
 import { observer, inject } from 'mobx-react'
 import * as React from 'react'
@@ -49,7 +49,7 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
   public render() {
     return (
       <div className="main">
-        <HeaderNav sigout={this.sigout} location={this.props.location} />
+        <HeaderNav sigout={this.sigout} />
         <div className="main-body">
           <div className="right-body">
             <MainRoute {...this.props}></MainRoute>
