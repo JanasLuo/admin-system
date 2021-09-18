@@ -4,44 +4,30 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-14 19:11:40
+ * @LastEditTime: 2021-09-18 16:34:13
  */
 
-import React, { useState } from 'react'
-import { observer } from 'mobx-react-lite' // 6.x or mobx-react-lite@1.4.0
+import React from 'react'
+// import { observer } from 'mobx-react-lite' // 6.x or mobx-react-lite@1.4.0
 import styles from './index.styl'
 import UserStore from 'src/stores/modules/user'
-export interface HeaderProps {
+import { Button } from 'antd'
+import { withRouter } from 'react-router-dom'
+import { RouteComponentProps } from 'react-router'
+export interface HeaderProps extends RouteComponentProps {
   sigout: () => Promise<any>
   location: any
 }
 
 const Header = (props: HeaderProps) => {
-  // const sigout = async () => {
-  //   await UserStore.sigout()
-  // }
-  const [a, setA] = useState(1)
-  const gohome = () => {
-    // history.replace('/main/home')
-    setA(2)
-  }
-  const {
-    header,
-    left_box,
-    right_box,
-    user_header,
-    user_name,
-    notification,
-    setting,
-    help,
-    logout
-  } = styles
+  const { header, right_box, user_name, notification, setting, help, logout } =
+    styles
   return (
     <div className={`header-main ${header} `}>
-      <div className={left_box} onClick={gohome}></div>
-
+      <Button type="primary" onClick={() => props.history.push('/base_comp')}>
+        基础组件
+      </Button>
       <div className={right_box}>
-        <span className={user_header}>{a}</span>
         <span className={user_name}>
           {UserStore.getAccount().name || '警官'}
         </span>
@@ -54,4 +40,4 @@ const Header = (props: HeaderProps) => {
   )
 }
 
-export default observer(Header)
+export default withRouter(Header)
