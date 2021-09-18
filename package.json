@@ -104,8 +104,7 @@
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
       "yarn prettier",
-      "yarn lint_fix",
-      "git add"
+      "yarn lint_fix"
     ]
   },
   "config-overrides-path": "./webpack.config.js",
