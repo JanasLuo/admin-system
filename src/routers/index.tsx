@@ -18,7 +18,6 @@ const routerStore = new RouterStore()
 const history = syncHistoryWithStore(browserHistory, routerStore)
 const Main = lazy(() => import('src/pages/main/Main'))
 const Login = lazy(() => import('src/pages/login/Login'))
-const BaseComp = lazy(() => import('src/pages/base_comp/BaseComp'))
 export default class AppRouter extends React.Component<{}, {}> {
   public render() {
     return (
@@ -27,7 +26,6 @@ export default class AppRouter extends React.Component<{}, {}> {
           <Switch>
             <Route path="/main" component={Main} />
             <Route path="/login" component={Login} />
-            <Route path="/base_comp" component={BaseComp} />
             <Redirect to="/main" />
             <Redirect to="/login" />
           </Switch>
