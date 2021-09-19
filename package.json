@@ -34,7 +34,7 @@
   "scripts": {
     "test": "react-scripts test",
     "lint-styl": "stylint src/styles",
-    "start-ts": "react-app-rewired start --scripts-version react-scripts",
+    "start-ts": "set GENERATE_SOURCEMAP=true && react-app-rewired start --scripts-version react-scripts",
     "start": "react-app-rewired start",
     "build-ts": "react-app-rewired build --scripts-version react-scripts",
     "build": "npm-run-all build-ts",
