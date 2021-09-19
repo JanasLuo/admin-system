@@ -4,15 +4,24 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-08-19 17:13:59
+ * @LastEditTime: 2021-09-19 16:19:49
  */
 const proxyObject = require('./config/proxy.conf')
-const BuildInfo = require('./version.js')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin
+// const BuildInfo = require('./version.js')
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+//   .BundleAnalyzerPlugin
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+// const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const path = require('path')
+// const fs = require("fs") ;
+
+// 检查是否存在git
+// function isExistGit() {
+//   // 检查某个目录是否存在
+//   const stat = fs.statSync(path.join(__dirname,'.git'));
+//   return stat.isDirectory()
+// }
+// console.log('----------isExistGit', isExistGit())
 module.exports = {
   webpack: (config, env) => {
     config.module.rules = config.module.rules.map(rule => {
@@ -22,9 +31,7 @@ module.exports = {
           oneOf: [
             {
               test: /\.(jsx|js|ts|tsx)$/,
-              include: [
-                path.resolve(__dirname, '../src'),
-              ],
+              include: [path.resolve(__dirname, '../src')],
               exclude: [/node_modules/],
               use: ['eslint-loader'],
               enforce: 'pre'
@@ -65,9 +72,9 @@ module.exports = {
             removeComments: false,
             collapseWhitespace: true,
             removeAttributeQuotes: true
-          },
-          buildInfo: BuildInfo
-        }),
+          }
+          // buildInfo: BuildInfo
+        })
         // new UglifyJsPlugin({
         //   uglifyOptions: {
         //     // 删除注释
