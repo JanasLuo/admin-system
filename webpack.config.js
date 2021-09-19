@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-19 16:27:05
+ * @LastEditTime: 2021-09-19 20:46:52
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -15,13 +15,14 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const path = require('path')
 const fs = require('fs')
 
-// 检查是否存在git
-function isExistGit() {
-  // 检查某个目录是否存在
-  const stat = fs.statSync(path.join(__dirname, '.git'))
-  return stat.isDirectory()
+// 获取文件路径
+function getFileRealPath(s) {
+  try {
+    return fs.realpathSync(s)
+  } catch (e) {
+    return false
+  }
 }
-console.log('----------isExistGit', isExistGit())
 module.exports = {
   webpack: (config, env) => {
     config.module.rules = config.module.rules.map(rule => {
@@ -64,6 +65,7 @@ module.exports = {
       delete config.devtool
       // config.plugins.push(new BundleAnalyzerPlugin()) // 打包分析
       const plugins = [
+        // 去掉console.log debugger
         new UglifyJsPlugin({
           uglifyOptions: {
             // 删除注释
@@ -79,7 +81,8 @@ module.exports = {
           }
         })
       ]
-      if (isExistGit()) {
+      // 通过获取.git文件路径 判断是否在git目录下
+      if (getFileRealPath('.git')) {
         plugins.push(
           new HtmlWebpackPlugin({
             filename: './version.html', // 打包后生成的文件路径

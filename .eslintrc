@@ -1,7 +1,9 @@
 {
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint/eslint-plugin"],
-  "extends": ["alloy", "alloy/react", "alloy/typescript","eslint:recommended", "prettier"],
+  "extends": [
+    "react-app"
+  ],
   "settings": {
     "react": {
       "version": "detect"
