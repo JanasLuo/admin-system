@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-18 10:20:05
+ * @LastEditTime: 2021-09-28 14:18:08
 -->
 
 # 项目启动
@@ -57,11 +57,14 @@
   	* eventBus 全局事件总线
   	* selection.json 字体图标名字描述
 	* index 项目入口文件
+* .commitlintrc.js  git代码提交校验配置
+* .editorconfig.js  编辑器的代码格式配置
 * .prettierrc 编辑器代码格式化配置
-* .stylintrc 编辑器 ts 提示配置
+* .eslintrc JavaScript校验配置
+* .stylintrc stylus效验配置
 * types.d.ts ts类型声明
 * tsconfig.json ts配置
-* tslint.json ts验证规则配置
+* version.js git信息提取，用于打包版本信息构建
 * webpack.config.js webpack 配置
 
 # 开发规范
