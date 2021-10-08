@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-28 14:18:08
+ * @LastEditTime: 2021-10-08 10:49:23
 -->
 
 # 项目启动
@@ -215,7 +215,8 @@
 #### 组件
 + 不参与页面渲染的变量同时又要获取实时值需要用useRef定义，取.current值；
 + 非路由页面的Class组件想要从props中获取全局router的引用，需要用withRouter包装；
-+ 组件内使用的mobx状态数据要想响应式更新，需求用mbox-react的observer包装；
++ Class组件内使用的mobx状态数据要想响应式更新，需求用mbox-react的observer包装；
++ 函数组件内使用的mobx状态数据要想响应式更新，需求用mobx-react-lite的observer包装；
 #### stylus
 + :global全局样式下绝对路径前面需要添加~
   ```css
