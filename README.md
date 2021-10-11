@@ -57,6 +57,7 @@
   	* eventBus 全局事件总线
   	* selection.json 字体图标名字描述
 	* index 项目入口文件
+- version 版本信息模板文件
 * .commitlintrc.js  git代码提交校验配置
 * .editorconfig.js  编辑器的代码格式配置
 * .prettierrc 编辑器代码格式化配置
