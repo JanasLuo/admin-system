@@ -1,6 +1,14 @@
+/*
+ * @Author: janasluo
+ * @Date: 2021-10-08 15:16:42
+ * @LastEditTime: 2021-10-09 15:21:20
+ * @LastEditors: janasluo
+ * @Description:
+ * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Header.tsx
+ */
 import React from 'react'
 
-import { Button } from './Button'
+import Button from './Button/Button'
 import './header.css'
 
 interface HeaderProps {

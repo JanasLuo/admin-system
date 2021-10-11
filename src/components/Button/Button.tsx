@@ -1,10 +1,10 @@
 /*
  * @Author: janasluo
  * @Date: 2021-09-29 19:06:49
- * @LastEditTime: 2021-10-08 09:09:19
+ * @LastEditTime: 2021-10-09 15:36:15
  * @LastEditors: janasluo
  * @Description:
- * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/stories/Button.tsx
+ * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Button/Button.tsx
  */
 import React from 'react'
 import './button.css'
@@ -31,11 +31,10 @@ interface ButtonProps {
    */
   onClick?: () => void
 }
-
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({
+const Button = ({
   primary = false,
   size = 'medium',
   backgroundColor,
@@ -64,3 +63,5 @@ Button.defaultProps = {
   size: 'medium',
   onClick: undefined
 }
+
+export default Button
