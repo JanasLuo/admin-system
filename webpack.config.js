@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-10-11 15:27:35
+ * @LastEditTime: 2021-10-13 14:49:28
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -46,11 +46,15 @@ module.exports = {
                 {
                   loader: 'css-loader',
                   options: {
+                    sourceMap: true,
                     modules: { localIdentName: '[local]-[hash:base64:10]' }
                   }
                 },
                 {
-                  loader: 'stylus-loader'
+                  loader: 'stylus-loader',
+                  options: {
+                    sourceMap: true
+                  }
                 }
               ]
             },
