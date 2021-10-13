@@ -4,12 +4,13 @@
  * @Author: luolei
  * @Date: 2020-11-20 15:17:38
  * @LastEditors: janasluo
- * @LastEditTime: 2021-10-11 15:27:04
+ * @LastEditTime: 2021-10-13 10:27:25
  */
 
 import React from 'react'
 import { Button } from 'antd'
 import style from '!style-loader!css-loader?modules=true!stylus-loader!./index.styl'
+// import '!style-loader!css-loader!stylus-loader!./index.styl'
 interface EmptyProps {
   /**
    * 名称

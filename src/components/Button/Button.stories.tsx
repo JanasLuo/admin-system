@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
  * @Date: 2021-10-08 15:16:42
- * @LastEditTime: 2021-10-09 15:27:32
+ * @LastEditTime: 2021-10-12 11:13:28
  * @LastEditors: janasluo
  * @Description:
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Button/Button.stories.tsx
@@ -46,6 +46,19 @@ Primary.args = {
   primary: true,
   label: 'Button'
 }
+Primary.argTypes = {
+  backgroundColor: {
+    defaultValue: 'red',
+    control: 'color'
+  }
+}
+Primary.decorators = [
+  Story => (
+    <div style={{ margin: '3em' }}>
+      <Story />
+    </div>
+  )
+]
 Primary.parameters = {
   backgrounds: {
     values: [
