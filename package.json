@@ -9,8 +9,6 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
     "antd": "^4.11.2",
     "axios": "^0.19.0",
     "js-cookie": "^2.2.0",
@@ -51,7 +49,8 @@
     "storybook-docs": "start-storybook --docs --no-manager-cache",
     "build-storybook-docs": "build-storybook --docs",
     "stylus": "stylus src/styles/index.styl -o src/styles/index.css",
-    "sb": "npm-run-all stylus  storybook"
+    "sb": "npm-run-all stylus  storybook",
+    "build-es": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
@@ -66,6 +65,8 @@
     "@types/js-cookie": "^2.2.2",
     "@types/lodash": "^4.14.135",
     "@types/react-loadable": "^5.5.1",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
     "@types/react-router": "^5.0.2",
     "@types/react-router-dom": "^4.3.4",
     "@types/react-transition-group": "^2.9.2",

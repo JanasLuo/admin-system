@@ -1,0 +1,49 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // "outDir": "dist",
+    // "module": "esnext",
+    // "target": "es5",
+    // "declaration": true,
+    // "jsx": "react",
+    // "moduleResolution":"Node",
+    // "allowSyntheticDefaultImports": true,
+    // "experimentalDecorators": true,
+    // "baseUrl": ".",
+    // "lib": [
+    //   "es2017.object",
+    //   "es6",
+    //   "dom"
+    // ],
+    // "allowJs": true,
+    // "rootDir": "src",
+    // "forceConsistentCasingInFileNames": true,
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
+    // "noImplicitAny": true,
+    // "importHelpers": true,
+    // "strictNullChecks": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    // "noUnusedLocals": false,
+    // "skipLibCheck": true,
+    // "esModuleInterop": true,
+    // "strict": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "resolveJsonModule": true,
+    // "isolatedModules": true,
+    // "strictPropertyInitialization": false
+  },
+  // "exclude": [
+  //   "node_modules",
+  //   "src/**/*.test.tsx",
+  //   "src/**/*.stories.tsx",
+  //   "src/setupTests.ts",
+  // ],
+  // "types": [
+  //   "typePatches",
+  //   "webpack-env"
+  // ],
+  // "include": [
+  //   "src"
+  // ]
+}
