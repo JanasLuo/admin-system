@@ -13,33 +13,5 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/preset-create-react-app'
-  ],
-  webpackFinal: (config, { configType }) => {
-    // config.module.rules.push({
-    //   test: /\.styl$/,
-    //   use: [
-    //     {
-    //       loader: 'style-loader'
-    //     },
-    //     {
-    //       loader: 'css-loader',
-    //     },
-    //     {
-    //       loader: 'stylus-loader'
-    //     }
-    //   ]
-    // });
-    // config.module.rules.push({
-    //   test: /\.styl$/,
-    //   use: ['style-loader', 'css-loader', 'stylus-loader'],
-    //   include: path.resolve(__dirname, '../src'),
-    // });
-
-    // config.module.rules.push({
-    //   test: /\.css$/,
-    //   use: ['style-loader', 'css-loader?modules=true'],
-    //   include: path.resolve(__dirname, '../'),
-    // });
-    return config
-  }
+  ]
 }

@@ -21,6 +21,7 @@
     "no-debugger": 1,
     "no-console": 1,
     "@typescript-eslint/consistent-type-assertions": 0,
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": 0,
+    "spaced-comment": 0
   }
 }

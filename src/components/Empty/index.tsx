@@ -4,13 +4,13 @@
  * @Author: luolei
  * @Date: 2020-11-20 15:17:38
  * @LastEditors: janasluo
- * @LastEditTime: 2021-10-13 10:27:25
+ * @LastEditTime: 2021-10-20 11:57:57
  */
 
 import React from 'react'
 import { Button } from 'antd'
-import style from '!style-loader!css-loader?modules=true!stylus-loader!./index.styl'
-// import '!style-loader!css-loader!stylus-loader!./index.styl'
+// import style from '!style-loader!css-loader?modules=true!stylus-loader!./index.styl'
+import '!style-loader!css-loader!stylus-loader!./index.styl'
 interface EmptyProps {
   /**
    * 名称
@@ -23,13 +23,13 @@ interface EmptyProps {
 const Empty = (props: EmptyProps) => {
   const { label } = props
   return (
-    <div className={style.empty}>
-      {/* <div className="empty"> */}
+    // <div className={style.empty}>
+    <div className="empty">
       <Button type="primary">dddd</Button>
-      <div className={style.empty_bg}></div>
-      {/* <div className="empty_bg"></div> */}
-      <div className={style.empty_label}>{label}</div>
-      {/* <div className="empty_label">{label}</div> */}
+      {/* <div className={style.empty_bg}></div> */}
+      <div className="empty_bg"></div>
+      {/* <div className={style.empty_label}>{label}</div> */}
+      <div className="empty_label">{label}</div>
     </div>
   )
 }

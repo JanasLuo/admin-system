@@ -1,13 +1,13 @@
 /*
  * @Author: janasluo
  * @Date: 2021-10-08 15:16:42
- * @LastEditTime: 2021-10-13 10:53:51
+ * @LastEditTime: 2021-10-20 12:43:53
  * @LastEditors: janasluo
  * @Description:
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/.storybook/preview.js
  */
-// import '!style-loader!css-loader!stylus-loader!../src/styles/index.styl'
-import '!style-loader!css-loader?modules=true!stylus-loader!../src/styles/index.styl'
+import '!style-loader!css-loader!stylus-loader!../src/styles/index.styl'
+// import '!style-loader!css-loader?modules=true!stylus-loader!../src/styles/index.styl'
 import 'antd/dist/antd.css'
 
 export const parameters = {

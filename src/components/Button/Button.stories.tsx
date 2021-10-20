@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
- * @Date: 2021-10-08 15:16:42
- * @LastEditTime: 2021-10-12 11:13:28
+ * @Date: 2020-02-22 09:55:08
+ * @LastEditTime: 2021-10-20 11:02:45
  * @LastEditors: janasluo
  * @Description:
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Button/Button.stories.tsx
@@ -9,78 +9,38 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import Button from './Button'
+import { Button, ButtonProps } from './button'
 
-// eslint-disable-next-line @typescript-eslint/consistent-type-assertions
 export default {
-  title: 'Example/Button',
+  title: 'Button',
   component: Button,
-  // parameters: {
-  //   backgrounds: {
-  //     values: [
-  //       { name: 'red', value: '#f00' },
-  //       { name: 'green', value: '#0f0' },
-  //       { name: 'blue', value: '#00f' }
-  //     ]
-  //   }
-  // },
   argTypes: {
-    backgroundColor: {
-      // defaultValue: 'red',
-      control: 'color'
-    }
+    backgroundColor: { control: 'color' }
   }
-  // decorators: [
-  //   Story => (
-  //     <div style={{ margin: '3em' }}>
-  //       <Story />
-  //     </div>
-  //   )
-  // ]
 } as ComponentMeta<typeof Button>
 
-const Template: ComponentStory<typeof Button> = args => <Button {...args} />
+const Template: ComponentStory<typeof Button> = (args: ButtonProps) => (
+  <Button {...args}>Button</Button>
+)
 
 export const Primary = Template.bind({})
 Primary.args = {
-  primary: true,
-  label: 'Button'
+  btnType: 'default'
 }
-Primary.argTypes = {
-  backgroundColor: {
-    defaultValue: 'red',
-    control: 'color'
-  }
-}
-Primary.decorators = [
-  Story => (
-    <div style={{ margin: '3em' }}>
-      <Story />
-    </div>
-  )
-]
-Primary.parameters = {
-  backgrounds: {
-    values: [
-      { name: 'red', value: '#f00' },
-      { name: 'green', value: '#0f0' },
-      { name: 'blue', value: '#00f' }
-    ]
-  }
-}
+
 export const Secondary = Template.bind({})
 Secondary.args = {
-  label: 'Button'
+  btnType: 'primary'
 }
 
 export const Large = Template.bind({})
 Large.args = {
-  size: 'large',
-  label: 'Button'
+  size: 'lg',
+  btnType: 'default'
 }
 
 export const Small = Template.bind({})
 Small.args = {
-  size: 'small',
-  label: 'Button'
+  size: 'sm',
+  btnType: 'primary'
 }
