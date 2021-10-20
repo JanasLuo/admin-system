@@ -1,6 +1,6 @@
 {
   "name": "dp-antd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React components library",
   "author": "janas luo",
   "private": false,
@@ -79,6 +79,7 @@
     "@types/webpack-env": "^1.13.9",
     "antd": "^3.24.0",
     "commitizen": "^4.2.3",
+    "cross-env": "^7.0.3",
     "customize-cra": "^1.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint-config-alloy": "^4.3.0",
