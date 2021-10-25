@@ -4,12 +4,14 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-10-20 12:46:09
+ * @LastEditTime: 2021-10-25 18:35:50
  */
 const path = require('path')
 
 module.exports = {
   webpack: (config, env) => {
+    // debugger
+    config.entry = path.join(__dirname, 'src/index_dev.tsx')
     config.module.rules = config.module.rules.map(rule => {
       if (rule.oneOf instanceof Array) {
         return {

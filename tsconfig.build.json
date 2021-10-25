@@ -3,4 +3,15 @@
   "compilerOptions": {
     "noEmit": false
   },
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "src/setupTests.ts",
+    "src/pages",
+    "src/routers",
+    "src/index_dev.tsx"
+  ]
 }
