@@ -7,7 +7,7 @@ export default class Loading extends React.Component<{}, {}> {
   }
 }
 
-export class LoadableLoading extends React.Component<{}, {}> {
+export class SuspenseLoading extends React.Component<{}, {}> {
   public render() {
     const loadComponent: React.ReactElement = (
       <div className="spin-main">

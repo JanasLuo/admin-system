@@ -1,4 +1,1869 @@
+.hz-dark-antd, .hz-light-antd, .hz-blue-antd
+  font-size var(--font-size-medium)
+  color var(--type-900)
 
-#root
-  .ant-btn-primary
+  /* button */
+  .ant-btn
+    // color var(--type-800)
+    // color var(--primary-700)
+    color var(--type-900)
+    font-size var(--font-size-medium)
+    font-weight var(--font-weight-normal-bold)
+    border none
+    // padding 0px 16px
+    z-index 0
+    position relative
+    height auto
+    border-radius 4px
+    // background var(--primary-a100)
+    background-color var(--primary-900)
+    padding 0 12px
+    height 32px
+    line-height 32px
+
+    &.ant-btn-primary
+      background-color var(--primary-900)
+
+      &:hover
+        background-color var(--primary-800)
+
+      &.active, &:active
+        background-color var(--primary-700)
+
+      &[disabled]
+        opacity 0.5
+        color var(--type-900)
+        background var(--primary-900)
+
+    &.ant-btn-background-ghost
+      background var(--primary-a100) !important
+
+    &.ant-dropdown-trigger
+      background none
+
+      &[disabled]
+        background none
+        padding 0 24px 0 12px !important
+
+        i
+          width 12px
+          height 10px
+
+          svg
+            display none
+
+          // margin-right 12px
+          position absolute
+          color var(--type-700)
+          width 12px
+          height 8px
+          right 8px
+          top 45%
+          background-size 100% 100%
+          background-position center
+          background-repeat no-repeat
+          background-image url('../assets/antd/btn-dropdown-new.svg')
+          transition transform 0.3s, -webkit-transform 0.3s
+
+        &:hover
+          background none
+
+        span
+          color var(--type-900)
+          font-weight normal
+
+      &:not([disabled])
+        background none
+        padding 0 24px 0 12px !important
+        font-weight normal
+        box-shadow none
+
+        span
+          color var(--type-900)
+
+        // padding: 0 24px 0 0 !important;
+        i
+          width 12px
+          height 10px
+
+          svg
+            display none
+
+          // margin-right 12px
+          position absolute
+          color var(--type-700)
+          width 12px
+          height 8px
+          right 8px
+          top 45%
+          background-size 100% 100%
+          background-position center
+          background-repeat no-repeat
+          background-image url('../assets/antd/btn-dropdown-new.svg')
+          transition transform 0.3s, -webkit-transform 0.3s
+
+        &:active
+          background var(--primary-a200)
+
+      &:hover
+        background var(--primary-a100)
+
+    &>.acticon + span, &>span+.anticon
+      margin-left 0
+
+    &.ant-dropdown-open
+      background none
+
+      i
+        transform scale(0.83333333) rotate(180deg)
+        width 10px
+
+    &[disabled]
+      opacity 0.5
+      color var(--type-900)
+      background var(--primary-a100)
+
+      // &:hover
+      // color var(--type-900)
+      // background var(--primary-a200)
+      & > span:before, & > span:after
+        background none !important
+
+    &:not([disabled]):active
+      background var(--primary-a300)
+
+    &.ant-btn-lg
+      height 36px
+      line-height 36px
+      padding 0 16px
+
+      & > span
+        font-size var(--font-size-medium)
+        font-weight var(--font-weight-medium-bold)
+        // height 36px
+        // line-height 36px
+
+    &.text
+      &:hover, &:active, &.active
+        background none
+
+        & > span:before
+          background var(--primary-a400)
+
+      & > span
+        background none
+
+    &.outline
+      &:hover, &:active, &.active
+        background none
+
+        & > span:before
+          background var(--primary-800)
+
+      & > span
+        background var(--bg-200)
+        padding-right 34px
+
+        &:before
+          background var(--primary-a300)
+
+      & > i
+        display inline-block
+        width 12px
+        height 6px
+        position absolute
+        right 10px
+        top 50%
+        transform translateY(-3px)
+
+    &.upload
+      &:hover, &:active, &.active
+        background none
+
+        & > span:before
+          background var(--primary-800)
+
+      & > span
+        &:before
+          background var(--primary-a300)
+
+      & > i
+        display inline-block
+        width 20px
+        height 20px
+        position absolute
+        left 10px
+        top 50%
+        transform translateY(-10px)
+        z-index 1
+
+    & > span
+      display inline-block
+      // width 100%
+      font-size var(--font-size-normal)
+      border-radius 6px
+      position relative
+      border none
+      outline none
+      cursor pointer
+      color var(--general-type-900)
+
+      &:before
+        content ''
+        position absolute
+        top -2px
+        bottom -2px
+        left -2px
+        right -2px
+        border-radius 8px
+        z-index -1
+
+      &:after
+        content ''
+        position absolute
+        top -2px
+        bottom -2px
+        left -2px
+        right -2px
+        background-blend-mode overlay
+        border-radius 8px
+
+      // & > span:before
+      // background radial-gradient(98.13% 189.87% at 1.87% 3.75%, #0BF3FC 0%, #158CB9 33.51%, #15B1BC 100%)
+      & > span:before
+        background radial-gradient(94.25% 182.07% at 1.87% 3.75%, #0BF3FC 0%, #158CB9 19.76%, #0F6890 37.45%, #09476A 100%)
+
+    &:after
+      background var(--primary-a300)
+
+    &:hover
+      // background var(--primary-800) !important
+
+    &.ant-btn-sm
+      padding 0 9px !important
+      height 28px !important
+      line-height 28px !important
+      border-radius 3px
+      font-size var(--font-size-normal)
+      font-weight var(--font-weight-small-bold)
+
+      & > span
+        height 28px
+        line-height 28px
+        padding 0
+
+    &.default
+      & > span
+        color var(--button-type-800)
+
+    &.ant-btn-link
+      background none
+
+      // background var(--primary-a100)
+      &:hover
+        background var(--primary-a200)
+
+      &[disabled]
+        background none !important
+
+  .ant-dropdown
+    .ant-dropdown-menu
+      background-color var(--bg-700)
+      border-radius 8px
+      color var(--type-900)
+      max-height 90vh
+      overflow auto
+      padding 8px 8px 4px 8px
+
+    .ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title
+      color var(--type-800)
+      height 30px
+      line-height 30px
+      padding 0 8px
+      margin-bottom 4px
+
+      // padding-left 16px
+      & > a
+        color var(--type-800)
+
+      .ant-dropdown-menu-submenu-arrow
+        right 0
+
+        .ant-dropdown-menu-submenu-arrow-icon
+          color var(--type-800)
+
+      &:active
+        background var(--primary-a200)
+        color var(--type-800)
+        border-radius 8px
+
+      &:hover
+        border-radius 8px
+        color var(--type-800)
+        background var(--mono-a100)
+        // height 40px
+
+  /* table */
+  .ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body
+    background transparent
+
+  .ant-table-fixed-header .ant-table-body-inner
+    // padding-bottom 12px
+
+  .ant-table
+    border none
+
+  .ant-table
+    font-size var(--font-size-medium)
+
+    .ant-table-thead > tr
+      background var(--mono-a200)
+      // background #cfd6ef
+      height 48px
+      line-height 48px
+
+    .ant-table-thead > tr, .ant-table-tbody > tr
+      // background var(--mono-a200)
+      & > th, & > td
+        border-bottom 1px solid var(--mono-a300)
+
+      & > td
+        color var(--type-900)
+
+      &:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+        & > td
+          background var(--mono-a100)
+
+    .ant-table-header
+      background var(--bg-800)
+      // background #cfd6ef
+      overflow hidden !important
+      margin-bottom 0 !important
+
+    .ant-table-body-outer
+      background var(--bg-800)
+      margin-bottom 0 !important
+
+      &:hover
+        background var(--mono-a300)
+
+      tr
+        background var(--bg-800)
+
+    .ant-table-thead > tr > th
+      background transparent
+      color var(--type-700) !important
+      font-size var(--font-size-normal) !important
+      font-weight var(--font-weight-normal-bold)
+      padding 0 10px !important
+      border none
+
+    .ant-table-tbody
+      & > tr.ant-table-row-selected
+        // background var(--primary-800)
+        & > td
+          background transparent
+
+      .task-level
+        display inline-block
+        width 36px
+        height 20px
+        background-size 100% 100%
+        background-position center
+        background-repeat no-repeat
+
+      .action-ok
+        display inline-block
+        width 14px
+        height 15px
+        background-size 100% 100%
+        background-position center
+        background-repeat no-repeat
+        background-image url('../assets/antd/action-ok.svg')
+
+      .action-del
+        display inline-block
+        width 13px
+        height 15.5px
+        margin-right 22px
+        background-size 100% 100%
+        background-position center
+        background-repeat no-repeat
+        background-image url('../assets/antd/action-del.svg')
+
+      .status
+        display inline-block
+        padding 0px 12px
+        height 28px
+        line-height 28px
+        border-radius 23px
+        font-size var(--font-size-normal)
+        min-width 64px
+        text-align center
+        font-weight var(--font-weight-small-bold)
+        width auto
+
+      .status-notsigned
+        color var(--orange-900)
+        background var(--orange-a100)
+
+      .status-signed
+        color var(--green-900)
+        background var(--green-a100)
+
+      .status-complete
+        color var(--blue-900)
+        background var(--blue-a100)
+
+      .status-overdue
+        color var(--gray-900)
+        background var(--gray-a100)
+
+    .ant-table-tbody > tr > td
+      color var(--type-900)
+      padding 10px
+
+    .ant-table-tbody > tr:hover
+      // background var(--mono-a300)
+      &>td
+        // background transparent
+        background var(--mono-a100)
+
+    .ant-table-placeholder
+      background var(--mono-100)
+      border-top 1px solid var(--mono-100)
+      border-bottom 1px solid var(--mono-100)
+
+  .ant-badge-count, .ant-badge-dot
+    // background var(--bg-500)
+    background var(--primary-a300)
+    box-shadow none
+    height 22px
+    line-height 22px
+    border-radius 24px
+    color var(--general-type-900)
+    padding 0 6.5px
+
+  .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td
+    // background rgba(39, 216, 240, 0.05)
+    background var(--primary-a100)
+
+  /* 进度条 */
+  .ant-steps
+    .ant-steps-item-finish .ant-steps-item-icon
+      background-color transparent
+      border-color var(--primary-900)
+      border-width 2px
+
+    .ant-steps-item-finish .anticon
+      color var(--primary-900)
+
+    .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title
+      color var(--type-700)
+
+      &:after
+        background-color var(--primary-900)
+        height 2px
+
+    .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description
+      color var(--type-700)
+
+    .ant-steps-item-process .ant-steps-item-icon
+      border-color var(--primary-900)
+      background var(--primary-900)
+
+      .ant-steps-icon
+        font-weight var(--font-weight-small-bold)
+        color var(--general-type-900)
+
+    .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title
+      color var(--type-900)
+      font-weight var(--font-weight-small-bold)
+
+      .ant-steps-item-subtitle
+        color var(--type-900)
+
+    .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description
+      color var(--type-900)
+
+    .ant-steps-item-wait .ant-steps-item-icon
+      background-color transparent
+      border-color var(--mono-a400)
+      border-width 2px
+
+      .ant-steps-icon
+        color var(--type-600)
+        font-weight var(--font-weight-small-bold)
+
+    .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title
+      color var(--type-700)
+
+    .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description
+      color var(--type-700)
+
+    .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after
+      background-color var(--type-600)
+      height 2px
+
+    .ant-steps-item-error > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title
+      color var(--red-900)
+
+  /* 树 */
+  .ant-tree.ant-tree-directory > li span.ant-tree-node-content-wrapper:hover::before, .ant-tree.ant-tree-directory .ant-tree-child-tree > li span.ant-tree-node-content-wrapper:hover::before
+    background var(--bg-400)
+
+  .ant-tree li
+    .ant-tree-node-content-wrapper
+      font-size var(--font-size-normal)
+      color var(--type-900)
+      padding 0 12px
+
+      &:hover, &.ant-tree-node-selected
+        background var(--mono-200)
+        border-radius 4px
+
+  /* 穿梭框 */
+  .ant-transfer
+    .ant-tree-checkbox-inner
+      background-color transparent
+
+    .ant-tree li .ant-tree-node-content-wrapper
+      line-height initial
+
+    .ant-tree-child-tree
+      margin-left 24px
+
+    .ant-tree-checkbox-checked .ant-tree-checkbox-inner
+      background-color var(--primary-800)
+
+    .ant-tree-checkbox-disabled .ant-tree-checkbox-inner
+      background-color var(--bg-100)
+
+    .ant-transfer-list
+      background var(--bg-400)
+      border 0
+      border 1px solid var(--mono-a400)
+
+      .ant-transfer-list-header
+        // background var(--bg-400)
+        background transparent
+        border-bottom 1px solid var(--mono400)
+        color var(--type-800)
+
+      .ant-transfer-list-content-item
+        color var(--type-800)
+
+        &:hover
+          background var(--bg-500)
+
+        .ant-checkbox .ant-checkbox-inner
+          border-color var(--mono-300) !important
+
+      .ant-transfer-list-content-item-disabled
+        color var(--type-600)
+
+        .ant-checkbox-disabled .ant-checkbox-inner
+          border-color var(--type-600) !important
+
+      .ant-transfer-list-content::-webkit-scrollbar-track
+        border 0
+
+  /* tag标签 */
+  .ant-tag
+    border 1px solid var(--mono-400)
+    background transparent
+    // color var(--type-800)
     color var(--type-800)
+    font-size var(--font-size-medium)
+    height 26px
+    line-height 26px
+    font-weight bold
+
+    &.ant-tag-red
+      color var(--red-900)
+      border 1px solid var(--red-900)
+      background var(--red-a300)
+
+    &.ant-tag-orange
+      color var(--orange-900)
+      border 1px solid var(--orange-900)
+      background var(--orange-a300)
+
+    &.ant-tag-green
+      color var(--green-900)
+      border 1px solid var(--green-900)
+      background var(--green-a300)
+
+    &.ant-tag-yellow
+      color var(--yellow-900)
+      border 1px solid var(--yellow-900)
+      background var(--yellow-a300)
+
+    &.ant-tag-purple
+      color var(--purple-900)
+      border 1px solid var(--purple-900)
+      background var(--purple-a300)
+
+    &.ant-tag-blue
+      color var(--primary-900)
+      border 1px solid var(--primary-900)
+      background var(--primary-a200)
+
+    .anticon-close
+      color var(--type-800)
+
+    &.small-tag
+      line-height 20px
+      height 20px
+
+    &.solid-tag
+      background var(--primary-a100)
+      border 1px solid transparent
+      border-radius 16px
+      line-height 28px
+      height 28px
+
+      &.small-tag
+        line-height 22px
+        height 22px
+
+      &:hover
+        background var(--primary-a200)
+        color var(--primary-900)
+
+      &:active, &.active
+        background var(--primary-a200)
+        color var(--primary-900)
+        border 1px solid var(--primary-900)
+
+  /* 输入框 */
+  .has-error
+    .ant-input, .ant-select, .ant-input-number, .ant-select.ant-select-open
+      color var(--red-900)
+      background var(--red-a100)
+      box-shadow inset 0px -2px 0px var(--red-900)
+
+      &:hover
+        background var(--red-a100)
+        box-shadow inset 0px -2px 0px var(--red-900)
+
+      &:focus
+        background var(--red-a100)
+        box-shadow inset 0px -2px 0px var(--red-900)
+
+      .ant-select-selection
+        &:hover
+          background var(--red-a100)
+          box-shadow inset 0px -2px 0px var(--red-900)
+
+        &:focus
+          background var(--red-a100)
+          box-shadow inset 0px -2px 0px var(--red-900)
+
+    .ant-select-focused
+      box-shadow inset 0px -2px 0px var(--red-900)
+
+    .ant-select-open
+      &:hover
+        box-shadow inset 0px -1px 0px var(--red-900)
+
+  .ant-input-affix-wrapper
+    font-size var(--font-size-medium)
+    overflow hidden
+
+  .ant-input-number-handler-wrap
+    border-left 1px solid var(--mono-400)
+
+    .ant-input-number-handler-up-inner, .ant-input-number-handler-down-inner
+      color var(--type-900)
+
+  .ant-input-number-handler-down
+    border-top 1px solid var(--mono-400)
+
+  .ant-mentions
+    background-color var(--primary-a100)
+    border none
+
+  .app textarea
+    &.ant-input
+      height auto
+
+  .ant-input, .ant-input-number, .ant-mentions > textarea
+    background var(--mono-a100)
+    border none
+    font-size var(--font-size-medium)
+    border-radius 4px 4px 0 0
+    color var(--type-900)
+    position relative
+    box-shadow inset 0px -1px 0px var(--mono-a400)
+
+    &.ant-input-sm
+      height 28px
+      border-radius 3px 3px 0 0
+
+    &.ant-input-lg
+      height 36px
+
+    &:hover
+      background var(--mono-a300)
+      box-shadow inset 0px -1px 0px var(--mono-a500)
+
+    &:focus
+      background var(--mono-a300)
+      box-shadow inset 0px -1px 0px var(--primary-900)
+
+    &::placeholder
+      color var(--type-600)
+
+    &[disabled]
+      background var(--mono-a100)
+
+  textarea.ant-input
+    height auto !important
+
+  .ant-form-item-has-error
+    .ant-input
+      color var(--red-900)
+      background var(--red-a100)
+      box-shadow inset 0px -2px 0px var(--red-900)
+
+  .ant-input-number-input
+    height 36px
+
+  .ant-input-number-handler-wrap
+    background transparent
+
+  .ant-input-disabled, .ant-select-disabled, .ant-input-number-disabled
+    opacity 0.5
+    // border-radius 8px 8px 3px 3px
+    border-radius 4px 4px 0 0
+    color var(--type-800)
+
+    &:hover, &:focus
+      opacity 0.5
+
+  .ant-input-search-icon
+    color var(--type-700)
+
+  .ant-input-search
+    border-radius 4px 4px 0 0
+
+  // 自动完成 ?
+  .ant-select-auto-complete
+    height auto !important
+
+  // 下拉
+  .ant-select.ant-select-open
+    background var(--primary-a200)
+
+    .ant-select-arrow
+      transform rotate(180deg)
+
+  .ant-select.ant-select-focused
+    .ant-select-selection
+      // box-shadow inset 0px -2px 0px var(--primary-900)
+
+  .inputAssist
+    &.ant-select
+      background-image url('../assets/antd/exchange.svg') !important
+      background-repeat no-repeat
+      background-size 20px 20px
+      background-position center right 10px
+
+  .ant-select
+    // border-radius 4px
+    border-radius 4px 4px 0 0
+    // overflow hidden // 影响布局
+    height 32px
+    line-height 32px
+    border-bottom none
+    background-color var(--mono-a100)
+    box-shadow inset 0px -1px 0px var(--mono-a400)
+
+    &.ant-select-sm
+      height 28px
+
+      .ant-select-selection
+        height 28px
+
+        &>div
+          height 28px
+          line-height 28px
+
+    &.ant-select-lg
+      height 36px
+
+      .ant-select-selection
+        height 36px
+
+        &>div
+          height 36px
+          line-height 36px
+
+    &:hover
+      background-color var(--mono-a300)
+      box-shadow inset 0px -1px 0px var(--mono-a500)
+
+    .ant-select-selection
+      border none
+      height 32px
+      border-radius 0
+      background transparent
+
+      &>div
+        height 32px
+        line-height 32px
+
+      &:hover
+        // background var(--mono-a100)
+        box-shadow none
+
+      &:focus
+        background var(--mono-a100)
+        box-shadow inset 0px -1px 0px var(--primary-900)
+
+      .ant-select-selection-selected-value
+        color var(--type-900)
+
+      .ant-select-arrow
+        color var(--type-700)
+        width 12px
+        height 6px
+        right 8px
+        top 55%
+        bg-contain('antd/triangle-down-new.svg')
+        transition transform 0.3s, -webkit-transform 0.3s
+
+        .anticon-down
+          opacity 0
+
+    .ant-select-selection__rendered
+      line-height 36px
+      color var(--type-900)
+
+      .ant-select-selection__placeholder
+        color var(--type-600)
+        font-size 14px
+
+  .ant-select-selection--multiple
+    .ant-select-selection__choice
+      color var(--type-800)
+      background var(--bg-300)
+      border 1px solid var(--mono-400)
+
+    .ant-select-selection__choice__remove
+      color var(--type-700)
+
+  .ant-select-auto-complete.ant-select
+    height auto
+
+    .ant-input
+      box-shadow none !important
+
+    textarea.ant-input
+      height auto
+
+  /* tabs */
+  .ant-tabs
+    color var(--type-800)
+
+    .ant-tabs-bar
+      border-bottom 1px solid var(--mono-a400)
+
+    .ant-tabs-nav
+      font-size var(--font-size-normal)
+      font-weight var(--font-weight-normal-bold)
+
+      .ant-tabs-tab
+        // padding 14px 24px
+        margin-right 0
+
+        .anticon
+          font-size var(--font-size-medium)
+
+        &:hover
+          color var(--type-800)
+          background var(--mono-a100)
+
+    .ant-tabs-nav .ant-tabs-tab-active
+      color var(--primary-900)
+
+      &:hover
+        color var(--primary-900)
+
+    .ant-tabs-ink-bar
+      background-color var(--primary-900)
+      border-radius 2px 2px 0px 0px
+
+  .ant-tabs.tabs-dense
+    .ant-tabs-nav
+      font-size var(--font-size-small)
+
+      .ant-tabs-tab
+        padding 6px 16px
+
+  .ant-tabs.large
+    .ant-tabs-ink-bar
+      left 30px
+      width 16px !important
+
+  .ant-tabs.dot
+    .ant-tabs-ink-bar
+      left 32px
+      width 7px !important
+
+  .ant-pagination
+    // color var(--type-800)
+    color var(--type-800)
+
+    .ant-pagination-options
+      vertical-align top
+
+    .ant-pagination-item, .ant-pagination-prev, .ant-pagination-next
+      min-width 32px
+      height 32px
+      line-height 32px
+      color var(--type-800)
+      // color var(--type-900)
+      background transparent
+      margin 0 4px
+
+      .ant-pagination-item-link
+        // color var(--type-800)
+        background transparent
+        border none
+        position relative
+        display flex
+        justify-content center
+        align-items center
+
+        .anticon
+          display inline-block
+          bg-contain('antd/drop-arrow-primary.svg')
+          // background width 12px
+          width 12px
+          height 8px
+
+          &.anticon-right
+            position absolute
+            left 50%
+            top 50%
+            transform translate(-50%, -50%) rotate(180deg)
+
+          & > svg
+            opacity 0
+
+      a
+        color var(--type-800)
+
+    .ant-pagination-item, .ant-pagination-next, .ant-pagination-prev
+      // border 2px solid var(--mono-400)
+      border 2px solid var(--mono-a500) !important
+
+      a
+        border-radius 8px
+
+      &.ant-pagination-item-active
+        // color var(--type-900)
+        font-weight var(--font-weight-small-bold)
+        // background var(--primary-800)
+        background var(--primary-900)
+        border 2px solid transparent !important
+
+        a
+          color var(--general-type-900)
+
+      &:hover
+        background var(--primary-a100)
+        border 2px solid transparent !important
+
+    .ant-pagination-item-ellipsis
+      // color var(--type-800)
+      color var(--type-800)
+
+    .ant-pagination-options-quick-jumper input
+      border-radius 4px 4px 0px 0px
+      border 0
+      // color var(--type-700)
+      color var(--type-800)
+      height 32px
+      box-shadow inset 0px -1px 0px var(--mono-a400)
+      background var(--mono-a100)
+
+      &:hover, &:active, &:focus
+        border 0
+        border-bottom 1px solid var(--mono-400)
+
+    .ant-select-selection .ant-select-arrow
+      // bg-contain('drop-arrow-primary.svg')
+
+    &.mini
+      .ant-pagination-item, .ant-pagination-prev, .ant-pagination-next
+        min-width 28px
+        height 28px
+        line-height 26px
+        border-radius 6px
+        margin 0 3px
+
+        &:hover
+          border-radius 6px
+
+        .ant-pagination-options
+          .ant-select-sm
+            .ant-select-selection
+              height 28px
+
+      .ant-pagination-options-quick-jumper input
+        height 28px
+        background var(--mono-a100)
+        box-shadow inset 0px -1px 0px var(--mono-a400)
+
+      .ant-pagination-item-active
+        background var(--primary-900)
+
+  .ant-cascader-picker
+    color var(--type-800)
+    background transparent
+
+    .ant-cascader-picker-clear
+      background transparent
+
+    .ant-cascader-picker-arrow
+      color var(--type-700)
+
+  .ant-pagination.dense
+    .ant-pagination-prev, .ant-pagination-next
+      .anticon
+        // vertical-align unset
+
+    .ant-pagination-item, .ant-pagination-prev, .ant-pagination-next
+      height 32px
+      min-width 32px
+      line-height 32px
+      margin-right 6px
+
+  .ant-switch
+    min-width 30px
+    height 12px
+    background var(--mono-a500)
+
+    // .ant-click-animating-node
+    .ant-switch-inner
+      margin-left 0
+      margin-right -60px
+      margin-top -5px
+      color var(--type-900)
+
+    &:hover
+      &:before
+        content ''
+        width 32px
+        height 32px
+        border-radius 50%
+        background var(--mono-a200)
+        position absolute
+        top -11px
+        left -8px
+        transition all 0.36s cubic-bezier(0.78, 0.14, 0.15, 0.86)
+
+    &:after
+      width 16px
+      height 16px
+      border-radius 50%
+      // margin-top -2px
+      top -3px
+      left 0
+      background-color var(--mono-a600)
+
+    .ant-click-animating-node
+      width 30px
+      height 12px
+      background var(--mono-a300)
+
+    &.ant-switch-checked
+      background-color var(--primary-a200)
+
+      .ant-switch-inner
+        margin-right -60px
+        color var(--type-900)
+
+      &:hover
+        &:before
+          content ''
+          width 32px
+          height 32px
+          border-radius 50%
+          background var(--primary-a200)
+          position absolute
+          top -11px
+          left 6px
+
+      &:after
+        width 16px
+        height 16px
+        border-radius 50%
+        // margin-top -2px
+        top -3px
+        left 31px
+        background-color var(--primary-900)
+
+  .ant-checkbox-wrapper, .ant-radio-wrapper
+    color var(--type-700)
+
+  .ant-checkbox
+    &:hover
+      &:before
+        width 32px
+        height 32px
+        content ''
+        position absolute
+        left -8px
+        right -8px
+        top -8px
+        bottom -8px
+        border-radius 50%
+        background-color var(--mono-a300)
+
+      .ant-checkbox-inner
+        border-color var(--type-700)
+        border 1.5px solid var(--type-700)
+
+    &:after
+      border-radius 4px
+
+    &.ant-checkbox-disabled
+      .ant-checkbox-inner
+        background-color var(--mono-a500)
+
+    .ant-checkbox-inner
+      width 16px
+      height 16px
+      border-radius 4px
+      border 1.5px solid var(--type-700)
+      background-color transparent
+
+      // border-color var(--primary-800)
+      &:after
+        border-color var(--general-type-900)
+
+  .ant-checkbox-checked
+    background var(--primary-900)
+    border-color var(--primary-900)
+    border-radius 4px
+
+    &:hover
+      .ant-checkbox-inner
+        border 1.5px solid transparent
+        background var(--primary-900)
+
+    .ant-checkbox-inner
+      border 1.5px solid var(--primary-900)
+      background var(--primary-900)
+
+  .ant-checkbox-indeterminate
+    .ant-checkbox-inner
+      background-color var(--primary-900)
+      border none
+
+      &:after
+        content ''
+        position absolute
+        width 8px
+        height 2px
+        background var(--general-type-900)
+
+    &:hover
+      .ant-checkbox-inner
+        border-color transparent
+
+    &.ant-checkbox-disabled
+      .ant-checkbox-inner
+        border none
+
+  .ant-checkbox-disabled
+    &:hover
+      &:before
+        content none
+
+  .ant-radio
+    &:hover
+      &:before
+        content ''
+        position absolute
+        left -8px
+        right -8px
+        top -8px
+        bottom -8px
+        border-radius 50%
+        background-color var(--mono-a200)
+        height 32px
+        width 32px
+
+      .ant-radio-inner
+        border 1.5px solid var(--type-700)
+
+    & + span
+      margin 0 4px
+
+    .ant-radio-inner
+      background transparent
+      border 1.5px solid var(--type-700)
+
+      &:after
+        width 16px
+        height 16px
+        position absolute
+        background-color var(--general-type-900)
+        top -1px
+        left -1px
+        border 5px solid var(--primary-900)
+
+  .ant-radio-checked
+    .ant-radio-inner
+      border-color transparent
+
+  // 起止结束日期
+  .ant-time-picker-panel-input-wrap
+    border-bottom 1px solid var(--mono-400)
+
+  .ant-time-picker-panel-inner
+    background var(--bg-400)
+
+  li.ant-time-picker-panel-select-option-selected
+    color var(--type-800)
+    background var(--bg-300)
+
+  .ant-time-picker-panel-select
+    border-left 1px solid var(--mono-400)
+
+  .ant-time-picker-panel-select li
+    color var(--type-800)
+
+    &:hover
+      background var(--bg-500)
+
+  .ant-scroll-number-only > p
+    font-size var(--font-size-normal)
+
+  .ant-upload
+    color var(--type-800)
+
+  .ant-input-group-addon
+    border none
+    padding 3px 11px
+    background var(--primary-a100)
+
+    .ant-select
+      margin -2px -11px -7px -11px
+      border-radius 4px 0 0 4px
+
+  .ant-input-group
+    .ant-input-affix-wrapper
+      border-radius 0 4px 4px 0
+
+  .ant-modal-mask
+    background-color rgba(0, 0, 0, 0.65)
+
+  li.ant-select-tree-treenode-disabled > span:not(.ant-select-tree-switcher), li.ant-select-tree-treenode-disabled > .ant-select-tree-node-content-wrapper, li.ant-select-tree-treenode-disabled > .ant-select-tree-node-content-wrapper span
+    color #FFF
+    // 富文本
+
+  .w-e-text-container
+    background-color var(--mono-a100) !important
+
+  .w-e-full-screen-editor
+    .w-e-toolbar
+      background-color #FFF !important
+
+    .w-e-text-container
+      background var(--bg-600)
+
+  .w-e-toolbar .w-e-droplist
+    box-shadow var(--container-c400)
+    background-color var(--bg-700) !important
+    border none !important
+    border-radius 8px
+
+  .w-e-toolbar .w-e-droplist ul.w-e-list li.w-e-item:hover
+    background var(--primary-a100) !important
+
+  .w-e-toolbar .w-e-droplist ul.w-e-list li.w-e-item, .w-e-item h1, .w-e-item h2, .w-e-item h3, .w-e-item h4, .w-e-item h5, .w-e-item h6
+    color var(--type-900)
+
+// 上传
+.hz-light-antd
+  .ant-upload
+    border 1px dashed var(--type-900)
+
+    .ant-upload
+      &>div
+        color var(--type-900) !important
+
+/* ------------------- 全局 ---------------------------------------- */
+.ant-modal
+  padding 0
+
+.ant-modal-wrap
+  .ant-modal
+    color var(--type-800)
+
+    .ant-modal-content
+      background-color var(--bg-700)
+      color var(--type-900)
+      border-radius 16px
+      box-shadow 0px 48px 128px -16px rgba(4, 8, 16, 0.64), 0px 16px 64px -16px rgba(4, 8, 16, 0.72), 0px 0px 1px rgba(4, 8, 16, 0.32)
+
+      .ant-modal-close
+        line-height 48px
+
+        .ant-modal-close-x
+          width 48px
+          height 48px
+          line-height 48px
+
+          & > i
+            color var(--type-900)
+
+      .anticon-close
+        color var(--primary-900)
+
+      .ant-modal-header
+        // background-color var(--bg-400)
+        background-color var(--bg-600)
+        border-bottom none
+        border-top-left-radius 16px
+        border-top-right-radius 16px
+
+        .ant-modal-title
+          color var(--type-900)
+          font-size var(--font-size-medium)
+          // margin-left 15px
+
+      .ant-modal-body
+        border-radius 8px
+        margin 10px 32px
+        padding 0
+
+        p
+          color var(--type-900)
+
+      .ant-modal-footer, .ant-modal-confirm-btns
+        border-top none
+
+        .ant-btn
+          border 0
+          background transparent
+          // color var(--type-700)
+          color var(--type-900)
+          border-radius 4px
+          background-color var(--primary-a100)
+
+          &:hover
+            color var(--type-900)
+
+        .ant-btn-primary
+          // background var(--primary-a300)
+          // color var(--type-800)
+          color var(--type-900)
+          background var(--primary-900)
+
+        .ant-btn-danger
+          color var(--red-900)
+          background transparent
+
+      .ant-modal-confirm-body
+        .ant-modal-confirm-title
+          color var(--type-800)
+
+        .ant-modal-confirm-content
+          color var(--type-800)
+
+.ant-cascader-menus
+  background var(--bg-400)
+
+.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled)
+  background var(--mono-100)
+  color var(--primary-900)
+
+.ant-cascader-menu
+  border-right 1px solid var(--bg-400)
+  color var(--type-900)
+
+  .ant-cascader-menu-item:hover
+    background var(--mono-200)
+    color var(--type-800)
+
+  .ant-cascader-menu-item-expand-icon
+    color var(--type-700)
+
+.ant-tooltip
+  max-width 200px
+
+  .ant-tooltip-inner
+    border-radius 8px
+    font-size var(--font-size-normal)
+    padding 8px 16px
+    background var(--bg-700)
+    // box-shadow 0px 0px 1px rgba(15, 34, 67, 0.2), 0px 1px 3px rgba(15, 34, 67, 0.12), 0px 4px 8px rgba(15, 34, 67, 0.06), 0px 8px 16px rgba(15, 34, 67, 0.06)
+    box-shadow var(--container-c300)
+    color var(--type-800)
+
+  .ant-tooltip-arrow::before
+    // background var(--bg-200)
+    background var(--bg-700)
+    // 富文本
+
+  .w-e-text-container
+    background-color var(--mono-a100) !important
+
+  .w-e-full-screen-editor
+    .w-e-toolbar
+      background-color #FFF !important
+
+    .w-e-text-container
+      background var(--bg-600)
+
+  .w-e-toolbar .w-e-droplist
+    box-shadow var(--container-c400)
+    background-color var(--bg-700) !important
+    border none !important
+    border-radius 8px
+
+  .w-e-toolbar .w-e-droplist ul.w-e-list li.w-e-item:hover
+    background var(--primary-a100) !important
+
+  .w-e-toolbar .w-e-droplist ul.w-e-list li.w-e-item
+    color var(--type-900)
+
+html, body
+  .hz-light-antd
+    /* button */
+    .ant-btn, .upload
+      color var(--general-type-900)
+
+      &.ant-btn-background-ghost
+        color var(--primary-900)
+        background-color var(--primary-a100) !important
+
+        span
+          color var(--primary-900)
+
+      &.ant-btn-link
+        &:hover
+          background var(--primary-a200)
+
+        span
+          color var(--primary-900)
+
+    .ant-modal-wrap
+      .ant-modal
+        color var(--type-800)
+
+        .ant-modal-content
+          // background-color var(--bg-400)
+          // background-color var(--mono-a300)
+          background-color var(--bg-700)
+          // color var(--type-700)
+          color var(--type-900)
+          border-radius 16px
+          box-shadow 0px 48px 128px -16px rgba(4, 8, 16, 0.64), 0px 16px 64px -16px rgba(4, 8, 16, 0.72), 0px 0px 1px rgba(4, 8, 16, 0.32)
+
+          .anticon-close
+            color var(--primary-900)
+
+          .ant-modal-header
+            // background-color var(--bg-400)
+            background-color var(--bg-900)
+            border-bottom none
+            height 56px
+            line-height 56px
+
+    // select
+    .ant-select
+      .ant-select-selection
+        .ant-select-arrow
+          bg-contain('antd/triangle-down-new-light.svg')
+
+    // datepicker
+    .ant-calendar-picker
+      .anticon-calendar
+        bg-contain('antd/datepicker-light.svg')
+
+  .label
+    color var(--type-700)
+
+  .ant-divider
+    background var(--type-800)
+
+// 日期选择器中间的~
+.ant-calendar
+  background-color var(--bg-700)
+  border 0
+
+  .ant-calendar-body
+    .ant-calendar-table
+      .ant-calendar-tbody
+        .ant-calendar-disabled-cell
+          .ant-calendar-date
+            background var(--mono-a200)
+
+        .ant-calendar-today
+          &.ant-calendar-disabled-cell
+            .ant-calendar-date
+              border none
+
+              &:before
+                border none
+                background none
+
+  .ant-calendar-header
+    background-color var(--bg-700)
+
+    a:hover
+      color var(--type-900)
+      background var(--primary-a100)
+      border-radius 8px
+
+    // border-bottom 1px solid var(--mono-300)
+    .ant-calendar-day-select
+      color var(--type-900)
+
+  .ant-calendar-date-panel
+    .ant-calendar-time-picker-inner
+      background var(--bg-700)
+      color var(--type-900)
+
+      .ant-calendar-time-picker-select
+        overflow-y auto
+        border-color var(--mono-a200)
+
+        .ant-calendar-time-picker-select-option-selected
+          background var(--primary-900)
+          color var(--type-900)
+
+  .ant-calendar-range-part
+    .ant-calendar-time-picker
+      background var(--bg-700)
+
+      .ant-calendar-time-picker-inner
+        border-color var(--mono-a200)
+
+      .ant-calendar-time-picker-combobox
+        background var(--bg-700)
+        color var(--type-900)
+        border-color var(--mono-a200)
+
+        .ant-calendar-time-picker-select
+          border-color var(--mono-a200)
+          overflow-y auto
+
+          li:hover
+            background var(--primary-a100)
+
+        .ant-calendar-time-picker-select-option-selected
+          background var(--primary-900)
+          color var(--type-900)
+
+  .ant-calendar-footer
+    .ant-calendar-time-picker-btn-disabled
+      color var(--type-900)
+
+  .ant-calendar-month-panel, .ant-calendar-year-panel, .ant-calendar-year-panel-header, .ant-calendar-month-panel-header, .ant-calendar-decade-panel
+    background var(--bg-700)
+
+  .ant-calendar-header, .ant-calendar-decade-panel-header, .ant-calendar-year-panel-header
+    border-bottom 1px solid var(--mono-a200)
+
+  .ant-calendar-decade-panel-century, .ant-calendar-decade-panel-decade
+    color var(--type-900)
+
+  .ant-calendar-decade-panel-last-century-cell .ant-calendar-decade-panel-decade
+    color var(--type-600)
+
+  .ant-calendar-footer
+    border-top 1px solid var(--mono-300)
+
+  .ant-calendar-input
+    background-color var(--bg-700)
+    color var(--type-900)
+
+  .ant-calendar-date
+    &:hover
+      background var(--primary-900)
+
+  .ant-calendar-date, .ant-calendar-body
+    color var(--type-800)
+
+  .ant-calendar-header .ant-calendar-century-select, .ant-calendar-header .ant-calendar-decade-select, .ant-calendar-header .ant-calendar-year-select, .ant-calendar-header .ant-calendar-month-select
+    color var(--type-900)
+
+  .ant-calendar-current-week
+    .ant-calendar-today
+      .ant-calendar-date
+        color var(--primary-900)
+        border-radius 4px
+        border 1px solid var(--primary-900)
+
+  .ant-calendar-input-wrap
+    height 34px
+    padding 6px 10px
+    border-bottom 1px solid var(--white-500)
+
+.ant-calendar-range .ant-calendar-body, .ant-calendar-range .ant-calendar-month-panel-body, .ant-calendar-range .ant-calendar-year-panel-body, .ant-calendar-range .ant-calendar-decade-panel-body
+  border-top 1px solid var(--white-500)
+  background-color var(--bg-700)
+
+  .ant-calendar-decade-panel-cell
+    .ant-calendar-decade-panel-decade
+      color var(--type-900)
+
+  .ant-calendar-decade-panel-next-century-cell, .ant-calendar-decade-panel-last-century-cell
+    .ant-calendar-decade-panel-decade
+      color var(--type-900)
+      opacity 0.5
+
+.ant-calendar-last-month-cell .ant-calendar-date, .ant-calendar-next-month-btn-day .ant-calendar-date, .ant-calendar-last-month-cell .ant-calendar-date:hover, .ant-calendar-next-month-btn-day .ant-calendar-date:hover
+  color var(--type-600)
+  background transparent
+  border-color transparent
+
+.ant-calendar-column-header
+  color var(--type-600)
+
+.ant-calendar-range .ant-calendar-input, .ant-calendar-range .ant-calendar-time-picker-input
+  color var(--type-800)
+
+  &::-webkit-input-placeholder /* WebKit browsers */
+    color var(--mono-300)
+
+  &::-moz-placeholder /* Mozilla Firefox 19+ */
+    color var(--mono-300)
+
+  &:-ms-input-placeholder /* Internet Explorer 10+ */
+    color var(--mono-300)
+
+.ant-calendar-range .ant-calendar-selected-start-date .ant-calendar-date, .ant-calendar-range .ant-calendar-selected-end-date .ant-calendar-date
+  background var(--primary-900)
+  border-radius 4px
+  color var(--type-900)
+
+.ant-calendar-range .ant-calendar-in-range-cell::before
+  background var(--primary-a100)
+
+.ant-calendar-year-panel-last-decade-cell .ant-calendar-year-panel-year, .ant-calendar-year-panel-next-decade-cell .ant-calendar-year-panel-year
+  color var(--type-600)
+
+.ant-calendar-year-panel-year
+  color var(--type-900)
+
+  &:hover
+    background var(--primary-900)
+    color var(--type-900)
+
+.ant-calendar-year-panel, .ant-calendar-decade-panel
+  background var(--bg-700)
+
+  .ant-calendar-decade-panel-century
+    color var(--type-900)
+
+  .ant-calendar-year-panel-selected-cell .ant-calendar-year-panel-year
+    background var(--primary-900)
+    border-radius 8px
+    color var(--general-type-900)
+
+  .ant-calendar-year-panel-last-decade-cell .ant-calendar-year-panel-year, .ant-calendar-year-panel-next-decade-cell .ant-calendar-year-panel-year
+    color var(--type-900)
+
+.ant-calendar-year-panel-header .ant-calendar-year-panel-century-select, .ant-calendar-year-panel-header .ant-calendar-year-panel-decade-select, .ant-calendar-year-panel-header .ant-calendar-year-panel-year-select, .ant-calendar-year-panel-header .ant-calendar-year-panel-month-select
+  color var(--type-900)
+  background-color var(--bg-700)
+
+.ant-calendar-month-panel
+  background-color var(--bg-700)
+  color var(--type-800)
+
+.ant-calendar-month-panel-month
+  color var(--type-900)
+
+  &:hover
+    background var(--primary-900)
+    color var(--type-900)
+
+.ant-calendar-month-panel-cell-disabled .ant-calendar-month-panel-month, .ant-calendar-month-panel-cell-disabled .ant-calendar-month-panel-month:hover
+  color var(--mono-300)
+  background transparent
+
+.ant-calendar-month-panel-header .ant-calendar-month-panel-century-select, .ant-calendar-month-panel-header .ant-calendar-month-panel-decade-select, .ant-calendar-month-panel-header .ant-calendar-month-panel-year-select, .ant-calendar-month-panel-header .ant-calendar-month-panel-month-select
+  color var(--type-800)
+  background-color var(--bg-700)
+
+.ant-calendar-month-panel-selected-cell .ant-calendar-month-panel-month
+  background var(--primary-900)
+  border-radius 8px
+  color var(--general-type-900)
+
+.ant-calendar-selected-day .ant-calendar-date
+  background var(--primary-900)
+  border-radius 8rpx
+  color var(--general-type-900) !important
+
+.ant-calendar-month-panel-header
+  border-bottom 1px solid var(--white-500)
+
+.ant-calendar-picker
+  .ant-calendar-range-picker-input
+    color var(--type-900)
+
+    &::placeholder
+      color var(--type-600)
+
+  .anticon-calendar
+    bg-contain('antd/date-picker.svg')
+
+    & > svg
+      opacity 0
+
+.ant-calendar-range-picker-separator
+  color var(--mono-300)
+
+/* select dropdown */
+.ant-select-dropdown
+  background var(--bg-700)
+  border-radius 4px
+  box-shadow var(--container-c400)
+
+  .ant-select-dropdown-menu
+    // padding 16px 16px 12px 16px
+    padding 8px 8px 4px 8px
+
+  .ant-select-dropdown-menu-item
+    height 32px
+    line-height 32px
+    color var(--type-800)
+    font-weight bold
+    border-radius 4px
+    margin-bottom 4px
+    padding 0
+    padding-left 8px
+
+    // text-align center
+    &:hover
+      background-color var(--mono-a100)
+
+  .ant-select-dropdown-menu-item-selected
+    background-color var(--mono-a200)
+    color var(--type-900)
+
+  .ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled)
+    background var(--mono-a100)
+
+  .ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled)
+    background var(--primary-a200)
+
+/* tree-select */
+.ant-select-tree
+  li
+    .ant-select-tree-node-content-wrapper
+      &:hover
+        background-color var(--bg-500)
+
+      &.ant-select-tree-node-selected
+        background-color var(--bg-500)
+
+    .ant-select-tree-node-selected
+      // 
+
+    .ant-select-tree-title
+      color var(--type-800)
+
+.ant-select-tree li .ant-select-tree-node-content-wrapper.ant-select-tree-node-selected
+  // dropdown menu 下拉菜单
+  .ant-dropdown-button
+    .ant-btn
+      background var(--bg-400)
+      color color var(--type-800)
+      border 1px solid var(--primary-a100)
+
+    &.active
+      .ant-btn
+        // background $blue
+        background var(--primary-900)
+        border none
+
+.ant-message-notice
+  position relative
+  z-index 1000
+
+  .ant-message-notice-content
+    background var(--bg-500)
+    border-radius 16px
+    box-shadow var(--container-c400)
+    padding 0
+
+    .ant-message-custom-content
+      color var(--general-type-900)
+      height 100%
+      width 100%
+      background var(--green-900)
+      border-radius 8px
+      background-size 36px 36px
+      box-shadow var(--container-c400)
+      padding 16px 32px
+
+      &>i
+        display none
+
+      &>span
+        margin-left 32px
+        font-size var(--font-size-medium)
+        font-weight var(--font-weight-normal-bold)
+
+    .ant-message-success
+      background var(--green-900)
+      background-position 16px center
+      background-repeat no-repeat
+      background-image url('../assets/antd/message-success-icon.svg')
+      box-shadow var(--container-c400)
+
+    .ant-message-error
+      background var(--red-900)
+      background-position 16px center
+      background-repeat no-repeat
+      background-image url('../assets/antd/message-error-icon.svg')
+      box-shadow var(--container-c400)
+
+    .ant-message-warning
+      background var(--orange-900)
+      background-position 16px center
+      background-repeat no-repeat
+      background-image url('../assets/antd/message-warning-icon.svg')
+      box-shadow var(--container-c400)
+
+    .ant-message-info
+      background var(--primary-900)
+      background-position 16px center
+      background-repeat no-repeat
+      background-image url('../assets/antd/message-info-icon.svg')
+      box-shadow var(--container-c400)
+
+    .w-e-text-container
+      background-color var(--mono-a100) !important
+
+    .w-e-full-screen-editor
+      .w-e-toolbar
+        background-color #FFF !important
+
+      .w-e-text-container
+        background var(--bg-600)
+
+    .w-e-toolbar .w-e-droplist
+      box-shadow var(--container-c400)
+      background-color var(--bg-700) !important
+      border none !important
+      border-radius 8px
+
+    .w-e-toolbar .w-e-droplist ul.w-e-list li.w-e-item:hover
+      background var(--primary-a100) !important
+
+    .w-e-toolbar .w-e-droplist ul.w-e-list li.w-e-item
+      color var(--type-900)

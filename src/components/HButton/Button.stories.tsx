@@ -46,12 +46,7 @@ Primary.args = {
   primary: true,
   label: 'Button'
 }
-Primary.argTypes = {
-  backgroundColor: {
-    defaultValue: 'red',
-    control: 'color'
-  }
-}
+
 Primary.decorators = [
   Story => (
     <div style={{ margin: '3em' }}>
@@ -72,7 +67,12 @@ export const Secondary = Template.bind({})
 Secondary.args = {
   label: 'Button'
 }
-
+Secondary.argTypes = {
+  backgroundColor: {
+    defaultValue: 'red',
+    control: 'color'
+  }
+}
 export const Large = Template.bind({})
 Large.args = {
   size: 'large',

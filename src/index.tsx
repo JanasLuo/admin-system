@@ -6,10 +6,15 @@
  * @Description:
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/index.tsx
  */
-// import React from 'react'
-// import ReactDOM from 'react-dom'
-// import App from './App'
-
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import AppRouter from './routers'
 export { default as Button } from './components/Button'
 
-// ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(
+  <App>
+    <AppRouter />
+  </App>,
+  document.getElementById('root')
+)

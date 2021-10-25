@@ -1,10 +1,10 @@
 /*
  * @Author: janasluo
  * @Date: 2020-02-22 09:55:08
- * @LastEditTime: 2021-10-20 13:04:10
+ * @LastEditTime: 2021-10-22 17:43:25
  * @LastEditors: janasluo
  * @Description:
- * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Button/Button.tsx
+ * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Button/button.tsx
  */
 import React, { ButtonHTMLAttributes, AnchorHTMLAttributes } from 'react'
 import classNames from 'classnames'
@@ -21,6 +21,10 @@ interface BaseButtonProps {
   btnType?: ButtonType
   children: React.ReactNode
   href?: string
+  /**
+   * Optional click handler
+   */
+  onClick?: () => void
 }
 type NativeButtonProps = BaseButtonProps & ButtonHTMLAttributes<HTMLElement>
 type AnchorButtonProps = BaseButtonProps & AnchorHTMLAttributes<HTMLElement>
@@ -56,10 +60,8 @@ export const Button = (props: ButtonProps) => {
     )
   }
 }
-
 Button.defaultProps = {
   disabled: false,
   btnType: 'default'
 }
-
 export default Button

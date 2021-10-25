@@ -3,175 +3,229 @@
  * @version:
  * @Author: luolei
  * @Date: 2020-09-11 09:53:07
- * @LastEditors: liuhaoran
- * @LastEditTime: 2021-01-21 10:48:05
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-09-29 18:35:10
  */
 :root
-  /* ---------------------------浅色主题变量------------------------------------- */
-  --light-icon-color rgba(86, 98, 118, 0.64)
-  --light-primary-900 #1F71FF
-  --light-primary-800 #3D85FF
-  --light-primary-700 #337EFF
-  --light-primary-a100 rgba(43, 121, 255, 0.1)
-  --light-primary-a200 rgba(43, 121, 255, 0.16)
-  --light-primary-a300 rgba(43, 121, 255, 0.24)
-  // mono
-  --light-mono-100 #FFFFFF
-  --light-mono-200 #F7F8FA
-  --light-mono-300 #EEF0F4
-  --light-mono-400 #E2E4E9
-  --light-mono-500 #D7D9DE
-  --light-mono-600 #CCCED4
-  --light-mono-a100 rgba(15, 34, 67, 0.05)
-  --light-mono-a200 rgba(15, 34, 67, 0.07)
-  --light-mono-a300 rgba(15, 34, 67, 0.11)
-  --light-mono-a400 rgba(15, 34, 67, 0.14)
-  --light-mono-a500 rgba(15, 34, 67, 0.2)
-  --light-mono-a900 rgba(15, 34, 67, 0.9)
-  --light-mono-m100 rgba(226, 228, 233, 0.88)
-  /* Background 背景色 */
-  --light-bg-100 #ffffff
-  --light-bg-200 var(--light-bg-100)
-  --light-bg-300 var(--light-bg-100)
-  --light-bg-400 var(--light-bg-100)
-  --light-bg-500 var(--light-bg-100)
-  --light-bg-600 var(--light-bg-100)
-  /* type 文字颜色 */
-  --light-type-900 rgba(21, 22, 24, 0.92)
-  --light-type-800 rgba(21, 22, 24, 0.72)
-  --light-type-700 rgba(21, 22, 24, 0.48)
-  --light-type-600 rgba(21, 22, 24, 0.36)
-  /* General */
-  --light-general-100 #ffffff
-  --light-general-900 #151618
-  // cerulean
-  --light-cerulean-900 #0099EB
-  --light-cerulean-a100 rgba(0, 153, 235, 0.12)
-  // teal
-  --light-teal-900 #00BBC2
-  --light-teal-a50 rgba(0, 187, 194, 0.06)
-  --light-teal-a100 rgba(0, 187, 194, 0.12)
-  --light-teal-a200 rgba(0, 187, 194, 0.22)
-  --light-teal-a300 rgba(0, 187, 194, 0.32)
-  --light-teal-a500 rgba(0, 187, 194, 0.5)
-  // Lime
-  --light-lime-900 #239545
-  --light-lime-a100 rgba(35, 149, 69, 0.1)
-  --light-lime-a300 rgba(35, 149, 69, 0.22)
-  // yellow
-  --light-yellow-900 #F5CD00
-  --light-yellow-a100 rgba(245, 205, 0, 0.16)
-  // orange
-  --light-orange-900 #FF9431
-  --light-orange-a100 rgba(255, 148, 49, 0.12)
-  // red
-  --light-red-100 #FFEFF1
-  --light-red-200 #FFE5E8
-  --light-red-900 #FF5266
-  --light-red-a100 rgba(255, 82, 102, 0.09)
-  --light-red-a200 rgba(255, 82, 102, 0.15)
-  --light-red-a300 rgba(255, 82, 102, 0.22)
-  // Violet
-  --ligth-violet-900 #9646FF
-  --light-violet-a100 rgba(150, 70, 255, 0.09)
-  // Container (box-shadow)
-  --light-container-c100 0px 8px 64px rgba(15, 34, 67, 0.1), 0px 0px 1px rgba(15, 34, 67, 0.16)
-  --light-container-c200 0px 4px 8px rgba(15, 34, 67, 0.03), 0px 1px 3px rgba(15, 34, 67, 0.08), 0px 0px 1px rgba(15, 34, 67, 0.16)
-  --light-container-c300 0px 8px 24px -6px rgba(15, 34, 67, 0.16), 0px 1px 3px rgba(15, 34, 67, 0.12), 0px 0px 1px rgba(15, 34, 67, 0.16)
-  --light-container-c400 0px 16px 32px -6px rgba(15, 34, 67, 0.18), 0px 3px 8px -2px rgba(15, 34, 67, 0.16), 0px 0px 1px rgba(15, 34, 67, 0.16)
-  --light-container-c500 0px 48px 128px -16px rgba(15, 34, 67, 0.24), 0px 16px 64px -16px rgba(15, 34, 67, 0.32), 0px 0px 1px rgba(15, 34, 67, 0.16)
-  // Icon
-  --light-icon rgba(86, 98, 118, 0.64)
-  /* -------------------------系统当前主题变量（默认为light主题）------------------------- */
-  // 临时特殊颜色---数据源
-  --pgsql-bg rgba(31, 134, 175, 0.09)
-  --pgsql-color #1F86AF
-  --mysql-bg rgba(247, 153, 3, 0.09)
-  --mysql-color #F79903
-  --oracle-bg rgba(235, 79, 79, 0.09)
-  --oracle-color #EB4F4F
-
-  --icon-color var(--light-icon-color)
-
-  --primary-900 var(--light-primary-900)
-  --primary-800 var(--light-primary-800)
-  --primary-700 var(--light-primary-700)
-  --primary-a100 var(--light-primary-a100)
-  --primary-a200 var(--light-primary-a200)
-  --primary-a300 var(--light-primary-a300)
-  // mono
-  --mono-100 var(--light-mono-100)
-  --mono-200 var(--light-mono-200)
-  --mono-300 var(--light-mono-300)
-  --mono-400 var(--light-mono-400)
-  --mono-500 var(--light-mono-500)
-  --mono-600 var(--light-mono-600)
-  --mono-a100 var(--light-mono-a100)
-  --mono-a200 var(--light-mono-a200)
-  --mono-a300 var(--light-mono-a300)
-  --mono-a400 var(--light-mono-a400)
-  --mono-a500 var(--light-mono-a500)
-  --mono-a900 var(--light-mono-a900)
-  --mono-m100 var(--light-mono-m100)
-  /* Background 背景色 */
-  --bg-100 var(--light-bg-100)
-  --bg-200 var(--light-bg-200)
-  --bg-300 var(--light-bg-300)
-  --bg-400 var(--light-bg-400)
-  --bg-500 var(--light-bg-500)
-  --bg-600 var(--light-bg-600)
-  /* type 文字颜色 */
-  --type-900 var(--light-type-900)
-  --type-800 var(--light-type-800)
-  --type-700 var(--light-type-700)
-  --type-600 var(--light-type-600)
-  /* General */
-  --general-100 var(--light-general-100)
-  --general-900 var(--light-general-100)
-  // cerulean
-  --cerulean-900 var(--light-cerulean-900)
-  --cerulean-a100 var(--light-cerulean-a100)
-  // teal
-  --teal-900 var(--light-teal-900)
-  --teal-a50 var(--light-teal-a50)
-  --teal-a100 var(--light-teal-a100)
-  --teal-a200 var(--light-teal-a200)
-  --teal-a300 var(--light-teal-a300)
-  --teal-a500 var(--light-teal-a500)
-  // Lime
-  --lime-900 var(--light-lime-900)
-  --lime-a100 var(--light-lime-a100)
-  --lime-a300 var(--light-lime-a300)
-  // yellow
-  --yellow-900 var(--light-yellow-900)
-  --yellow-a100 var(--light-yellow-a100)
-  // orange
-  --orange-900 var(--light-orange-900)
-  --orange-a100 var(--light-orange-a100)
-  // red
-  --red-100 var(--light-red-100)
-  --red-200 var(--light-red-200)
-  --red-900 var(--light-red-900)
-  --red-a100 var(--light-red-a100)
-  --red-a200 var(--light-red-a200)
-  --red-a300 var(--light-red-a300)
-  // Violet
-  --violet-900 var(--light-violet-900)
-  --violet-a100 var(--light-violet-a100)
-  // Container (box-shadow)
-  --container-c100 var(--light-container-c100)
-  --container-c200 var(--light-container-c200)
-  --container-c300 var(--light-container-c300)
-  --container-c400 var(--light-container-c400)
-  --container-c500 var(--light-container-c500)
-  // Icon
-  --icon var(--light-icon)
-  /* -------------------------通用变量----------------------------------------- */
   /* type 字体大小 */
-  --font-size-small 10px
-  --font-size-normal 12px
-  --font-size-medium 13px
-  --font-size-big 14px
-  --font-size-large 20px
-  --font-size-xlarge 34px
-  --radius-normal 8px
+  --font-size-small 12px
+  --font-weight-small-bold 700
+  --font-size-normal 14px
+  --font-weight-normal-bold 700
+  --font-size-medium 16px
+  --font-weight-medium-bold 700
+  --font-size-big 20px
+  --font-weight-big-bold 700
+  --font-size-large 22px
+  --font-weight-large-bold 700
+  --font-size-xlarge 24px
+  --font-weight-xlarge-bold 700
+  --font-size-xxlarge 32px
+  --font-weight-xxlarge-bold 700
+  --font-size-xxxlarge 40px
+  --font-weight-xxxlarge-bold 700
+  /* ---------------------------dark 主题特有变量-------------------- */
+  --dark-primary-900 #267BFF
+  --dark-primary-800 #3882F7
+  --dark-primary-700 #5195FF
+  // --dark-primary-g900 linear-gradient(90deg, rgba(61, 133, 255, 0.6) 0%, rgba(61, 133, 255, 0.382973) 36.17%, rgba(61, 133, 255, 0) 100%)
+  --dark-primary-a100 rgba(36, 115, 238, 0.2)
+  --dark-primary-a200 rgba(36, 115, 238, 0.3)
+  --dark-primary-a300 rgba(36, 115, 238, 0.48)
+  // background
+  --dark-background-900 #181F39
+  --dark-background-800 #1E2746
+  --dark-background-700 #293457
+  --dark-background-600 #374267
+  // blue
+  --dark-blue-900 #286DE2
+  --dark-blue-a100 rgba(40, 109, 226, 0.1)
+  // green
+  --dark-green-900 #30C27E
+  // --dark-green-g900 linear-gradient(90deg, #52C4A8 0%, rgba(82, 196, 168, 0.71) 100%)
+  --dark-green-a100 rgba(48, 194, 126, 0.1)
+  // red
+  --dark-red-900 #FF5266
+  --dark-red-a100 rgba(240, 96, 112, 0.2)
+  // purple
+  // --dark-purple-g900 linear-gradient(90deg, #547DF6 0%, rgba(84, 125, 246, 0.52) 100%)
+  // // cyan
+  // --dark-cyan-g900 linear-gradient(90deg, #07A4F7 0%, rgba(7, 164, 247, 0.67) 100%)
+  // orange
+  --dark-orange-900 #FF9431
+  --dark-orange-a100 rgba(255, 148, 49, 0.2)
+  // gray
+  --dark-gray-900 #FFFFFF
+  --dark-gray-a100 rgba(255, 255, 255, 0.1)
+  // type
+  --dark-type-900 #FFFFFF
+  --dark-type-800 rgba(255, 255, 255, 0.85)
+  --dark-type-700 rgba(255, 255, 255, 0.7)
+  --dark-type-600 rgba(255, 255, 255, 0.48)
+  // other
+  // divide
+  // --dark-divide-a100 rgba(204, 219, 255, 0.16)
+  // --dark-divide-a200 rgba(204, 219, 255, 0.32)
+  // mono
+  --dark-mono-a100 rgba(133, 155, 231, 0.06)
+  --dark-mono-a200 rgba(133, 155, 231, 0.1)
+  --dark-mono-a300 rgba(133, 155, 231, 0.16)
+  --dark-mono-a400 rgba(133, 155, 231, 0.24)
+  --dark-mono-a500 rgba(133, 155, 231, 0.32)
+  --dark-mono-a600 rgba(230, 235, 255, 0.9)
+  --dark-mono-a900 linear-gradient(90deg, rgba(61, 133, 255, 0.6) 0%, rgba(61, 133, 255, 0.382973) 36.17%, rgba(61, 133, 255, 0.144) 100%)
+  --dark-mono-m100 rgba(25, 43, 72, 0.88)
+  /* dark-container */
+  --dark-container-c100 0px 8px 64px rgba(15, 19, 28, 0.48), 0px 0px 1px rgba(15, 19, 28, 0.32)
+  --dark-container-c200 0px 4px 8px rgba(15, 19, 28, 0.16), 0px 1px 3px rgba(15, 19, 28, 0.32), 0px 0px 1px rgba(15, 19, 28, 0.32)
+  --dark-container-c300 0px 8px 24px -6px rgba(15, 19, 28, 0.56), 0px 1px 3px rgba(15, 19, 28, 0.3), 0px 0px 1px rgba(15, 19, 28, 0.32)
+  --dark-container-c400 0px 16px 32px -6px rgba(15, 19, 28, 0.18), 0px 3px 8px -2px rgba(15, 19, 28, 0.16), 0px 0px 1px rgba(15, 19, 28, 0.16)
+  --dark-container-c500 0px 48px 128px -16px rgba(15, 19, 28, 0.64), 0px 16px 64px -16px rgba(15, 19, 28, 0.72), 0px 0px 1px rgba(15, 19, 28, 0.32)
+  /* * card * */
+  --dark-card-900 linear-gradient(90deg, #4799EB 0%, rgba(71, 153, 235, 0.67) 103.54%)
+  --dark-card-800 linear-gradient(90deg, #1FB2CC 0%, rgba(31, 178, 204, 0.8) 100%)
+  --dark-card-700 linear-gradient(90deg, #F0794D 0%, rgba(251, 134, 91, 0.8) 100%)
+  /* nav */
+  --dark-nav-type-900 #FFFFFF
+  --dark-nav-type-800 rgba(255, 255, 255, 0.7)
+  /* button-type */
+  --dark-general-type-900 #FFFFFF
+  /* ---------------------------blue 主题特有变量-------------------- */
+  --blue-primary-900 #0196FF
+  --blue-primary-800 #29A6FF
+  --blue-primary-700 #40B0FF
+  // --blue-primary-600 #65BFFF
+  // --blue-primary-500 #75C6FF
+  // --blue-primary-400 #89CEFF
+  --blue-primary-g900 linear-gradient(90deg, rgba(61, 133, 255, 0.6) 0%, rgba(61, 133, 255, 0.382973) 36.17%, rgba(61, 133, 255, 0) 100%)
+  --blue-primary-a100 rgba(1, 150, 255, 0.2)
+  --blue-primary-a200 rgba(1, 150, 255, 0.3)
+  --blue-primary-a300 rgba(1, 150, 255, 0.6)
+  // background
+  --blue-background-900 #0C2C5F
+  --blue-background-800 #103375
+  --blue-background-700 #173F85
+  --blue-background-600 #1A4898
+  // blue
+  --blue-blue-900 #286DE2
+  --blue-blue-a100 rgba(40, 109, 226, 0.1)
+  // green
+  --blue-green-900 #30C27E
+  // --blue-green-g900 linear-gradient(90deg, #52C4A8 0%, rgba(82, 196, 168, 0.71) 100%)
+  --blue-green-a100 rgba(48, 194, 126, 0.1)
+  // red
+  --blue-red-900 #FF5266
+  --blue-red-a100 rgba(240, 96, 112, 0.2)
+  // purple
+  --blue-purple-g900 linear-gradient(90deg, #547DF6 0%, rgba(84, 125, 246, 0.52) 100%)
+  // cyan
+  // --blue-cyan-g900 linear-gradient(90deg, #07A4F7 0%, rgba(7, 164, 247, 0.67) 100%)
+  // orange
+  --blue-orange-900 #DA752C
+  --blue-orange-a100 rgba(255, 148, 49, 0.2)
+  // gray
+  --blue-gray-900 #FFFFFF
+  --blue-gray-a100 rgba(255, 255, 255, 0.1)
+  // type
+  --blue-type-900 #FFFFFF
+  --blue-type-800 rgba(255, 255, 255, 0.85)
+  --blue-type-700 rgba(255, 255, 255, 0.7)
+  --blue-type-600 rgba(255, 255, 255, 0.48)
+  // white
+  --blue-white-a100 rgba(255, 255, 255, 0.1)
+  --blue-white-a200 rgba(255, 255, 255, 0.2)
+  // other
+  // divide
+  // --blue-divide-a100 rgba(204, 219, 255, 0.16)
+  // --blue-divide-a200 rgba(204, 219, 255, 0.32)
+  // mono
+  --blue-mono-a100 rgba(68, 115, 198, 0.12)
+  --blue-mono-a200 rgba(68, 115, 198, 0.24)
+  --blue-mono-a300 rgba(17, 77, 181, 0.4)
+  --blue-mono-a400 rgba(204, 219, 255, 0.24)
+  --blue-mono-a500 rgba(204, 219, 255, 0.32)
+  --blue-mono-a600 rgba(230, 235, 255, 0.9)
+  --blue-mono-a900 linear-gradient(90deg, rgba(61, 133, 255, 0.6) 0%, rgba(61, 133, 255, 0.382973) 36.17%, rgba(61, 133, 255, 0.144) 100%)
+  --blue-mono-m100 rgba(12, 44, 95, 0.88)
+  /* blue-container */
+  --blue-container-c100 0px 8px 64px rgba(12, 24, 49, 0.48), 0px 0px 1px rgba(12, 24, 49, 0.32)
+  --blue-container-c200 0px 4px 8px rgba(12, 24, 49, 0.16), 0px 1px 3px rgba(12, 24, 49, 0.32), 0px 0px 1px rgba(12, 24, 49, 0.32)
+  --blue-container-c300 0px 8px 24px -6px rgba(12, 24, 49, 0.56), 0px 1px 3px rgba(12, 24, 49, 0.3), 0px 0px 1px rgba(12, 24, 49, 0.32)
+  --blue-container-c400 0px 16px 32px -6px rgba(12, 24, 49, 0.18), 0px 3px 8px -2px rgba(12, 24, 49, 0.16), 0px 0px 1px rgba(12, 24, 49, 0.16)
+  --blue-container-c500 0px 48px 128px -16px rgba(12, 24, 49, 0.64), 0px 16px 64px -16px rgba(12, 24, 49, 0.72), 0px 0px 1px rgba(12, 24, 49, 0.32)
+  /* * card * */
+  --blue-card-900 linear-gradient(90deg, #07A4F7 0%, rgba(7, 164, 247, 0.67) 100%)
+  --blue-card-800 linear-gradient(90deg, #52C4A8 0%, rgba(82, 196, 168, 0.71) 100%)
+  --blue-card-700 linear-gradient(90deg, #547DF6 0%, rgba(84, 125, 246, 0.52) 100%)
+  /* nav */
+  --blue-nav-type-900 #FFFFFF
+  --blue-nav-type-800 rgba(255, 255, 255, 0.7)
+  /* button-type */
+  --blue-general-type-900 #FFFFFF
+  /* ---------------------------light 主题特有变量-------------------- */
+  --light-primary-900 #548BF5
+  --light-primary-800 #689BFF
+  --light-primary-700 #8AB0FA
+  --light-primary-g900 linear-gradient(90deg, rgba(61, 133, 255, 0.6) 0%, rgba(61, 133, 255, 0.382973) 36.17%, rgba(61, 133, 255, 0) 100%)
+  --light-primary-a100 rgba(84, 139, 245, 0.2)
+  --light-primary-a200 rgba(84, 139, 245, 0.3)
+  --light-primary-a300 rgba(84, 139, 245, 0.4)
+  // background
+  --light-background-900 #EBEFFE
+  --light-background-800 #FFFFFF
+  --light-background-700 #FFFFFF
+  --light-background-600 #FFFFFF
+  // blue
+  --light-blue-900 #3D85FF
+  --light-blue-a100 rgba(61, 133, 255, 0.1)
+  // green
+  --light-green-900 #30C27E
+  // --light-green-g900 linear-gradient(90deg, #52C4A8 0%, rgba(82, 196, 168, 0.71) 100%)
+  --light-green-a100 rgba(48, 194, 126, 0.1)
+  // red
+  --light-red-900 #FF517B
+  --light-red-a100 rgba(255, 81, 123, 0.2)
+  // purple
+  --light-purple-g900 linear-gradient(90deg, #547DF6 0%, rgba(84, 125, 246, 0.52) 100%)
+  // cyan
+  // --light-cyan-g900 linear-gradient(90deg, #07A4F7 0%, rgba(7, 164, 247, 0.67) 100%)
+  // orange
+  --light-orange-900 #FF7B51
+  --light-orange-a100 rgba(255, 123, 81, 0.2)
+  // gray
+  --light-gray-900 #596387
+  --light-gray-a100 rgba(89, 99, 135, 0.1)
+  // type
+  --light-type-900 #3B4772
+  --light-type-800 rgba(59, 71, 114, 0.85)
+  --light-type-700 rgba(59, 71, 114, 0.7)
+  --light-type-600 rgba(59, 71, 114, 0.48)
+  // other
+  // divide
+  // --light-divide-a100 rgba(204, 219, 255, 0.16)
+  // --light-divide-a200 rgba(204, 219, 255, 0.32)
+  // mono
+  --light-mono-a100 rgba(0, 38, 166, 0.06)
+  --light-mono-a200 rgba(0, 38, 166, 0.1)
+  --light-mono-a300 rgba(0, 38, 166, 0.16)
+  --light-mono-a400 rgba(0, 38, 166, 0.24)
+  --light-mono-a500 rgba(0, 38, 166, 0.32)
+  --light-mono-a600 rgba(167, 181, 229, 0.9)
+  --light-mono-a900 linear-gradient(90deg, rgba(61, 133, 255, 0.6) 0%, rgba(61, 133, 255, 0.382973) 36.17%, rgba(61, 133, 255, 0.144) 100%)
+  --light-mono-m100 rgba(212, 220, 246, 0.88)
+  /* light-container */
+  --light-container-c100 0px 8px 64px rgba(188, 200, 223, 0.48), 0px 0px 1px rgba(188, 200, 223, 0.32)
+  --light-container-c200 0px 4px 8px rgba(188, 200, 223, 0.16), 0px 1px 3px rgba(188, 200, 223, 0.32), 0px 0px 1px rgba(188, 200, 223, 0.32)
+  --light-container-c300 0px 8px 24px -6px rgba(188, 200, 223, 0.56), 0px 1px 3px rgba(188, 200, 223, 0.3), 0px 0px 1px rgba(188, 200, 223, 0.32)
+  --light-container-c400 0px 16px 32px -6px rgba(188, 200, 223, 0.18), 0px 3px 8px -2px rgba(188, 200, 223, 0.16), 0px 0px 1px rgba(188, 200, 223, 0.16)
+  --light-container-c500 0px 48px 128px -16px rgba(188, 200, 223, 0.64), 0px 16px 64px -16px rgba(188, 200, 223, 0.72), 0px 0px 1px rgba(188, 200, 223, 0.32)
+  /* * card * */
+  --light-card-900 linear-gradient(90deg, #BA58E8 0%, #8488ED 100%)
+  --light-card-800 linear-gradient(90deg, #616FEB 0%, #43BEF3 100%)
+  --light-card-700 linear-gradient(90deg, #FE645A 0%, #F7A355 100%)
+  /* nav */
+  --light-nav-type-900 #FFFFFF
+  --light-nav-type-800 rgba(255, 255, 255, 0.7)
+  /* button-type */
+  --light-general-type-900 #FFFFFF
+  --light-button-type-800 #548BF5

@@ -1,10 +1,10 @@
 /*
  * @Author: janasluo
  * @Date: 2021-09-29 19:06:49
- * @LastEditTime: 2021-10-09 15:36:15
+ * @LastEditTime: 2021-10-20 15:05:51
  * @LastEditors: janasluo
  * @Description:
- * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Button/Button.tsx
+ * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/HButton/Button.tsx
  */
 import React from 'react'
 import './button.css'
@@ -35,8 +35,8 @@ interface ButtonProps {
  * Primary UI component for user interaction
  */
 const Button = ({
-  primary = false,
-  size = 'medium',
+  primary,
+  size,
   backgroundColor,
   label,
   ...props
