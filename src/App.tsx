@@ -7,7 +7,7 @@
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/App.tsx
  */
 import React from 'react'
-import Button from './components/AButton'
+import Button from './components/Button'
 import 'antd/dist/antd.css'
 import './styles/index.styl'
 

@@ -9,6 +9,7 @@
     "node_modules",
     "src/**/*.test.tsx",
     "src/**/*.stories.tsx",
+    "src/**/*.styl",
     "src/setupTests.ts",
     "src/pages",
     "src/routers",

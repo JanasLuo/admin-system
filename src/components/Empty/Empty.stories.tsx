@@ -1,7 +1,7 @@
 /*
  * @Author: janasluo
  * @Date: 2021-10-08 15:16:42
- * @LastEditTime: 2021-10-09 15:32:04
+ * @LastEditTime: 2021-10-26 11:49:13
  * @LastEditors: janasluo
  * @Description:
  * @FilePath: /digital_police/Users/janas/work/project/frontend/admin-system/src/components/Empty/Empty.stories.tsx
@@ -39,5 +39,5 @@ Primary.parameters = {
 }
 export const Secondary = Template.bind({})
 Secondary.args = {
-  label: 'Button'
+  label: '暂无数据'
 }

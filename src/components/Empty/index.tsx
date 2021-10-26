@@ -10,7 +10,7 @@
 import React from 'react'
 import { Button } from 'antd'
 // import style from '!style-loader!css-loader?modules=true!stylus-loader!./index.styl'
-import '!style-loader!css-loader!stylus-loader!./index.styl'
+// import '!style-loader!css-loader!stylus-loader!./index.styl'
 interface EmptyProps {
   /**
    * 名称
@@ -25,7 +25,6 @@ const Empty = (props: EmptyProps) => {
   return (
     // <div className={style.empty}>
     <div className="empty">
-      <Button type="primary">dddd</Button>
       {/* <div className={style.empty_bg}></div> */}
       <div className="empty_bg"></div>
       {/* <div className={style.empty_label}>{label}</div> */}

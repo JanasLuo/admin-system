@@ -11,9 +11,8 @@ import * as React from 'react'
 import { Route, Router, Switch, Redirect } from 'react-router'
 
 import DocumentComp from 'src/pages/document'
+import CopmTest from 'src/pages/comp_test'
 const browserHistory = createBrowserHistory()
-// const routerStore = new RouterStore()
-// const history = syncHistoryWithStore(browserHistory, routerStore)
 
 export default class AppRouter extends React.Component<{}, {}> {
   public render() {
@@ -21,6 +20,7 @@ export default class AppRouter extends React.Component<{}, {}> {
       <Router history={browserHistory}>
         <Switch>
           <Route path="/document" component={DocumentComp} />
+          <Route path="/comp_test" component={CopmTest} />
           <Redirect to="/document" />
         </Switch>
       </Router>
