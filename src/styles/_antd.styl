@@ -1769,24 +1769,21 @@ html, body
         background-color var(--bg-500)
 
     .ant-select-tree-node-selected
-      // 
+      // dropdown menu 下拉菜单
+      .ant-dropdown-button
+        .ant-btn
+          background var(--bg-400)
+          color color var(--type-800)
+          border 1px solid var(--primary-a100)
+
+        &.active
+          .ant-btn
+            // background $blue
+            background var(--primary-900)
+            border none
 
     .ant-select-tree-title
       color var(--type-800)
-
-.ant-select-tree li .ant-select-tree-node-content-wrapper.ant-select-tree-node-selected
-  // dropdown menu 下拉菜单
-  .ant-dropdown-button
-    .ant-btn
-      background var(--bg-400)
-      color color var(--type-800)
-      border 1px solid var(--primary-a100)
-
-    &.active
-      .ant-btn
-        // background $blue
-        background var(--primary-900)
-        border none
 
 .ant-message-notice
   position relative
