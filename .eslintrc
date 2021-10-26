@@ -19,7 +19,7 @@
     "@typescript-eslint/no-inferrable-types": 0,
     "no-extra-boolean-cast": 0,
     "no-debugger": 1,
-    "no-console": 1,
+    "no-console": 0,
     "@typescript-eslint/consistent-type-assertions": 0,
     "react/no-unescaped-entities": 0,
     "spaced-comment": 0,
