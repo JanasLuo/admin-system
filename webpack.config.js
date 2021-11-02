@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-19 20:46:52
+ * @LastEditTime: 2021-11-02 15:49:36
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -14,7 +14,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const path = require('path')
 const fs = require('fs')
-
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 // 获取文件路径
 function getFileRealPath(s) {
   try {
@@ -25,11 +25,18 @@ function getFileRealPath(s) {
 }
 module.exports = {
   webpack: (config, env) => {
+    debugger
     config.module.rules = config.module.rules.map(rule => {
       if (rule.oneOf instanceof Array) {
+        rule.oneOf[8].exclude = [
+          /\.(js|mjs|jsx|ts|tsx|vue)$/,
+          /\.html$/,
+          /\.json$/
+        ]
         return {
           ...rule,
           oneOf: [
+            ...rule.oneOf,
             {
               test: /\.(jsx|js|ts|tsx)$/,
               include: [path.resolve(__dirname, '../src')],
@@ -53,14 +60,27 @@ module.exports = {
                   loader: 'stylus-loader'
                 }
               ]
-            },
-            ...rule.oneOf
+            }
+            // {
+            //   loader: require.resolve('file-loader'),
+            //   // Exclude `js` files to keep "css" loader working as it injects
+            //   // its runtime that would otherwise be processed through "file" loader.
+            //   // Also exclude `html` and `json` extensions so they get processed
+            //   // by webpacks internal loaders.
+            //   exclude: [/\.(js|mjs|jsx|ts|tsx|vue)$/, /\.html$/, /\.json$/],
+            //   options: {
+            //     name: 'static/media/[name].[hash:8].[ext]',
+            //   },
+            // },
           ]
         }
       }
       return rule
     })
-
+    config.module.rules.push({
+      test: /\.vue$/,
+      loader: 'vue-loader'
+    })
     if (env === 'production') {
       delete config.devtool
       // config.plugins.push(new BundleAnalyzerPlugin()) // 打包分析
@@ -99,7 +119,7 @@ module.exports = {
       }
       config.plugins = [...config.plugins, ...plugins]
     }
-    // config.externals = ['canvas']
+    config.plugins.push(new VueLoaderPlugin())
     return config
   },
   devServer: function (configFunction, env) {
