@@ -10,12 +10,7 @@
   <div>
     <h4>Hello from Vue!!!{{ title }}</h4>
     <button @click="clickMe()">{{ this.clicky ? 'Click' : 'Clack' }}</button>
-    <component
-      ref="compRef"
-      class="component"
-      :is="compDefObj"
-    >
-    </component>
+    <component ref="compRef" class="component" :is="compDefObj"></component>
   </div>
 </template>
 <script>
@@ -23,7 +18,7 @@ import configData from './config.js'
 export default {
   name: 'Testing',
   props: ['title'],
-  created () {
+  created() {
     this.loadCompDef()
     this.config = configData
   },
@@ -31,20 +26,19 @@ export default {
     clickMe() {
       this.clicky = !this.clicky
     },
-    loadCompDef () {
-       const componentUrl = '/vuecom.js'
-      window.System.import(componentUrl)
-      .then((res) => {
-        const compDef = res.default;
+    loadCompDef() {
+      const componentUrl = '/vuecom.js'
+      window.System.import(componentUrl).then(res => {
+        const compDef = res.default
         this.compDefObj = compDef
       })
-    },
+    }
   },
   data() {
     return {
       clicky: true,
       compDefObj: null,
-      config:{}
+      config: {}
     }
   }
 }
