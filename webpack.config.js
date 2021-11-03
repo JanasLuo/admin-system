@@ -26,7 +26,7 @@ function getFileRealPath(s) {
 module.exports = {
   webpack: (config, env) => {
     // config.output.path = path.join(__dirname, 'build')
-    // config.output.filename = 'static/js/[name].js'
+    config.output.filename = 'static/js/[name].js'
     config.output.chunkFilename = 'static/js/[name].chunk.js'
     config.output.globalObject = 'window'
     config.output.libraryTarget = 'system'
