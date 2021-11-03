@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-11-02 22:28:01
+ * @LastEditTime: 2021-11-03 14:48:58
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -124,7 +124,24 @@ module.exports = {
       }
       config.plugins = [...config.plugins, ...plugins]
     }
-    config.plugins.push(new VueLoaderPlugin())
+    // config.plugins.push(new VueLoaderPlugin())
+    // 解决antd的依赖顺序问题，不在入口文件同步引入，由System动态依次引入，
+    config.plugins = [
+      ...config.plugins,
+      new VueLoaderPlugin(),
+      new HtmlWebpackPlugin({
+        filename: './index.html', // 打包后生成的文件路径
+        template: './public/index.html', // 需要处理的对象
+        inject: false, // 不插入生成的js 仅用于版本声明
+        minify: {
+          removeComments: true, // 清除注释
+          collapseWhitespace: true // 清理空格
+        }
+      })
+      // new InterpolateHtmlPlugin({
+      //   'PUBLIC_URL': ''  // 手动注入变量(解决PUBLIC_URL未解析生效）
+      // }),
+    ]
     return config
   },
   devServer: function (configFunction, env) {

@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="%PUBLIC_URL%/lib/antd.min.css" />
     <script src="%PUBLIC_URL%/lib/system.js"></script>
     <script src="%PUBLIC_URL%/lib/moment.min.js"></script>
-    <script type="systemjs-importmap">
+    <!-- <script type="systemjs-importmap">
       {
         "imports": {
           "react": "%PUBLIC_URL%/lib/react.development.min.js",
@@ -39,8 +39,40 @@
           "%PUBLIC_URL%/lib/antd.min.js": ["main"]
         }
       }
+    </script> -->
+    <!-- <script type="systemjs-module" src="import:react"></script> -->
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "react": "%PUBLIC_URL%/lib/react.development.min.js",
+          "react-dom": "%PUBLIC_URL%/lib/react-dom.development.min.js",
+          "antd": "%PUBLIC_URL%/lib/antd.min.js",
+          "main": "%PUBLIC_URL%/static/js/main.chunk.js"
+        }
+      }
     </script>
-    <script type="systemjs-module" src="import:react"></script>
+    <script>
+
+      System.import('react').then(res => {
+        System.import('react-dom').then(res => {
+          System.import('antd').then(res => {
+            System.import('main').then(res => {
+              // console.log("aaa",)
+              const files = <%=
+                JSON.stringify(htmlWebpackPlugin.files.js)
+                %>
+                files.forEach(item=>{
+                var script = document.createElement('script')
+                script.src = item
+                document.body.appendChild(script)
+              })
+
+            })
+          })
+        })
+      })
+    </script>
+   
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
