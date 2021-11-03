@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-11-03 14:48:58
+ * @LastEditTime: 2021-11-03 14:58:54
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -25,14 +25,15 @@ function getFileRealPath(s) {
 }
 module.exports = {
   webpack: (config, env) => {
-    config.output.path = path.join(__dirname, 'build')
-    config.output.filename = 'static/js/[name].js'
-    config.output.chunkFilename = 'static/js/[name].chunk.js'
+    // config.output.path = path.join(__dirname, 'build')
+    // config.output.filename = 'static/js/[name].js'
+    // config.output.chunkFilename = 'static/js/[name].chunk.js'
     config.output.globalObject = 'window'
     config.output.libraryTarget = 'system'
     config.externals = ['react', 'react-dom']
     config.module.rules = config.module.rules.map(rule => {
       if (rule.oneOf instanceof Array) {
+        // file-loader 中排除vue文件
         rule.oneOf[8].exclude = [
           /\.(js|mjs|jsx|ts|tsx|vue)$/,
           /\.html$/,
@@ -82,6 +83,7 @@ module.exports = {
       }
       return rule
     })
+    // 解析vue文件
     config.module.rules.push({
       test: /\.vue$/,
       loader: 'vue-loader'
@@ -128,7 +130,7 @@ module.exports = {
     // 解决antd的依赖顺序问题，不在入口文件同步引入，由System动态依次引入，
     config.plugins = [
       ...config.plugins,
-      new VueLoaderPlugin(),
+      new VueLoaderPlugin(), // 解析vue文件
       new HtmlWebpackPlugin({
         filename: './index.html', // 打包后生成的文件路径
         template: './public/index.html', // 需要处理的对象
