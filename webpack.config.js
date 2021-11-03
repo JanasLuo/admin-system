@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-11-02 15:49:36
+ * @LastEditTime: 2021-11-02 22:28:01
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -25,7 +25,12 @@ function getFileRealPath(s) {
 }
 module.exports = {
   webpack: (config, env) => {
-    debugger
+    config.output.path = path.join(__dirname, 'build')
+    config.output.filename = 'static/js/[name].js'
+    config.output.chunkFilename = 'static/js/[name].chunk.js'
+    config.output.globalObject = 'window'
+    config.output.libraryTarget = 'system'
+    config.externals = ['react', 'react-dom']
     config.module.rules = config.module.rules.map(rule => {
       if (rule.oneOf instanceof Array) {
         rule.oneOf[8].exclude = [

@@ -3,8 +3,8 @@
  * @version:
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
- * @LastEditors: luolei
- * @LastEditTime: 2021-01-29 20:08:47
+ * @LastEditors: janasluo
+ * @LastEditTime: 2021-11-03 14:14:04
  */
 // const target = "http://nginx-nc"
 // const target = "http://192.168.2.100:8081"
@@ -19,6 +19,30 @@ module.exports = {
     ws: false,
     pathRewrite: {
       '^/api': '/api'
+    }
+  },
+  '/file': {
+    target: 'http://39.106.114.130',
+    changeOrigin: true,
+    ws: false,
+    pathRewrite: {
+      '^/file': '/file'
+    }
+  },
+  '/public': {
+    target: 'http://fuxi.haizhi.com',
+    changeOrigin: true,
+    ws: false,
+    pathRewrite: {
+      '^/public': '/public'
+    }
+  },
+  '/lib': {
+    target: 'http://localhost:8084',
+    changeOrigin: true,
+    ws: false,
+    pathRewrite: {
+      '^/lib': '/lib'
     }
   }
 }
