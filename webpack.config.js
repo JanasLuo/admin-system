@@ -26,7 +26,6 @@ function getFileRealPath(s) {
 }
 module.exports = {
   webpack: (config, env) => {
-    debugger
     config.module.rules = config.module.rules.map(rule => {
       if (rule.oneOf instanceof Array) {
         return {
