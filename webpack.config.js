@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-11-15 21:36:59
+ * @LastEditTime: 2021-12-15 18:55:20
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -13,6 +13,7 @@ const getBuildInfo = require('./version.js')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 const fs = require('fs')
+const { name } = require('./package')
 // 分析打包时间
 // const SpeedMeasurePlugin = require("speed-measure-webpack-plugin");
 // const smp = new SpeedMeasurePlugin();
@@ -26,6 +27,11 @@ function getFileRealPath(s) {
 }
 module.exports = {
   webpack: (config, env) => {
+    config.output.library = `${name}-[name]`
+    config.output.libraryTarget = 'umd'
+    config.output.jsonpFunction = `webpackJsonp_${name}`
+    config.output.globalObject = 'window'
+    // config.output.publicPath = !pro ? 'http://localhost:3001/' : './';
     config.module.rules = config.module.rules.map(rule => {
       if (rule.oneOf instanceof Array) {
         return {
@@ -119,6 +125,10 @@ module.exports = {
         config.headers = {
           'Access-Control-Allow-Origin': '*'
         }
+        config.historyApiFallback = true
+        config.hot = false
+        config.watchContentBase = false
+        config.liveReload = false
         return config
       }
     }

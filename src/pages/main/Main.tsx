@@ -4,7 +4,7 @@
  * @Author: luolei
  * @Date: 2021-01-29 20:03:08
  * @LastEditors: janasluo
- * @LastEditTime: 2021-09-18 16:48:09
+ * @LastEditTime: 2021-12-15 18:22:32
  */
 import { observer, inject } from 'mobx-react'
 import * as React from 'react'
@@ -25,6 +25,7 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
   @observable public menuList: any[] = []
   @observable public selectItem: string[]
   @observable public selectExpand: string[] = []
+  @observable public props: any
 
   constructor(props: any) {
     super(props)
@@ -34,6 +35,7 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
   public initConfig(props: any): void {
     this.userService = props.userService
     this.userStore = props.userStore
+    this.props = props
   }
 
   public sigout = async (): Promise<any> => {
@@ -44,12 +46,17 @@ class Main extends React.Component<RouteComponentProps<{}>, {}> {
       message.error(res.msg || '操作失败0')
     }
   }
-
+  public goHome = () => {
+    this.props.history.push('/big/home')
+    console.log('this.props', this.props)
+  }
   public render() {
     return (
       <div className="main">
         <div className="main-body">
           <div className="right-body">
+            <div>main</div>
+            <button onClick={this.goHome}>go home</button>
             <MainRoute {...this.props}></MainRoute>
           </div>
         </div>
