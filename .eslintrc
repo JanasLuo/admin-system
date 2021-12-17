@@ -19,6 +19,7 @@
     "@typescript-eslint/no-inferrable-types": 0,
     "no-extra-boolean-cast": 0,
     "no-debugger": 1,
-    "no-console": 1
+    "no-console": 1,
+    "no-undef": 0
   }
 }

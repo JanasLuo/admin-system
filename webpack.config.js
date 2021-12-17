@@ -4,7 +4,7 @@
  * @Author: liuhaoran
  * @Date: 2021-01-15 11:35:57
  * @LastEditors: janasluo
- * @LastEditTime: 2021-12-15 18:55:20
+ * @LastEditTime: 2021-12-17 14:19:32
  */
 const proxyObject = require('./config/proxy.conf')
 const getBuildInfo = require('./version.js')
@@ -31,7 +31,6 @@ module.exports = {
     config.output.libraryTarget = 'umd'
     config.output.jsonpFunction = `webpackJsonp_${name}`
     config.output.globalObject = 'window'
-    // config.output.publicPath = !pro ? 'http://localhost:3001/' : './';
     config.module.rules = config.module.rules.map(rule => {
       if (rule.oneOf instanceof Array) {
         return {
